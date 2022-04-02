@@ -190,7 +190,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2022-04-02 08:22:22 / Modified: 08:34:04" itemprop="dateCreated datePublished" datetime="2022-04-02T08:22:22+08:00">2022-04-02</time>
+      <time title="Created: 2022-04-02 08:22:22 / Modified: 08:39:48" itemprop="dateCreated datePublished" datetime="2022-04-02T08:22:22+08:00">2022-04-02</time>
     </span>
 
   
@@ -203,7 +203,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="这是一条测试文件"><a href="#这是一条测试文件" class="headerlink" title="这是一条测试文件"></a>这是一条测试文件</h1>
+          <h1 id="Hexo博客写文章及基本操作"><a href="#Hexo博客写文章及基本操作" class="headerlink" title="Hexo博客写文章及基本操作"></a>Hexo博客写文章及基本操作</h1><h2 id="Hexo文章管理"><a href="#Hexo文章管理" class="headerlink" title="Hexo文章管理"></a>Hexo文章管理</h2>
       
     </div>
 
@@ -265,7 +265,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-04-02 08:29:23" itemprop="dateModified" datetime="2022-04-02T08:29:23+08:00">2022-04-02</time>
+      <time title="Modified: 2022-04-02 08:38:54" itemprop="dateModified" datetime="2022-04-02T08:38:54+08:00">2022-04-02</time>
     </span>
 
   
@@ -281,11 +281,10 @@
           <h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
 <p>首先要感谢以下公开的网络资源：<br>①<a target="_blank" rel="noopener" href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a target="_blank" rel="noopener" href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a target="_blank" rel="noopener" href="https://git-scm.com/">git官方</a><br>④<a target="_blank" rel="noopener" href="https://github.com/">github社区</a><br>⑤<a target="_blank" rel="noopener" href="https://hexo.io/">hexo框架</a></p>
 </blockquote>
-<h2 id="为什么会想搭建这样一个博客"><a href="#为什么会想搭建这样一个博客" class="headerlink" title="为什么会想搭建这样一个博客"></a>为什么会想搭建这样一个博客</h2><p>大一下浅浅地学过Web三件套.</p>
-<h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>搭建的时候第一个问题是git没有初始化，第二个问题是部署出现错误err-Error-Spawn-failed。好在都不算什么大问题。</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">#搭建博客中最重要的几行代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br><span class="line">④hexo d //提交代码</span><br></pre></td></tr></table></figure>
-<hr>
-<h3 id="最近在读："><a href="#最近在读：" class="headerlink" title="最近在读："></a>最近在读：</h3><blockquote>
+<h2 id="为什么会想搭一个博客"><a href="#为什么会想搭一个博客" class="headerlink" title="为什么会想搭一个博客"></a>为什么会想搭一个博客</h2><p>大一下学期比较浅层次地接触过Web，自己也有随手写作的习惯，所以想着可以写点东西。</p>
+<h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>
+<h2 id="搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。"><a href="#搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。" class="headerlink" title="搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。"></a>搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。</h2><h3 id="最近在读："><a href="#最近在读：" class="headerlink" title="最近在读："></a>最近在读：</h3><blockquote>
 <p><em>1.白先勇 - <a target="_blank" rel="noopener" href="https://book.douban.com/subject/26253698/">《纽约客》</a></em><br><em>2.三岛由纪夫 - <a target="_blank" rel="noopener" href="https://book.douban.com/subject/34924508/">《假面的告白》</a></em><br><em>3.加缪 -<a target="_blank" rel="noopener" href="https://book.douban.com/subject/24257403/">《西西弗神话》</a></em><br><em>…</em></p>
 </blockquote>
 <h3 id="最近在看："><a href="#最近在看：" class="headerlink" title="最近在看："></a>最近在看：</h3><blockquote>
@@ -295,7 +294,7 @@
 <p><em>五月天 &amp; 伍佰 &amp; 罗大佑 &amp; 李荣浩 &amp; 王菲 &amp; 朴树 &amp; hush! &amp; Linkin Park &amp; Taylor Swift &amp; Billie Eilish &amp; RADWIMPS &amp; 星野源</em></p>
 </blockquote>
 <h3 id="最近在学："><a href="#最近在学：" class="headerlink" title="最近在学："></a>最近在学：</h3><blockquote>
-<p><em>just a secret</em></p>
+<p><em>别骂了别骂了，学不玩了。</em></p>
 </blockquote>
 <h3 id="20岁零三天的胡思乱想："><a href="#20岁零三天的胡思乱想：" class="headerlink" title="20岁零三天的胡思乱想："></a>20岁零三天的胡思乱想：</h3><blockquote>
 <p><em>要赶紧回炉那些快遗忘了的知识。</em></p>
