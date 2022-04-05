@@ -1,31 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>假期前的想法流</title>
-    <url>/%E7%94%9F%E6%B4%BB/2022040202/</url>
-    <content><![CDATA[<ol>
-<li>测试了三次的<a href="https://www.jungus.cn/">mbti人格类型测试</a>，依然是infj类。</li>
-<li>Hexo更多用法我还在持续摸索。</li>
-<li>珍惜假期，我想回校。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hexo学习记录篇</title>
     <url>/%E5%AD%A6%E4%B9%A0/2022040201/</url>
     <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
 <blockquote>
 <p>老婆镇楼</p>
 </blockquote>
-<h1 id="Hexo博客写文章及基本操作"><a href="#Hexo博客写文章及基本操作" class="headerlink" title="Hexo博客写文章及基本操作"></a>Hexo博客写文章及基本操作</h1><h2 id="Hexo文章管理"><a href="#Hexo文章管理" class="headerlink" title="Hexo文章管理"></a>Hexo文章管理</h2><h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
+<h1 id="通过Hexo-amp-amp-Next写文章及其主题的基本操作"><a href="#通过Hexo-amp-amp-Next写文章及其主题的基本操作" class="headerlink" title="通过Hexo&amp;&amp;Next写文章及其主题的基本操作"></a>通过Hexo&amp;&amp;Next写文章及其主题的基本操作</h1><span id="more"></span>
+<h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="http://theme-next.iissnan.com/">NexT主题中文官网</a></p>
+<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="Hexo-（一）使用Hexo-Pages搭建个人博客"><a href="#Hexo-（一）使用Hexo-Pages搭建个人博客" class="headerlink" title="Hexo | （一）使用Hexo+Pages搭建个人博客"></a>Hexo | （一）使用Hexo+Pages搭建个人博客</h3><p>详情请见<a href="https://www.cnblogs.com/liziczh/p/9318652.html">这个站点</a>。</p>
+<h4 id="配置文件的区分"><a href="#配置文件的区分" class="headerlink" title="配置文件的区分"></a>配置文件的区分</h4><table>
+    <tr> 
+        <td>配置文件</td> 
+        <td>路径</td> 
+    </tr> 
+    <tr> 
+        <td>路径站点配置文件</td> 
+        <td>X:/blog/_config.yml</td> 
+    </tr> 
+    <tr> 
+        <td>主题配置文件</td> 
+        <td>X:/blog/themes/你的主题/_config.yml</td> 
+    </tr> 
+</table>
+
+<h4 id="文档的Front-matter"><a href="#文档的Front-matter" class="headerlink" title="文档的Front-matter"></a>文档的Front-matter</h4><p>Front-matter 是文档最上方以<code>---</code>分隔的区域，用于指定文档一些的参数。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
+<table>
+    <tr> 
+        <td>参数</td> 
+        <td>值</td> 
+        <td>描述</td> 
+    </tr> 
+    <tr> 
+        <td>layout</td> 
+        <td>post page draft false</td> 
+        <td>文章【默认值】页面 草稿 不处理</td> 
+    </tr> 
+    <tr> 
+        <td>title</td> 
+        <td>文本</td> 
+        <td>标题</td> 
+    </tr> 
+</table>
+
+<h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
 <li>无法插入图片。<code>20220405解决</code><blockquote>
-<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，就可以神奇地加载出图片。</p>
+<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，即可顺利加载图片。</p>
 </blockquote>
 </li>
 </ol>
@@ -36,6 +58,10 @@
 <li><a href="https://blog.csdn.net/qq_39720594/article/details/105401774">播放音乐(细节有待优化)</a></li>
 <li>增加打赏、搜索、友链和评论功能。</li>
 </ol>
+<ul>
+<li>博客初步维护完毕(20220405 23:35)。</li>
+</ul>
+<hr>
 ]]></content>
       <categories>
         <category>学习</category>
@@ -45,11 +71,29 @@
       </tags>
   </entry>
   <entry>
+    <title>假期前的想法流</title>
+    <url>/%E7%94%9F%E6%B4%BB/2022040202/</url>
+    <content><![CDATA[<ol>
+<li>测试了三次的<a href="https://www.jungus.cn/">mbti人格类型测试</a>，依然是infj类。</li>
+<li>持续摸索、建设博客.</li>
+<li>每日一问，何时回校?</li>
+</ol>
+<img src="/img/gallery01.jpg" class="full-image" width=60%/>
+<blockquote class="blockquote-center" style="color:grey;font-size:1px;">唉。</blockquote>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>短讯</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>20220403</title>
     <url>/%E7%94%9F%E6%B4%BB/20220403/</url>
-    <content><![CDATA[<h1 id="假期第一天"><a href="#假期第一天" class="headerlink" title="假期第一天"></a>假期第一天</h1><h2 id="有关今日意识流"><a href="#有关今日意识流" class="headerlink" title="有关今日意识流"></a>有关今日意识流</h2><ol>
+    <content><![CDATA[<h1 id="假期第一天"><a href="#假期第一天" class="headerlink" title="假期第一天"></a>假期第一天</h1><h2 id="今日意识流"><a href="#今日意识流" class="headerlink" title="今日意识流"></a>今日意识流</h2><ol>
 <li>关于客观规律不以人的意志为转移这件事&amp;&amp;关于我感觉自己还很无知这件事。<blockquote>
-<p>少打鸡血，多做实事。</p>
+<p>多做实事，实事求是。思考、理论与实践。</p>
 </blockquote>
 </li>
 <li>关于复盘数据结构和计算机组成原理这件事。<blockquote>
@@ -60,24 +104,17 @@
 <span id="more"></span>
 <ol start="3">
 <li>关于与漂亮小姐姐的对话。<blockquote>
-<p>我大概能领悟77哥一部分的意思了，这个世界本来不该是这样的。尽管我知道自己想要什么，其实我也不知道真正的我，埋藏在自身潜意识下的我，是一个什么样的人。</p>
+<p>我大概能领悟77哥一部分的意思了，这个世界确实本不该是这样的。</p>
 </blockquote>
 </li>
-<li>关于从盗梦空间来看现实的真实性问题？<blockquote>
-<p>现实是电磁波，现实是能量…本哲学小菜鸡还得多多加油啊。</p>
-</blockquote>
-</li>
-<li>每日一问，何时能返回我那亲爱的学校？<blockquote>
-<p>深圳都复学了，北京能不能给点消息啊，上海加油。</p>
-</blockquote>
-</li>
+<li>每日一问，何时返校？</li>
 <li>关于今天骑单车时莫名抬头看天这件危险系数爆阈的事？<blockquote>
-<p>抬头仰望天空，也许在离我无数的天文单位距离之外，有一个高等生物也正凝视着我。</p>
+<p>抬头仰望天空，也许在离我n光年之外，有一个高等生物也正凝视着我。</p>
 </blockquote>
 </li>
 </ol>
 <ul>
-<li><em>最后</em>：写完博客今天心情突然好轻松，哪怕不会有人看，这就是热爱的感觉吧。</li>
+<li><em>最后</em>：by 喜欢 阴郁的猫🐱</li>
 </ul>
 ]]></content>
       <categories>
@@ -88,13 +125,51 @@
       </tags>
   </entry>
   <entry>
-    <title>nono的第一篇博文</title>
+    <title>20220405</title>
+    <url>/%E7%94%9F%E6%B4%BB/20220405/</url>
+    <content><![CDATA[<div style="width:80%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/gallery1.jpg" class="" title="一个小村庄"></div>
+> 昨日踏青出游的小村庄
+
+<hr>
+<p>最近收听&lt;<a href="https://movie.douban.com/subject/30402296/">てんきのこ</a>&gt;的OST，再一次感叹诚哥这次电影想要表达的主题。</p>
+<blockquote>
+<p>宇宙、自然、社会、他人和本我。</p>
+</blockquote>
+<p>大部分不得不向现实妥协，心怀着那份少年时期“超现实”那份情怀的人已不多。</p>
+<span id="more"></span>
+<blockquote>
+<p>倘若一个人家境殷实，他大可在出社会后不需要寻求一份忙碌的工作，每天追求自己内心真正所需；而对于一个普通人来说，他内心的一份不安全感就是他从小到大所缺失的那些资源、那些物质…他怀有未来赚大钱(不一定谋求多高的社会地位)的野心，同时若想要保持内心的纯真与充实，我无法想象他会有多么的伟大。毕业——赚钱——成家——生子——老去，人一辈子的路线似乎在冥冥之中就已经规划好了。这是否是一种异化呢？</p>
+</blockquote>
+<p>大抵是人类社会还没有发展到一种更高级的形态，消费主义、物质需求、传统观念仍束缚着绝大部分人；社会还没有发展到一种可以让人自由、高度追求精神世界的程度；我永远相信现在的时代并不是最好的时代。</p>
+<div style="width:30%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/album.jpg" class="" title="天气之子原声带专辑封面"></div>
+
+<hr>
+<p><strong>阅读《毛选》第一天之《中国社会各阶级分析》</strong><br>革命的首要问题是区分敌友，团结真正的朋友，攻击真正的敌人。</p>
+<p>毛主席对中国社会各阶级作了一个大概的刨析。阅读过程中我比较困惑的是关于阶级的定义。</p>
+<p>阶级是以其所占有的生产资料来划分,但学生界并无占有<a href="https://baike.baidu.com/item/%E7%94%9F%E4%BA%A7%E8%B5%84%E6%96%99">生产资料</a>，何来的小资产阶级之说呢？经过查询，我得知：划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
+<blockquote>
+<p>列宁告诉我们，阶级的标准是一个纯而不纯的“经济”标准。所谓阶级，就是这样一些大的集团，这些集团在历史上一定社会生产体系中所处的地位不同；对生产资料的关系（这种关系大部分是在法律上明文规定了的）不同；划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
+</blockquote>
+<hr>
+<p>未来，我的压力排山倒海。</p>
+<p>绩点、竞赛、科研，都没有做得很好。</p>
+<p>所以接下来该怎么做，</p>
+<h1 id="头脑还是要清醒一点。"><a href="#头脑还是要清醒一点。" class="headerlink" title="头脑还是要清醒一点。"></a>头脑还是要清醒一点。</h1>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>短讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客</title>
     <url>/%E7%94%9F%E6%B4%BB/hello-world/</url>
     <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
-<p>首先要感谢以下公开的网络资源：<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a></p>
+<p>感谢以下公开的网络资源：<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a></p>
 </blockquote>
 <span id="more"></span>
-<h2 id="为什么会想搭一个博客"><a href="#为什么会想搭一个博客" class="headerlink" title="为什么会想搭一个博客"></a>为什么会想搭一个博客</h2><p>大一下学期比较浅层次地接触过Web，自己也有随手写作的习惯，所以想着可以写点东西。</p>
+<h2 id="为什么会想搭一个博客"><a href="#为什么会想搭一个博客" class="headerlink" title="为什么会想搭一个博客"></a>为什么会想搭一个博客</h2><p>大一下学期比较浅地学习过Web三件套，自己也有随手写作的习惯(记日记、写总结)，所以写一些博客记录生活、分享资源。</p>
 <h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>
 <h2 id="搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。"><a href="#搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。" class="headerlink" title="搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。"></a>搭建完成后对于hexo整体还不是很熟悉，所以需要再看看hexo官方的doc和api文档，然后再到网络上搜索一些大佬的资源。</h2><h3 id="最近在读："><a href="#最近在读：" class="headerlink" title="最近在读："></a>最近在读：</h3><blockquote>
@@ -104,10 +179,10 @@
 <p><em>1.<a href="https://space.bilibili.com/14871346/video?tid=0&page=4&keyword=&order=pubdate">UP主硬件茶谈</a></em><br><em>2.<a href="https://space.bilibili.com/16395179/video">李好帅的黄金屋</a></em><br><em>3.<a href="https://www.bilibili.com/video/BV1zr4y127RM?spm_id_from=333.337.search-card.all.click">可汗学院 - 最受欢迎的天文学课</a></em><br><em>3.<a href="https://www.ciligod.com/movie/112880.html">《花束般的恋爱》</a></em><br><em>4.<a href="https://www.ciligod.com/movie/106822.html">《谁先爱上他的》</a></em><br><em>…</em></p>
 </blockquote>
 <h3 id="最近在听："><a href="#最近在听：" class="headerlink" title="最近在听："></a>最近在听：</h3><blockquote>
-<p><em>五月天 &amp; 伍佰 &amp; 罗大佑 &amp; 李荣浩 &amp; 王菲 &amp; 朴树 &amp; hush! &amp; Linkin Park &amp; Taylor Swift &amp; Billie Eilish &amp; RADWIMPS &amp; 星野源</em></p>
+<p><em>五月天 &amp; 伍佰 &amp; 罗大佑 &amp; 李荣浩 &amp; 王菲 &amp; 朴树 &amp; Linkin Park &amp; Taylor Swift &amp; Billie Eilish &amp; RADWIMPS &amp; 巴赫</em></p>
 </blockquote>
 <h3 id="最近在学："><a href="#最近在学：" class="headerlink" title="最近在学："></a>最近在学：</h3><blockquote>
-<p><em>别骂了别骂了，学不玩了。</em></p>
+<p><em>学不完了</em></p>
 </blockquote>
 <h3 id="20岁零三天的胡思乱想："><a href="#20岁零三天的胡思乱想：" class="headerlink" title="20岁零三天的胡思乱想："></a>20岁零三天的胡思乱想：</h3><blockquote>
 <p><em>要赶紧回炉那些快遗忘了的知识。</em></p>
@@ -166,35 +241,8 @@
 <blockquote>
 <p><em>三岛由纪夫更爱他自己，我也是。</em></p>
 </blockquote>
-<h3 id="最后想说的"><a href="#最后想说的" class="headerlink" title="最后想说的"></a>最后想说的</h3><p>能够用框架搭起来一个博客，直观上的成果令人很有成就感。<br>会不定期写一些东西。<br>下一步的打算是研究下hexo该怎么写文章(因为跟不用博客框架的方式不太一样)、建立RSS源、归档、评论功能和了解更多主题。</p>
+<h3 id="最后想说的"><a href="#最后想说的" class="headerlink" title="最后想说的"></a>最后想说的</h3><p>能用框架搭起来一个博客，直观上的成果令人很有成就感。<br>下一步的打算是研究下hexo具体该怎么写文章排版、建立RSS源、归档和评论功能等，看看各个文件源代码等。</p>
 <p><code>风雨过后不一定有美好的天空/不是天晴就会有彩虹/可生命总免不了最初的一阵痛/我不忍心再欺哄/但愿你听得懂</code></p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>20220405</title>
-    <url>/%E7%94%9F%E6%B4%BB/20220405/</url>
-    <content><![CDATA[<div style="width:80%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/gallery1.jpg" class="" title="一个小村庄"></div>
-> 昨日踏青出游小村庄
-
-<hr>
-<p>最近收听&lt;<a href="https://movie.douban.com/subject/30402296/">てんきのこ</a>&gt;的OST，再一次感叹诚哥的表达功底。<br>宇宙、自然、社会、他人和本我。<br>人们心甘情愿妥协于现实，如今还有多少成年人的心底还心怀着那份少年时期的“超现实”那份清澈的情怀呢。<br>大抵是人类社会还没有发展到一种更高级的形态，消费主义、物质需求如今仍然捆绑着大部分人。<br>这个社会还没有发展到一种可以让人自由地、高度地追求精神世界的程度。</p>
-<div style="width:30%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/album.jpg" class="" title="天气之子原声带专辑封面"></div>
-<span id="more"></span>
----
-**阅读《毛选》第一天之《中国社会各阶级分析》**
-革命的首要问题是区分敌友，团结真正的朋友，攻击真正的敌人。
-毛主席对中国社会各阶级作了一个大概的刨析。阅读过程中我比较困惑的是关于阶级的定义。
-阶级是以其所占有的生产资料来划分,但学生界并无占有[生产资料]，何来的小资产阶级之说呢？经过查询，我得知：划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。
-> 列宁告诉我们，阶级的标准是一个纯而不纯的“经济”标准。所谓阶级，就是这样一些大的集团，这些集团在历史上一定社会生产体系中所处的地位不同；对生产资料的关系（这种关系大部分是在法律上明文规定了的）不同；划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。
-
-<hr>
-<p>放眼未来，压力前所未有的如山一般袭来。<br>绩点、竞赛、科研，我都没有做得很好。<br>所以接下来该怎么做，头脑还是要清醒一点。</p>
 ]]></content>
       <categories>
         <category>生活</category>
