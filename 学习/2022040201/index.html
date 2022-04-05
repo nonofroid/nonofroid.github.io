@@ -20,16 +20,16 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"nonofroid.github.io","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}}</script><script src="/js/config.js"></script>
 
-    <meta name="description" content="Hexo博客写文章及基本操作  老婆镇楼  Hexo文章管理">
+    <meta name="description" content="老婆镇楼  Hexo博客写文章及基本操作Hexo文章管理那些年遇到的bug 无法插入图片。20220405解决 试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改node_nodules里的hexo-asset-image\index.js的参数。很奇特，把大佬的配置复制粘贴到我的index.js里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，就可">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo学习记录篇">
 <meta property="og:url" content="https://nonofroid.github.io/%E5%AD%A6%E4%B9%A0/2022040201/index.html">
 <meta property="og:site_name" content="不见来时路">
-<meta property="og:description" content="Hexo博客写文章及基本操作  老婆镇楼  Hexo文章管理">
+<meta property="og:description" content="老婆镇楼  Hexo博客写文章及基本操作Hexo文章管理那些年遇到的bug 无法插入图片。20220405解决 试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改node_nodules里的hexo-asset-image\index.js的参数。很奇特，把大佬的配置复制粘贴到我的index.js里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，就可">
 <meta property="og:locale" content="en_US">
 <meta property="og:image" content="https://nonofroid.github.io/img/TaylorSwift01.jpg">
 <meta property="article:published_time" content="2022-04-02T00:22:22.000Z">
-<meta property="article:modified_time" content="2022-04-05T02:29:16.678Z">
+<meta property="article:modified_time" content="2022-04-05T02:53:26.698Z">
 <meta property="article:author" content="nono">
 <meta property="article:tag" content="Hexo学习">
 <meta name="twitter:card" content="summary">
@@ -112,7 +112,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E5%8D%9A%E5%AE%A2%E5%86%99%E6%96%87%E7%AB%A0%E5%8F%8A%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text">Hexo博客写文章及基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E6%96%87%E7%AB%A0%E7%AE%A1%E7%90%86"><span class="nav-number">1.1.</span> <span class="nav-text">Hexo文章管理</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Hexo%E5%8D%9A%E5%AE%A2%E5%86%99%E6%96%87%E7%AB%A0%E5%8F%8A%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C"><span class="nav-number">1.</span> <span class="nav-text">Hexo博客写文章及基本操作</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Hexo%E6%96%87%E7%AB%A0%E7%AE%A1%E7%90%86"><span class="nav-number">1.1.</span> <span class="nav-text">Hexo文章管理</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%82%A3%E4%BA%9B%E5%B9%B4%E9%81%87%E5%88%B0%E7%9A%84bug"><span class="nav-number">2.</span> <span class="nav-text">那些年遇到的bug</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9B%B4%E6%96%B0%E6%97%A5%E5%BF%97"><span class="nav-number">3.</span> <span class="nav-text">更新日志</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -209,7 +209,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-04-05 10:29:16" itemprop="dateModified" datetime="2022-04-05T10:29:16+08:00">2022-04-05</time>
+      <time title="Modified: 2022-04-05 10:53:26" itemprop="dateModified" datetime="2022-04-05T10:53:26+08:00">2022-04-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -231,11 +231,22 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h1 id="Hexo博客写文章及基本操作"><a href="#Hexo博客写文章及基本操作" class="headerlink" title="Hexo博客写文章及基本操作"></a>Hexo博客写文章及基本操作</h1><p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
+        <p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
 <blockquote>
 <p>老婆镇楼</p>
 </blockquote>
-<h2 id="Hexo文章管理"><a href="#Hexo文章管理" class="headerlink" title="Hexo文章管理"></a>Hexo文章管理</h2>
+<h1 id="Hexo博客写文章及基本操作"><a href="#Hexo博客写文章及基本操作" class="headerlink" title="Hexo博客写文章及基本操作"></a>Hexo博客写文章及基本操作</h1><h2 id="Hexo文章管理"><a href="#Hexo文章管理" class="headerlink" title="Hexo文章管理"></a>Hexo文章管理</h2><h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
+<li>无法插入图片。<code>20220405解决</code><blockquote>
+<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，就可以神奇地加载出图片。</p>
+</blockquote>
+</li>
+</ol>
+<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><p><code>20220405</code>：</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="http://xring.info/2018/hexo-pic-size.html">实现修改图片大小</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/dpdpdppp/article/details/102387532">实现hexo(Next主题)修改文字大小</a></li>
+</ol>
+
     </div>
 
     

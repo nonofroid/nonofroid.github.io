@@ -194,7 +194,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2022-04-05 10:14:49 / Modified: 10:16:08" itemprop="dateCreated datePublished" datetime="2022-04-05T10:14:49+08:00">2022-04-05</time>
+      <time title="Created: 2022-04-05 10:14:49 / Modified: 11:12:27" itemprop="dateCreated datePublished" datetime="2022-04-05T10:14:49+08:00">2022-04-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -216,7 +216,20 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p><img src="/%E7%94%9F%E6%B4%BB/20220405/gallery1.jpg" alt="gallery1"></p>
+          <div style="width:80%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/gallery1.jpg" class="" title="一个小村庄"></div>
+> 昨日踏青出游小村庄
+
+<hr>
+<p>最近收听&lt;<a target="_blank" rel="noopener" href="https://movie.douban.com/subject/30402296/">てんきのこ</a>&gt;的OST，再一次感叹诚哥的表达功底。<br>宇宙、自然、社会、他人和本我。<br>人们心甘情愿妥协于现实，如今还有多少成年人的心底还心怀着那份少年时期的“超现实”那份清澈的情怀呢。<br>大抵是人类社会还没有发展到一种更高级的形态，消费主义、物质需求如今仍然捆绑着大部分人。<br>这个社会还没有发展到一种可以让人自由地、高度地追求精神世界的程度。</p>
+<div style="width:30%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/album.jpg" class="" title="天气之子原声带专辑封面"></div>
+
+<hr>
+<p><strong>阅读《毛选》第一天之《中国社会各阶级分析》</strong><br>革命的首要问题是区分敌友，团结真正的朋友，攻击真正的敌人。<br>毛主席对中国社会各阶级作了一个大概的刨析。阅读过程中我比较困惑的是关于阶级的定义。<br>阶级是以其所占有的生产资料来划分,但学生界并无占有<a target="_blank" rel="noopener" href="https://baike.baidu.com/item/%E7%94%9F%E4%BA%A7%E8%B5%84%E6%96%99">生产资料</a>，何来的小资产阶级之说呢？经过查询，我得知：划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
+<blockquote>
+<p>列宁告诉我们，阶级的标准是一个纯而不纯的“经济”标准。所谓阶级，就是这样一些大的集团，这些集团在历史上一定社会生产体系中所处的地位不同；对生产资料的关系（这种关系大部分是在法律上明文规定了的）不同；划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
+</blockquote>
+<hr>
+<p>如果放眼未来，我的压力真的很大。<br>绩点、竞赛、科研，我都没有做得很好。<br>所以我应该怎么做，头脑还是要清醒一点。</p>
 
       
     </div>
@@ -475,7 +488,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-04-05 10:29:16" itemprop="dateModified" datetime="2022-04-05T10:29:16+08:00">2022-04-05</time>
+      <time title="Modified: 2022-04-05 10:53:26" itemprop="dateModified" datetime="2022-04-05T10:53:26+08:00">2022-04-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -497,11 +510,22 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h1 id="Hexo博客写文章及基本操作"><a href="#Hexo博客写文章及基本操作" class="headerlink" title="Hexo博客写文章及基本操作"></a>Hexo博客写文章及基本操作</h1><p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
+          <p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
 <blockquote>
 <p>老婆镇楼</p>
 </blockquote>
-<h2 id="Hexo文章管理"><a href="#Hexo文章管理" class="headerlink" title="Hexo文章管理"></a>Hexo文章管理</h2>
+<h1 id="Hexo博客写文章及基本操作"><a href="#Hexo博客写文章及基本操作" class="headerlink" title="Hexo博客写文章及基本操作"></a>Hexo博客写文章及基本操作</h1><h2 id="Hexo文章管理"><a href="#Hexo文章管理" class="headerlink" title="Hexo文章管理"></a>Hexo文章管理</h2><h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
+<li>无法插入图片。<code>20220405解决</code><blockquote>
+<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，就可以神奇地加载出图片。</p>
+</blockquote>
+</li>
+</ol>
+<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><p><code>20220405</code>：</p>
+<ol>
+<li><a target="_blank" rel="noopener" href="http://xring.info/2018/hexo-pic-size.html">实现修改图片大小</a></li>
+<li><a target="_blank" rel="noopener" href="https://blog.csdn.net/dpdpdppp/article/details/102387532">实现hexo(Next主题)修改文字大小</a></li>
+</ol>
+
       
     </div>
 
@@ -563,7 +587,7 @@
         <i class="far fa-calendar-check"></i>
       </span>
       <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-04-03 23:29:41" itemprop="dateModified" datetime="2022-04-03T23:29:41+08:00">2022-04-03</time>
+      <time title="Modified: 2022-04-05 10:56:30" itemprop="dateModified" datetime="2022-04-05T10:56:30+08:00">2022-04-05</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -658,7 +682,7 @@
 <p><em>对集体主义的思考：集体主义压制了我的自由，集体主义里的人们喜欢造神。我一生最不快乐却无法挣脱、无法得到精神上升华的时光都伴随着集体记忆。我才摆脱集体主义带给我造成的冲击与诱惑：不健康的恋爱观。</em></p>
 </blockquote>
 <blockquote>
-<p><em>三岛由纪夫只爱他自己，我也是。</em></p>
+<p><em>三岛由纪夫更爱他自己，我也是。</em></p>
 </blockquote>
 <h3 id="最后想说的"><a href="#最后想说的" class="headerlink" title="最后想说的"></a>最后想说的</h3><p>能够用框架搭起来一个博客，直观上的成果令人很有成就感。<br>会不定期写一些东西。<br>下一步的打算是研究下hexo该怎么写文章(因为跟不用博客框架的方式不太一样)、建立RSS源、归档、评论功能和了解更多主题。</p>
 <p><code>风雨过后不一定有美好的天空/不是天晴就会有彩虹/可生命总免不了最初的一阵痛/我不忍心再欺哄/但愿你听得懂</code></p>
