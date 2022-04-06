@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hexo学习记录篇</title>
-    <url>/%E5%AD%A6%E4%B9%A0/2022040201/</url>
+    <url>/%E5%AD%A6%E4%B9%A0/hexo_study/</url>
     <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
 <blockquote>
 <p>老婆镇楼</p>
@@ -71,61 +71,61 @@
       </tags>
   </entry>
   <entry>
-    <title>假期前的想法流</title>
-    <url>/%E7%94%9F%E6%B4%BB/2022040202/</url>
-    <content><![CDATA[<ol>
-<li>测试了三次的<a href="https://www.jungus.cn/">mbti人格类型测试</a>，依然是infj类。</li>
-<li>持续摸索、建设博客.</li>
-<li>每日一问，何时回校?</li>
-</ol>
-<img src="/img/gallery01.jpg" class="full-image" width=60%/>
-<blockquote class="blockquote-center" style="color:grey;font-size:1px;">唉。</blockquote>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>20220403</title>
-    <url>/%E7%94%9F%E6%B4%BB/20220403/</url>
-    <content><![CDATA[<h1 id="假期第一天"><a href="#假期第一天" class="headerlink" title="假期第一天"></a>假期第一天</h1><h2 id="今日意识流"><a href="#今日意识流" class="headerlink" title="今日意识流"></a>今日意识流</h2><ol>
-<li>关于客观规律不以人的意志为转移这件事&amp;&amp;关于我感觉自己还很无知这件事。<blockquote>
-<p>多做实事，实事求是。思考、理论与实践。</p>
-</blockquote>
-</li>
-<li>关于复盘数据结构和计算机组成原理这件事。<blockquote>
-<p>我 真 后 悔。</p>
-</blockquote>
-</li>
-</ol>
+    <title>C_Primer_Plus</title>
+    <url>/%E5%AD%A6%E4%B9%A0/C-Primer-Plus/</url>
+    <content><![CDATA[<p>C Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code</p>
 <span id="more"></span>
-<ol start="3">
-<li>关于与漂亮小姐姐的对话。<blockquote>
-<p>我大概能领悟77哥一部分的意思了，这个世界确实本不该是这样的。</p>
-</blockquote>
-</li>
-<li>每日一问，何时返校？</li>
-<li>关于今天骑单车时莫名抬头看天这件危险系数爆阈的事？<blockquote>
-<p>抬头仰望天空，也许在离我n光年之外，有一个高等生物也正凝视着我。</p>
-</blockquote>
-</li>
+<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="chapter2"><a href="#chapter2" class="headerlink" title="chapter2"></a>chapter2</h1><ol>
+<li>2.12.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Jimmy Chen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy\nChen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy&quot;);</span><br><span class="line">    printf(&quot; Chen\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_1();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Jimmy Chen</span><br><span class="line">Jimmy</span><br><span class="line">Chen</span><br><span class="line">Jimmy Chen</span><br></pre></td></tr></table></figure></li>
 </ol>
-<ul>
-<li><em>最后</em>：by 喜欢 阴郁的猫🐱</li>
-</ul>
+<hr>
+<ol start="2">
+<li>2.12.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Name:nono\n&quot;);</span><br><span class="line">    printf(&quot;Addr:Zhejiang province, China\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_2();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Name:nono</span><br><span class="line">Addr:Zhejiang province, China</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>2.12.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int years_old = 0;</span><br><span class="line">    int live_days = 0;</span><br><span class="line">    printf(&quot;请输入您的年龄:&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;years_old);</span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line">    live_days = years_old * 356;</span><br><span class="line"></span><br><span class="line">    printf(&quot;转换为天数是:%d\n&quot;, live_days);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_3();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请输入您的年龄：20</span><br><span class="line">转换为天数是:7120</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>2.12.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void jolly(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void deny(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Which nobody can deny!\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    jolly();</span><br><span class="line">    deny();</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_4();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">Which nobody can deny!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>2.12.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>2.12.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    int toes = 10;</span><br><span class="line">    int double_toes = toes * 2;</span><br><span class="line">    int square_toes = toes * toes;</span><br><span class="line"></span><br><span class="line">    printf(&quot;the value of toes is : %d\n&quot;, toes);</span><br><span class="line">    printf(&quot;the value of double toes is : %d\n&quot;, double_toes);</span><br><span class="line">    printf(&quot;the value of square toes is : %d\n&quot;, square_toes);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_6();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of toes is : 10</span><br><span class="line">the value of double toes is : 20</span><br><span class="line">the value of square toes is : 100</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>2.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void smile(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Smile!&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    smile(); smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_7();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Smile!Smile!Smile!</span><br><span class="line">Smile!Smile!</span><br><span class="line">Smile!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>2.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void two(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;two\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;starting now:\n&quot;);</span><br><span class="line">    printf(&quot;one\n&quot;);</span><br><span class="line">    two();</span><br><span class="line">    printf(&quot;three\n&quot;);</span><br><span class="line">    printf(&quot;done!\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_8();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">starting now:</span><br><span class="line">one</span><br><span class="line">two</span><br><span class="line">three</span><br><span class="line">done!</span><br></pre></td></tr></table></figure>
+<h1 id="chapter3"><a href="#chapter3" class="headerlink" title="chapter3"></a>chapter3</h1></li>
+</ol>
 ]]></content>
       <categories>
-        <category>生活</category>
+        <category>学习</category>
       </categories>
       <tags>
-        <tag>短讯</tag>
+        <tag>C语言</tag>
       </tags>
   </entry>
   <entry>
-    <title>20220405</title>
+    <title>04 清明假期尾声</title>
     <url>/%E7%94%9F%E6%B4%BB/20220405/</url>
     <content><![CDATA[<div style="width:80%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/gallery1.jpg" class="" title="一个小村庄"></div>
 > 昨日踏青出游的小村庄
@@ -163,8 +163,62 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇博客</title>
-    <url>/%E7%94%9F%E6%B4%BB/hello-world/</url>
+    <title>03 清明假期第一天</title>
+    <url>/%E7%94%9F%E6%B4%BB/20220403/</url>
+    <content><![CDATA[<h1 id="假期第一天"><a href="#假期第一天" class="headerlink" title="假期第一天"></a>假期第一天</h1><h2 id="今日意识流"><a href="#今日意识流" class="headerlink" title="今日意识流"></a>今日意识流</h2><ol>
+<li>关于客观规律不以人的意志为转移这件事&amp;&amp;关于我感觉自己还很无知这件事。<blockquote>
+<p>多做实事，实事求是。思考、理论与实践。</p>
+</blockquote>
+</li>
+<li>关于复盘数据结构和计算机组成原理这件事。<blockquote>
+<p>我 真 后 悔。</p>
+</blockquote>
+</li>
+</ol>
+<span id="more"></span>
+<ol start="3">
+<li>关于与漂亮小姐姐的对话。<blockquote>
+<p>我大概能领悟77哥一部分的意思了，这个世界确实本不该是这样的。</p>
+</blockquote>
+</li>
+<li>每日一问，何时返校？</li>
+<li>关于今天骑单车时莫名抬头看天这件危险系数爆阈的事？<blockquote>
+<p>抬头仰望天空，也许在离我n光年之外，有一个高等生物也正凝视着我。</p>
+</blockquote>
+</li>
+</ol>
+<ul>
+<li><em>最后</em>：by 喜欢 阴郁的猫🐱</li>
+</ul>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>短讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>02假期前的想法流</title>
+    <url>/%E7%94%9F%E6%B4%BB/2022040202/</url>
+    <content><![CDATA[<ol>
+<li>测试了三次的<a href="https://www.jungus.cn/">mbti人格类型测试</a>，依然是infj类。</li>
+<li>持续摸索、建设博客.</li>
+<li>每日一问，何时回校?</li>
+</ol>
+<img src="/img/gallery01.jpg" class="full-image" width=60%/>
+<blockquote class="blockquote-center" style="color:grey;font-size:1px;">唉。</blockquote>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>短讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>01 我的第一篇博客</title>
+    <url>/%E7%94%9F%E6%B4%BB/01myfirstblog/</url>
     <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
 <p>感谢以下公开的网络资源：<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a></p>
 </blockquote>
