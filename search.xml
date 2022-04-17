@@ -369,6 +369,27 @@
       </tags>
   </entry>
   <entry>
+    <title>关于电脑硬盘扩容问题与解决</title>
+    <url>/%E5%AD%A6%E4%B9%A0/20220417/</url>
+    <content><![CDATA[<p>今日打开电脑使用，发现C盘的容量只有500MB了，连unity引擎的渲染工作都没有完成😅。</p>
+<div style="width:100%;margin:auto;"><img src="/%E5%AD%A6%E4%B9%A0/20220417/01.jpg" class="" title="我的磁盘容量"></div>
+
+<hr>
+<p>当机立断，开始使用<em>DiskGenius软件</em>给C盘扩容。</p>
+<p>显示“文件使用的簇被标记为空闲或与其他文件有交叉。文件记录号：8128，簇号：20325。我是h盘文件盘簇出现损坏。</p>
+<p>用“管理员模式”打开cmd，输入”chkdsk /f /x h:”。</p>
+<p>再用DiskGenuis软件进行坏道检测与修复。</p>
+<p>再进行分区。</p>
+<p>成功√。</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>硬件</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一个思考</title>
     <url>/%E7%94%9F%E6%B4%BB/20220414/</url>
     <content><![CDATA[<p>人究竟什么时候才可以获得彻底的解放。世俗的枷锁与人性的欲望不断捆绑着人类，人类什么时候才能一身轻松、真正自由地思考与生活？</p>
