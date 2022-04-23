@@ -505,9 +505,11 @@
 <blockquote>
 <p>老婆镇楼</p>
 </blockquote>
-<h1 id="通过Hexo-amp-amp-Next写文章及其主题的基本操作"><a href="#通过Hexo-amp-amp-Next写文章及其主题的基本操作" class="headerlink" title="通过Hexo&amp;&amp;Next写文章及其主题的基本操作"></a>通过Hexo&amp;&amp;Next写文章及其主题的基本操作</h1><span id="more"></span>
+<h1 id="Hexo-amp-amp-Next的基本操作"><a href="#Hexo-amp-amp-Next的基本操作" class="headerlink" title="Hexo&amp;&amp;Next的基本操作"></a>Hexo&amp;&amp;Next的基本操作</h1><span id="more"></span>
 <h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="http://theme-next.iissnan.com/">NexT主题中文官网</a></p>
-<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="Hexo-（一）使用Hexo-Pages搭建个人博客"><a href="#Hexo-（一）使用Hexo-Pages搭建个人博客" class="headerlink" title="Hexo | （一）使用Hexo+Pages搭建个人博客"></a>Hexo | （一）使用Hexo+Pages搭建个人博客</h3><p>详情请见<a href="https://www.cnblogs.com/liziczh/p/9318652.html">这个站点</a>。</p>
+<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><p>此处有待建设</p>
+<h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="Hexo-（一）使用Hexo-Pages搭建个人博客"><a href="#Hexo-（一）使用Hexo-Pages搭建个人博客" class="headerlink" title="Hexo | （一）使用Hexo+Pages搭建个人博客"></a>Hexo | （一）使用Hexo+Pages搭建个人博客</h3><p>详情请见<a href="https://www.cnblogs.com/liziczh/p/9318652.html">这个站点</a>。</p>
+<hr>
 <h4 id="配置文件的区分"><a href="#配置文件的区分" class="headerlink" title="配置文件的区分"></a>配置文件的区分</h4><table>
     <tr> 
         <td>配置文件</td> 
@@ -523,6 +525,7 @@
     </tr> 
 </table>
 
+<hr>
 <h4 id="文档的Front-matter"><a href="#文档的Front-matter" class="headerlink" title="文档的Front-matter"></a>文档的Front-matter</h4><p>Front-matter 是文档最上方以<code>---</code>分隔的区域，用于指定文档一些的参数。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
 <table>
@@ -542,6 +545,21 @@
         <td>标题</td> 
     </tr> 
 </table>
+
+
+<hr>
+<h3 id="给Next主题添加背景图片"><a href="#给Next主题添加背景图片" class="headerlink" title="给Next主题添加背景图片"></a>给Next主题添加背景图片</h3><p>打开<code>themes\next\source\css\main.styl</code>文件，插入如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@media screen and (min-width:1200px) &#123;</span><br><span class="line">    body &#123;</span><br><span class="line">    background-image:url(/images/background.jpg);</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed;</span><br><span class="line">    background-position:50% 50%; </span><br><span class="line">    &#125;</span><br><span class="line">    #footer a &#123;</span><br><span class="line">        color:#eee;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;!--图片放置到前一级目录的images文件夹下--&gt;</span><br></pre></td></tr></table></figure>
+<hr>
+<h3 id="给Next主题添加Gitter聊天功能"><a href="#给Next主题添加Gitter聊天功能" class="headerlink" title="给Next主题添加Gitter聊天功能"></a>给Next主题添加Gitter聊天功能</h3><h4 id="Gitter-的介绍和功能特色"><a href="#Gitter-的介绍和功能特色" class="headerlink" title="Gitter 的介绍和功能特色"></a>Gitter 的介绍和功能特色</h4><ul>
+<li>免费无限制：用户可以自由免费地创建、搜素、加入社区、聊天室。支持单独私人聊天、markdown 编辑、媒体文件发送等功能。</li>
+<li>简单便捷：支持 Github 项目库关联创建社区，一键即可加入聊天讨论，仅在一个浏览器页面中即可查看和订阅多个聊天室。</li>
+<li>对外开放：所有社区支持对外分享并可被搜索到，一个链接即可访问参与聊天讨论，用户头像显示其 GitHub 账号的相关信息。<br>Gitter 注册:[<a href="https://gitter.im]">https://gitter.im]</a></li>
+</ul>
+<p>1.在<code>themes\next\layout\_third-party\quicklink.njk</code>文件里添加如下的集成代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--使用 Gitter 实现一个 IM 即时通讯聊天室功能--&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  ((window.gitter = &#123;&#125;).chat = &#123;&#125;).options = &#123;</span><br><span class="line">    room: &#x27;enjoytoshare/community&#x27;</span><br><span class="line">  &#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;script src=&quot;https://sidecar.gitter.im/dist/sidecar.v1.js&quot; async defer&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+
 
 <h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
 <li>无法插入图片。<code>20220405解决</code><blockquote>
@@ -567,7 +585,7 @@
 <li>更换子栏目内容。</li>
 </ol>
 <hr>
-<p><a href="https://blog.csdn.net/qq_43827595/article/details/104574959">https://blog.csdn.net/qq_43827595/article/details/104574959</a><br><a href="https://liupaopao.top/posts/54657">https://liupaopao.top/posts/54657</a></p>
+<p><code>20220423</code><br>1.增加博客背景<br>2.增加Gitter在线交流功能</p>
 ]]></content>
       <categories>
         <category>学习</category>
