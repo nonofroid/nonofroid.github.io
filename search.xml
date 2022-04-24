@@ -541,7 +541,7 @@
 <p>5.hexo本地生成静态页面</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署页面</span><br><span class="line">$ hexo server    # 启用hexo本地服务器；</span><br><span class="line"># 注：Hexo 3.0 把服务器独立成了个别模块，您必须先安装 hexo-server 才能使用。</span><br><span class="line"># hexo-server安装命令：npm install hexo-server --save</span><br></pre></td></tr></table></figure>
 <p>在cmd控制台命令中，跳转到你当前的文件目录下，输入<code>hexo s</code>，cmd会给出你的本地host网站，然后打开浏览器在地址栏输入<a href="http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。">http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。</a></p>
-<h3 id="3-配置github-coding-pages"><a href="#3-配置github-coding-pages" class="headerlink" title="3.配置github/coding pages"></a>3.配置github/coding pages</h3><p>github和coding可以双线配置，也可以选择其中一个配置。推荐双线配置，coding用于国内访问速度较快，github用于境外访问。</p>
+<h4 id="3-配置github-coding-pages"><a href="#3-配置github-coding-pages" class="headerlink" title="3. 配置github/coding pages"></a>3. 配置github/coding pages</h4><p>github和coding可以双线配置，也可以选择其中一个配置。推荐双线配置，coding用于国内访问速度较快，github用于境外访问。</p>
 <p>1.登录github，New repository：<code>yourname.github.io</code>。其中<code>yourname</code>是你的github用户名，github强制后缀为<code>github.io</code>才能启用github pages服务。</p>
 <p>2.登录coding，新建仓库：<code>yourname.coding.me</code>，打开静态pages服务。其中<code>yourname</code>是你的coding用户名，coding不强制后缀为<code>coding.me</code>。</p>
 <p>3.Git Bash配置git用户信息：</p>
@@ -557,12 +557,12 @@
 <p>①直接编辑站点配置文件<code>_config.yml</code>：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: </span><br><span class="line">		github: https://github.com/liziczh/liziczh.github.io.git</span><br><span class="line">    	coding: https://git.coding.net/liziczh/liziczh.coding.me.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
 <p>②验证github/coding用户名和密码。</p>
-<h3 id="4-部署到github-coding"><a href="#4-部署到github-coding" class="headerlink" title="4. 部署到github/coding"></a>4. 部署到github/coding</h3><p>1.安装Git部署插件：<br><code>$ npm install hexo-deployer-git --save</code><br>2.部署：</p>
+<h4 id="4-部署到github-coding"><a href="#4-部署到github-coding" class="headerlink" title="4. 部署到github/coding"></a>4. 部署到github/coding</h4><p>1.安装Git部署插件：<br><code>$ npm install hexo-deployer-git --save</code><br>2.部署：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署到github/coding；</span><br></pre></td></tr></table></figure>
 <p>3.部署完毕，站点文件目录如下：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy_git  # （新增）hexo deploy 生成的git部署文件</span><br><span class="line">├── public       # （新增）hexo generate 生成的静态文件</span><br><span class="line">├── db.json      # （新增）hexo generate 生成的数据</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git时需忽略文件</span><br><span class="line">├── _config.yml  # 站点配置文件</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>站点搭建完毕，打开浏览器在地址栏输入以下链接可随时访问自己的博客了。<br>github pages：<a href="http://yourname.github.io/">http://yourname.github.io</a><br>coding pages：<a href="http://yourname.coding.me/">http://yourname.coding.me</a></p>
-<h3 id="5-站点配置"><a href="#5-站点配置" class="headerlink" title="5. 站点配置"></a>5. 站点配置</h3><p>区分配置文件：</p>
+<h4 id="5-站点配置"><a href="#5-站点配置" class="headerlink" title="5. 站点配置"></a>5. 站点配置</h4><p>区分配置文件：</p>
 <table>
     <tr> 
         <td>配置文件</td> 
@@ -582,10 +582,91 @@
 <blockquote>
 <p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
 </blockquote>
-<p><strong>网站</strong><br>title: #网站标题<br>subtitle: #网站副标题<br>description: #网站描述<br>keywords: #关键字<br>author: #你的名字,文档作者<br>language: #网站的语言<br>timezone: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
-<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#103;&#105;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#109;">&#103;&#105;&#116;&#64;&#x67;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#99;&#x6f;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#46;&#x63;&#111;&#x64;&#x69;&#110;&#103;&#x2e;&#x6e;&#x65;&#x74;">&#103;&#105;&#x74;&#x40;&#x67;&#x69;&#x74;&#46;&#x63;&#111;&#x64;&#x69;&#110;&#103;&#x2e;&#x6e;&#x65;&#x74;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
+<p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
+<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#46;&#x63;&#111;&#100;&#105;&#110;&#x67;&#x2e;&#110;&#x65;&#116;">&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#46;&#x63;&#111;&#100;&#105;&#110;&#x67;&#x2e;&#110;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
 <blockquote>
 <p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
+</blockquote>
+<h4 id="6-主题变更"><a href="#6-主题变更" class="headerlink" title="6. 主题变更"></a>6. 主题变更</h4><p>1.hexo默认主题为landscape，可以到Themes|Hexo选择自己喜欢的主题，复制主题在github仓库的url。<br>2.在themes文件夹下，打开GitBash，克隆主题至themes文件夹中。<br><code>$ git clone https://github.com/theme-next/hexo-theme-next.git</code><br>克隆之后，记住删除<code>themes\</code>你的主题名中的<code>.git</code>，<code>.github</code>，<code>.gitignore</code>等Git仓库文件。<br>3.更改站点配置文件<code>_config.yml</code>：<br><code>theme: 主题文件名</code><br>4.编辑结束，重新部署：<br><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code><br>部署完毕之后，进入以下链接刷新就可以看到你的新主题了。</p>
+<h4 id="7-写作"><a href="#7-写作" class="headerlink" title="7. 写作"></a>7. 写作</h4><p>1.新建：在blog文件夹下，打开Git Bash或者cmd，新建文章：<br><code>$ hexo new post &quot;title&quot;</code><br>2.编辑：在<code>source/_post</code>下可以编辑你新建的文章。<br>3.编辑完毕，重新部署：<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
+<h4 id="8-文档的Front-matter"><a href="#8-文档的Front-matter" class="headerlink" title="8. 文档的Front-matter"></a>8. 文档的Front-matter</h4><p>Front-matter 是文档最上方以 <code>---</code> 分隔的区域，用于指定文档一些的参数。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
+<table>
+    <tr> 
+        <td>参数</td> 
+        <td>值</td> 
+        <td>描述</td> 
+    </tr>
+    <tr>
+        <td>layout</td> 
+        <td>post、page、draft、false</td> 
+        <td>文章【默认值】、页面、草稿、不处理</td> 
+    </tr>
+         <td>title</td> 
+         <td>文本</td> 
+         <td>标题</td> 
+    <tr>
+        <td>date</td> 
+        <td>yyyy-MM-dd hh:mm:ss</td> 
+        <td>文件建立日期</td> 
+    </tr>
+        <td>update</td> 
+        <td>yyyy-MM-dd hh:mm:ss</td> 
+        <td>文件更新日期</td>  
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+
+
+
+       
+        
+        
+<pre><code>    &lt;td&gt;comments&lt;/td&gt; 
+    &lt;td&gt;tags&lt;/td&gt; 
+    &lt;td&gt;categories&lt;/td&gt; 
+    &lt;td&gt;permalink&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+   
+    
+    
+    
+    &lt;td&gt;true、false&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt; 
+    &lt;td&gt;url&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+    &lt;td&gt;X:/blog/themes/你的主题/_config.yml&lt;/td&gt; 
+    
+
+    
+    &lt;td&gt;开启文章评论功能，默认true&lt;/td&gt; 
+    &lt;td&gt;标签（只适用于post）&lt;/td&gt; 
+    &lt;td&gt;分类（只适用于post）&lt;/td&gt; 
+    &lt;td&gt;永久链接&lt;/td&gt;
+&lt;/tr&gt; 
+</code></pre>
+</table>
+
+<blockquote>
+<p>不要处理我的文章：将文章Front-Matter中的layout: false</p>
 </blockquote>
 <hr>
 <h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="配置文件的区分"><a href="#配置文件的区分" class="headerlink" title="配置文件的区分"></a>配置文件的区分</h3><h3 id="文档的Front-matter"><a href="#文档的Front-matter" class="headerlink" title="文档的Front-matter"></a>文档的Front-matter</h3><p>Front-matter 是文档最上方以<code>---</code>分隔的区域，用于指定文档一些的参数。</p>
