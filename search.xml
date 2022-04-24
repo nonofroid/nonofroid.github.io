@@ -1,45 +1,173 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一段视频</title>
-    <url>/%E7%94%9F%E6%B4%BB/20220423/</url>
-    <content><![CDATA[<p><video src='../20220423/video.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'></video></p>
+    <title>03 日记</title>
+    <url>/%E7%94%9F%E6%B4%BB/20220403/</url>
+    <content><![CDATA[<p>just a test.</p>
+<ul>
+<li><em>最后</em>：just a test.</li>
+</ul>
 ]]></content>
       <categories>
         <category>生活</category>
       </categories>
       <tags>
-        <tag>新冠病毒</tag>
-        <tag>疫情防控</tag>
+        <tag>短讯</tag>
       </tags>
   </entry>
   <entry>
-    <title>C++_Primer_Plus课后练习题集合</title>
-    <url>/%E5%AD%A6%E4%B9%A0/c-primer-plus-0/</url>
-    <content><![CDATA[<p>C++ Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
+    <title>01 我的第一篇博客</title>
+    <url>/%E7%94%9F%E6%B4%BB/01myfirstblog/</url>
+    <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
+<p>感谢以下公开的网络资源：<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a></p>
+</blockquote>
 <span id="more"></span>
-<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="chapter1-1"><a href="#chapter1-1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+<h1 id="这是我第一篇博文！"><a href="#这是我第一篇博文！" class="headerlink" title="这是我第一篇博文！"></a>这是我第一篇博文！</h1><h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>
+
+<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
       <categories>
-        <category>学习</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>C++语言</tag>
+        <tag>短讯</tag>
       </tags>
   </entry>
   <entry>
-    <title>一篇转载</title>
-    <url>/%E7%94%9F%E6%B4%BB/%E4%B8%80%E7%AF%87%E8%BD%AC%E8%BD%BD/</url>
-    <content><![CDATA[<blockquote>
-<p>原文来自知乎用户<a href="https://www.zhihu.com/people/qian-xie-ying-73">千叶</a>在<a href="https://www.zhihu.com/question/527848197/answer/2443528774">“如何看待“美国就是全球最大的人权赤字国”？以“反恐”之名夺去近百万条生命，谁才是世界和平的阻碍 ​？”</a>问题下的回答。非商业转载已经标明出处。</p>
+    <title>02 假期前的碎碎念</title>
+    <url>/%E7%94%9F%E6%B4%BB/2022040202/</url>
+    <content><![CDATA[<ol>
+<li>测试了三次的<a href="https://www.jungus.cn/">mbti人格类型测试</a>，依然是infj类。<blockquote>
+<p>不太过于相信所谓的mbti，否则会给自己添加一个枷锁/束缚。</p>
+</blockquote>
+</li>
+<li>持续摸索与建设博客.</li>
+<li>每日一问，何时回校?</li>
+</ol>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>短讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>04 假期日记</title>
+    <url>/%E7%94%9F%E6%B4%BB/20220405/</url>
+    <content><![CDATA[<div style="width:80%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/gallery1.jpg" class="" title="一个小村庄"></div>
+
+<blockquote>
+<p>昨日踏青出游的小村庄</p>
 </blockquote>
 <hr>
-<p>每隔一段时间，我们都能看到官方谴责美国“又挥舞人权大棒、打人权牌”，给中国施压，那么人权这个概念应该怎么理解？如果对比中国和美国关于人权的报告，可以看出，两个国家在什么是人权这个问题上的分歧是很大的。</p>
-<p>举个例子，在2018年中国向联合国提交的<a href="http://humanrights.cn/html/2018/8_1019/39920.html">《国家人权报告》</a>里，很大的篇幅都用来陈述中国的经济增长，比如列举了中国的国内生产总值，人均支配收入，脱贫人数，还列举了就业率、儿童入学率、犯罪率等等。在讲到言论以及新闻自由时，该报告列举了中国互联网普及率，有多少种报纸和期刊，广播电视覆盖率有多么高，等等。</p>
+<div style="width:30%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/album.jpg" class="" title="天气之子原声带专辑封面"></div>
+
+<p>最近重听了&lt;<a href="https://movie.douban.com/subject/30402296/">てんきのこ</a>&gt;的OST，记得这部电影当初上映时一直被人拿来跟《天气之子》比较。人言可畏，各种歪瓜裂枣的解读不堪入目。</p>
+<p>私以为这部电影的主题讨论度绝对化地超越了诚哥以往任何一部作品。从17年《你的名字》入坑，在补习了《言叶之庭》、《秒速五厘米》等他以前经典的纯爱动漫电影，你才会发现《天气之子》截然不同的珍贵之处，从社会议题角度来看甚至可以称得上是新海诚目前最佳作品。</p>
 <span id="more"></span>
-<p>这些数据或许是对的，但和人权这个概念没有直接的关系，不如说回避了人权的本质。人权的概念主要针对的是公民在言论、迁徙、出版、集会等方面不受政府的侵犯，更多地是针对公权力扩张而言的，不是说任何社会问题都叫人权问题，也不是说经济发达，生活条件更好，人权状况就必定更好，例如恩格斯就曾说过：“奴隶能够比无产者生活得好些，但无产者属于更高的社会发展阶段。”就是说在恩格斯那个年代，奴隶的生存条件是有可能比一个自由人更好的。有人考证，当年美国的奴隶主也不都是对奴隶为所欲为的，有些奴隶也是有奖金和休假的，然而奴隶并不被承认为一个人，一个市民，而只是主人的一份财产，奴隶之所以为奴隶，并不在于，或首先不在于他生活条件的恶劣，而在于他不被看作是具有独立意志，可以为自己说话的人。这里有一个文化上的巨大区别，西方人认为人权有根本性的价值，人权本身就是目的，是与生存权一样不可放弃的，甚至是高于生存的。中国人通常认为人权只有工具性的价值，像freedom of speech等等只有在有利于国家和经济发展的情况下才是值得追求的，比如中国古代的大臣经常劝皇帝要“广开言路”，这样才能江山永固，这就是一种工具性的价值，它本身不是目的，如果在生存和人权中选一个，那大部分人多半会毫不犹豫地选择前者。有人会说，如果我从主人那里独立出来，没有主人管的话自己饿死了怎么办？那只能说这是有可能的，相比被庇护，独立并不必然带来显而易见的好处，甚至带来更多的麻烦和不方便，但这也是你自己选择的。因此，尊重人权的国家并不一定在所有方面都更好，比如某些国家的快递员动不动就嫌工资低，工作环境差，不想干了，这时候雇主就会和代表谈判，最后妥协出一个双方都满意的标准，但这就会导致物流效率比较低，<strong>而另一些国家的劳动者被人为剥夺了提要求的权利，你不干有的是人干，这就会显得效率很高。</strong></p>
-<p>因此，拿某项经济指标很高来证明有人权，或是拿某项经济指标低来证明没人权，都是没搞明白本质。人权理论认为，一个社会尽管存在问题需要解决，但一旦诉诸公权力扩张那就应该慎之又慎，必须论证这是必要的，且必须选择侵犯最小的。人权理论中的比例原则就强调，为了保障人权，国家所采取的措施必须有助于达成目的，且所采取的措施必须是损害最小的（最小侵害原则），否则就可能是违宪的。<strong>什么意思呢？就是说你不能用高射炮打蚊子，不能为了提高钢产量，直接把铁锅铁器都拿去熔化了，不能为了治某个病，让别的病都没法治。</strong></p>
-<p>鉴于人权是一个西方词汇，在这方面和人比拼有天然的劣势，我认为以后中国可以用和谐、盛世、小康这些标准来给各个国家打分，这就有主场优势了，因为这些词都是中国特色的词汇，对这个词的解释权在自己手里，别人批评你人权，你还可以批评别人不够和谐，不符合我们对盛世的标准，让其他国家都争着证明自己是盛世，这才叫文化自信。</p>
+<p>“想尝试前往，那道光芒之中”高中一年级的夏天，<strong>受到父亲的家庭暴力</strong>因而离岛离家出走，来到东京的帆高，在东京饱受社会的毒打，遇见了少女阳菜。当两个年少的灵魂相遇时，一段属于青春年华的美好与真挚感情迸发了。在结局处，我完全理解帆高扳动手中的手枪，朝着天空的方向鸣响的用意——以全身心的力气<strong>对抗成人世界的种种所谓的非程序正义与</strong>；当救下阳菜牺牲了整个东京城市后，那些批判他们没有舍小家顾大家的集体注意观念的人，<strong>请问你凭什么要求两个饱受社会欺压与冷眼的少年少女放弃彼此来拯救大众？</strong>而那些把水淹东京的事故归因到男主女主的声音则更是荒谬可笑，影片的设定：东京自古就是汪洋一片，当自然灾害来临时不谴责政府疏散不利(此处应该@<a href="https://www.shanghai.gov.cn/">中华人民共和国上海市政府</a>)反而怪罪晴女？最重要的是，我从这部影片看到了超现实与现实的存在。我完全有理由相信新海诚接触过《苏菲的世界》，在《苏菲的世界》中，哲学家希望苏菲勇敢跳出舒适区、积极地质疑与思考，多想想“what, why, how”。影片中男女主就是超现实的阵营，他们有着初生牛犊不怕虎的想象力；报社大叔、警察等人则是现实阵营的代表，现实的骨感早就把他们的想象力与求知欲磨灭得粉碎，他们的眼里或许只有物质与享乐。当报社大叔看到男主奋不顾身也要与警察(公权力)对抗时，也许他也曾经也是个意气奋发的少年。当他帮助帆高撞开警察时，我的眼眶不禁湿润了。</p>
+<blockquote>
+<p>曾经我渴望控制生活中的一切，所以任何改变都会令我焦躁不安，任何惊喜对我而言都不过是麻烦，任何该做、计划要做却没做的事都令我自责。我希望生活像预演过无数遍的戏剧一样流畅的进行，我希望自己像木偶似的一个口令一个动作。</p>
+<p>可后来我明白了我拼死维持、自鸣得意的生活，不过是一根在激流里漂浮的稻草，明明无法控制一切，还以为是自己在掌握着方向。下坠的石头以为自由落体运动是遵循自己的意志，奋力向上爬的人们以为自己是命运的主宰。</p>
+</blockquote>
+<p>如何对抗世俗进行中对人的异化？生活需要找到明确的意义。警惕消费主义、物质主义与传统道德的枷锁，不陷于生活的鸡皮蒜毛芝麻般大的无聊的琐碎。自由地思考与获取知识，永远敢于发声与质疑。</p>
+<hr>
+<p>动物有的痛苦，人都存在。生老病死。</p>
+<p>但是与此同时，因为人类智力高，情感丰富，导致人比动物多了几种痛苦，爱别离，求不得，怨憎会，<br>以及后悔，焦虑，等等一系列不好的情绪</p>
+<p>而佛学，道家所给出的离苦得乐的解脱之法，也是类似于回归于这种动物的状态，回归自己的本心，把一些不必要的欲望，通通剔除。因为正是这些复杂的欲望造成了人比动物多的哪几种痛苦。</p>
+<p>生物都具备对抗自然的能力，都具备操控规律的能力，即能适应规律，亦能搅乱局势。如果自然不够宏伟，我想宇宙早就被毁灭无数次了。一切都只是混乱意识与物质规律的对抗产物罢了。我不知道地球外是否如此，但我在这个世界看到的就是如此。</p>
+<p>根性我认为指的应该是身体链接的紧密程度。正如美的定义我理解成频率的波动。我认为喜怒哀乐都是链接断裂的振幅所产生的。有些人会因为某些事情的发生从而与某些存在产生链接，进而产生得到满足以及喜悦。一个群体内的人内部自身的喜悦因素是不同的。书读的越多，得到的联系越多，因而能够得到的喜悦越少。书读的越多越容易心系天下，因为只有天下的事情才能让其得到联系的感受。联系又有深入与浅显的区别，例如我不懂西哲，我对西哲的理解是浅显的，所以我初识西哲的时候我的联系感最强烈。</p>
+<hr>
+<p><b>王小波。</b></p>
+<p>1978年考入中国人民大学，1980年王小波与李银河结婚，同年发表处女作《地久天长》。1984年赴美匹兹堡大学东亚研究中心求学，2年后获得硕士学位。在美留学期间，游历了美国各地，并利用1986年暑假游历了西欧诸国。1988年回国，先后在北京大学，中国人民大学任教。1992年9月辞去教职，做自由撰稿人。他的唯一一部电影剧本《东宫西宫》获阿根廷国际电影节最佳编剧奖，并且入围1997年戛纳国际电影节。1997年4月11日病逝于北京，年仅45岁。</p>
+<p>“在无趣的世界里，幸好还有王小波这样有趣的灵魂！”</p>
+<p>同时，他也是中国最早的一批程序员。</p>
+<hr>
+<p><strong>阅读《毛选》第一天之《中国社会各阶级分析》</strong><br>革命的首要问题是区分敌友，团结真正的朋友，攻击真正的敌人。</p>
+<p>毛主席对中国社会各阶级作了一个大概的刨析。阅读过程中我比较困惑的是关于阶级的定义。</p>
+<p>阶级是以其所占有的生产资料来划分,但学生界并无占有<a href="https://baike.baidu.com/item/%E7%94%9F%E4%BA%A7%E8%B5%84%E6%96%99">生产资料</a>，何来的小资产阶级之说呢？经过查询，我得知：划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
+<blockquote>
+<p>列宁告诉我们，阶级的标准是一个纯而不纯的“经济”标准。所谓阶级，就是这样一些大的集团，这些集团在历史上一定社会生产体系中所处的地位不同；对生产资料的关系（这种关系大部分是在法律上明文规定了的）不同；划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>短讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>今天9号,9张照片📸</title>
+    <url>/%E7%94%9F%E6%B4%BB/20220409/</url>
+    <content><![CDATA[<h1 id="背影"><a href="#背影" class="headerlink" title="背影"></a><p style="text-align:center;">背影</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0027.jpg" class="" title="背影"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:22，燕尾州公园，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="远观万佛塔"><a href="#远观万佛塔" class="headerlink" title="远观万佛塔"></a><p style="text-align:center;">远观万佛塔</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0030.jpg" class="" title="远观万佛塔"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:32，彩虹桥，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="孤寂的红绿灯"><a href="#孤寂的红绿灯" class="headerlink" title="孤寂的红绿灯"></a><p style="text-align:center;">孤寂的红绿灯</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0054.jpg" class="" title="孤寂的红绿灯"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月6日18:13，艾青公园，华人民共和国浙江省</div>
+<br>
+<span id="more"></span>
+
+<h1 id="光影"><a href="#光影" class="headerlink" title="光影"></a><p style="text-align:center;">光影</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0135.jpg" class="" title="光影"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月10日20:14，彩虹桥，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="我的高中母校"><a href="#我的高中母校" class="headerlink" title="我的高中母校"></a><p style="text-align:center;">我的高中母校</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0181.jpg" class="" title="我的高中母校"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月21日22:16，浙江金华第一中学，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="颐和园"><a href="#颐和园" class="headerlink" title="颐和园"></a><p style="text-align:center;">颐和园</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0285.jpg" class="" title="颐和园"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年9月21日10:13，颐和园，中华人民共和国北京市</div>
+<br>
+
+<h1 id="故宫"><a href="#故宫" class="headerlink" title="故宫"></a><p style="text-align:center;">故宫</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_1631.jpg" class="" title="故宫"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年1月14日11:35，故宫，中华人民共和国北京市</div>
+<br>
+
+<h1 id="寻探幽静"><a href="#寻探幽静" class="headerlink" title="寻探幽静"></a><p style="text-align:center;">寻探幽静</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_1830.jpg" class="" title="寻探幽静"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年3月12日12:18，花田小镇，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="我想变成天上的云"><a href="#我想变成天上的云" class="headerlink" title="我想变成天上的云"></a><p style="text-align:center;">我想变成天上的云</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_1842.jpg" class="" title="我想变成天上的云"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年4月5日17:27，家中，中华人民共和国浙江省</div>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个思考</title>
+    <url>/%E7%94%9F%E6%B4%BB/20220414/</url>
+    <content><![CDATA[<p>人究竟什么时候才可以获得彻底的解放。世俗的枷锁与人性的欲望不断捆绑着人类，人类什么时候才能一身轻松、真正自由地思考与生活？</p>
+<p>一直在被告诫努力学习、抓住机遇。我有狠下心牺牲与割舍的勇气，但我更害怕的是不确定的回报与未来。</p>
+<p>这种无意义的思考现在正在内耗着我。</p>
+<span id="more"></span>
+
+<p>成长是人必经的溃烂。虽然我不适应，但我还是得把成人世界一些游戏规则熟记于心；我不能人云亦云，但是我不得不妥协。或许本来就没有对错，会不会是我太过于偏执。</p>
+<p>原生家庭不至于贫困也谈不上大富大贵，而外省人的身份更让我始终有一丝距离与隔阂感，本地人所拥有的资源我只能有时暗自羡慕。幼时身材羸弱，能力一般，却养成了一个敏感的心性。很小的时候就能敏锐地捕捉到自己与他人的差距，能力上、家庭上…从而带来的自卑感成为我现在最想要克服的事物。强健的身体、渊博的学识、丰富的精神世界、可观的收入，是我现在最想要获得的四件东西。</p>
+<p>父母已经尽他们的能力为我创造很好的条件，即使他们从未严苛地要求我达到一些什么目标，但我清楚自己自愿背负着所谓完成阶层进一步向上跨越的使命与责任。在这个使命完成之前，任何无关的作为都会让我感到羞愧与自责。</p>
+<p>也许有时候人真的不如一只猫吧。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>短讯</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一段视频</title>
+    <url>/%E7%94%9F%E6%B4%BB/20220423/</url>
+    <content><![CDATA[<p><video src='../20220423/video.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'></video></p>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -68,6 +196,222 @@
       </categories>
       <tags>
         <tag>硬件</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C_Primer_Plus课后练习题集合</title>
+    <url>/%E5%AD%A6%E4%B9%A0/C-Primer-Plus/</url>
+    <content><![CDATA[<p>C Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
+<span id="more"></span>
+<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="chapter2"><a href="#chapter2" class="headerlink" title="chapter2"></a>chapter2</h1><ol>
+<li>2.12.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Jimmy Chen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy\nChen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy&quot;);</span><br><span class="line">    printf(&quot; Chen\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_1();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Jimmy Chen</span><br><span class="line">Jimmy</span><br><span class="line">Chen</span><br><span class="line">Jimmy Chen</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>2.12.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Name:nono\n&quot;);</span><br><span class="line">    printf(&quot;Addr:Zhejiang province, China\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_2();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Name:nono</span><br><span class="line">Addr:Zhejiang province, China</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>2.12.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int years_old = 0;</span><br><span class="line">    int live_days = 0;</span><br><span class="line">    printf(&quot;请输入您的年龄:&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;years_old);</span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line">    live_days = years_old * 356;</span><br><span class="line"></span><br><span class="line">    printf(&quot;转换为天数是:%d\n&quot;, live_days);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_3();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请输入您的年龄：20</span><br><span class="line">转换为天数是:7120</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>2.12.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void jolly(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void deny(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Which nobody can deny!\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    jolly();</span><br><span class="line">    deny();</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_4();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">Which nobody can deny!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>2.12.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>2.12.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    int toes = 10;</span><br><span class="line">    int double_toes = toes * 2;</span><br><span class="line">    int square_toes = toes * toes;</span><br><span class="line"></span><br><span class="line">    printf(&quot;the value of toes is : %d\n&quot;, toes);</span><br><span class="line">    printf(&quot;the value of double toes is : %d\n&quot;, double_toes);</span><br><span class="line">    printf(&quot;the value of square toes is : %d\n&quot;, square_toes);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_6();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of toes is : 10</span><br><span class="line">the value of double toes is : 20</span><br><span class="line">the value of square toes is : 100</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>2.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void smile(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Smile!&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    smile(); smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_7();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Smile!Smile!Smile!</span><br><span class="line">Smile!Smile!</span><br><span class="line">Smile!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>2.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void two(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;two\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;starting now:\n&quot;);</span><br><span class="line">    printf(&quot;one\n&quot;);</span><br><span class="line">    two();</span><br><span class="line">    printf(&quot;three\n&quot;);</span><br><span class="line">    printf(&quot;done!\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_8();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">starting now:</span><br><span class="line">one</span><br><span class="line">two</span><br><span class="line">three</span><br><span class="line">done!</span><br></pre></td></tr></table></figure>
+<h1 id="chapter3"><a href="#chapter3" class="headerlink" title="chapter3"></a>chapter3</h1></li>
+<li>3.11.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p2_(void)</span><br><span class="line">&#123;</span><br><span class="line">    int ch = 0;</span><br><span class="line">    printf(&quot;please input the value of ascii:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;ch);</span><br><span class="line"> </span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of ascii : %d\n&quot;, ch);</span><br><span class="line">    printf(&quot;the character : %c\n&quot;, (char)ch);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p2_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>3.11.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p3_(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;\a&quot;);</span><br><span class="line">    printf(&quot;Startled by the sudden sound, sally shouted,\n\&quot;By the Great Pumpkin, what was that!\&quot;&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p3_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>C语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C++_Primer_Plus课后练习题集合</title>
+    <url>/%E5%AD%A6%E4%B9%A0/c-primer-plus-0/</url>
+    <content><![CDATA[<p>C++ Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
+<span id="more"></span>
+<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="chapter1-1"><a href="#chapter1-1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>C++语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo学习记录篇</title>
+    <url>/%E5%AD%A6%E4%B9%A0/hexo_study/</url>
+    <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
+<blockquote>
+<p>老婆镇楼</p>
+</blockquote>
+<h1 id="Hexo-amp-amp-Next的基本操作"><a href="#Hexo-amp-amp-Next的基本操作" class="headerlink" title="Hexo&amp;&amp;Next的基本操作"></a>Hexo&amp;&amp;Next的基本操作</h1><span id="more"></span>
+<h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="http://theme-next.iissnan.com/">NexT主题中文官网</a></p>
+<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><blockquote>
+<p>可参考的视频教程<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a></p>
+</blockquote>
+<h3 id="（一）使用Hexo-Pages搭建个人博客"><a href="#（一）使用Hexo-Pages搭建个人博客" class="headerlink" title="（一）使用Hexo+Pages搭建个人博客"></a>（一）使用Hexo+Pages搭建个人博客</h3><p>本篇主要介绍使用Hexo+Pages搭建个人博客的流程。使用 Hexo 博客框架搭建，解析markdown文章，生成静态页面，将页面托管到 github / coding 服务器上。github / coding 都有pages 服务，提供免费的静态网页托管和演示服务。</p>
+<p>搭建步骤：</p>
+<ol>
+<li>安装git，nodejs</li>
+<li>安装hexo</li>
+<li>本地搭建站点（线下访问）</li>
+<li>部署到github/coding（线上访问）</li>
+<li>站点配置</li>
+</ol>
+<h4 id="1-安装hexo"><a href="#1-安装hexo" class="headerlink" title="1. 安装hexo"></a>1. 安装hexo</h4><p>1.安装Git。安装完毕后，在任意文件夹下鼠标右击即可打开<code>Git Bash</code>，输入命令，进行Git操作。<br><code>$ git version  # 查看Git版本，验证是否安装成功</code><br>2.安装Node.js。Hexo是基于nodejs的博客框架，而且nodejs还集成了npm包管理工具。<br><code>$ node -v    # 查看nodejs版本，验证是否安装成功</code><br>3.安装hexo：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo --save   # 安装hexo</span><br><span class="line">$ npm install hexo-cli -g   # 安装hexo命令行模式</span><br><span class="line">$ hexo -v  # 查看hexo版本，验证是否安装成功</span><br></pre></td></tr></table></figure>
+<h4 id="2-hexo建站"><a href="#2-hexo建站" class="headerlink" title="2. hexo建站"></a>2. hexo建站</h4><p>1.新建一个blog文件夹，打开blog文件夹，<code>Git Bash</code>。<br>2.hexo初始化：<code>hexo init</code><br>3.安装依赖包：<code>npm install</code><br>4.初始化完成，在blog下就会生成以下文件目录：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy      # 执行hexo deploy命令部署到GitHub上的内容目录</span><br><span class="line">├── public       # 执行hexo generate命令，输出的静态网页内容目录</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 创建的文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git忽略文件信息</span><br><span class="line">├── _config.yml  # 站点配置文件，大多数的设置都在这里</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br></pre></td></tr></table></figure>
+<p>next主题的目录</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">├── .github            #git信息</span><br><span class="line">├── languages          #多语言</span><br><span class="line">|   ├── default.yml    #默认语言</span><br><span class="line">|   └── zh-Hans.yml      #简体中文</span><br><span class="line">|   └── zh-tw.yml      #繁体中文</span><br><span class="line">├── layout             #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制</span><br><span class="line">|   ├── _custom        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── _header.swig    #头部样式</span><br><span class="line">|   |   ├── _sidebar.swig   #侧边栏样式</span><br><span class="line">|   ├── _macro        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── post.swig    #文章模板</span><br><span class="line">|   |   ├── reward.swig    #打赏模板</span><br><span class="line">|   |   ├── sidebar.swig   #侧边栏模板</span><br><span class="line">|   ├── _partial       #局部的布局</span><br><span class="line">|   |   ├── head       #头部模板</span><br><span class="line">|   |   ├── search     #搜索模板</span><br><span class="line">|   |   ├── share      #分享模板</span><br><span class="line">|   ├── _script        #局部的布局</span><br><span class="line">|   ├── _third-party   #第三方模板</span><br><span class="line">|   ├── _layout.swig   #主页面模板</span><br><span class="line">|   ├── index.swig     #主页面模板</span><br><span class="line">|   ├── page           #页面模板</span><br><span class="line">|   └── tag.swig       #tag模板</span><br><span class="line">├── scripts            #script源码</span><br><span class="line">|   ├── tags           #tags的script源码</span><br><span class="line">|   ├── marge.js       #页面模板</span><br><span class="line">├── source             #源码</span><br><span class="line">|   ├── css            #css源码</span><br><span class="line">|   |   ├── _common    #*.styl基础css</span><br><span class="line">|   |   ├── _custom    #*.styl局部css</span><br><span class="line">|   |   └── _mixins    #mixins的css</span><br><span class="line">|   ├── fonts          #字体</span><br><span class="line">|   ├── images         #图片</span><br><span class="line">|   ├── uploads        #添加的文件</span><br><span class="line">|   └── js             #javascript源代码</span><br><span class="line">├── _config.yml        #主题配置文件</span><br><span class="line">└── README.md          #用GitHub的都知道</span><br></pre></td></tr></table></figure>
+<p>5.hexo本地生成静态页面</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署页面</span><br><span class="line">$ hexo server    # 启用hexo本地服务器；</span><br><span class="line"># 注：Hexo 3.0 把服务器独立成了个别模块，您必须先安装 hexo-server 才能使用。</span><br><span class="line"># hexo-server安装命令：npm install hexo-server --save</span><br></pre></td></tr></table></figure>
+<p>在cmd控制台命令中，跳转到你当前的文件目录下，输入<code>hexo s</code>，cmd会给出你的本地host网站，然后打开浏览器在地址栏输入<a href="http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。">http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。</a></p>
+<h3 id="3-配置github-coding-pages"><a href="#3-配置github-coding-pages" class="headerlink" title="3.配置github/coding pages"></a>3.配置github/coding pages</h3><p>github和coding可以双线配置，也可以选择其中一个配置。推荐双线配置，coding用于国内访问速度较快，github用于境外访问。</p>
+<p>1.登录github，New repository：<code>yourname.github.io</code>。其中<code>yourname</code>是你的github用户名，github强制后缀为<code>github.io</code>才能启用github pages服务。</p>
+<p>2.登录coding，新建仓库：<code>yourname.coding.me</code>，打开静态pages服务。其中<code>yourname</code>是你的coding用户名，coding不强制后缀为<code>coding.me</code>。</p>
+<p>3.Git Bash配置git用户信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &quot;YourName&quot;</span><br><span class="line">$ git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
+<p>4.配置网络传输协议<br>在管理Git项目时，一般使用ssh或https作为安全传输协议，任选其一即可。<br>(1) SSH协议<br>①SSH秘钥：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;  # 生成rsa秘钥</span><br><span class="line">$ cd ~/.ssh         # 进入虚拟目录ssh文件中</span><br><span class="line">$ cat id_rsa.pub    # 显示id_rsa.pub文件内容</span><br></pre></td></tr></table></figure>
+<p>②复制秘钥至github/coding-&gt;用户setting-&gt;SSH keys，New SSH Key；</p>
+<p>③验证是否添加成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh -T git@github.com  # 验证github是否添加成功</span><br><span class="line">$ ssh -T git@coding.net  # 验证coding是否添加成功</span><br></pre></td></tr></table></figure>
+<p>④编辑站点配置文件<code>_config.yml</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: </span><br><span class="line">		github: git@github.com:yourname/yourname.github.io.git </span><br><span class="line">		coding: git@git.coding.net:yourname/yourname.coding.me.git </span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
+<p>(2) HTTPS协议</p>
+<p>①直接编辑站点配置文件<code>_config.yml</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: </span><br><span class="line">		github: https://github.com/liziczh/liziczh.github.io.git</span><br><span class="line">    	coding: https://git.coding.net/liziczh/liziczh.coding.me.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
+<p>②验证github/coding用户名和密码。</p>
+<h3 id="4-部署到github-coding"><a href="#4-部署到github-coding" class="headerlink" title="4. 部署到github/coding"></a>4. 部署到github/coding</h3><p>1.安装Git部署插件：<br><code>$ npm install hexo-deployer-git --save</code><br>2.部署：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署到github/coding；</span><br></pre></td></tr></table></figure>
+<p>3.部署完毕，站点文件目录如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy_git  # （新增）hexo deploy 生成的git部署文件</span><br><span class="line">├── public       # （新增）hexo generate 生成的静态文件</span><br><span class="line">├── db.json      # （新增）hexo generate 生成的数据</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git时需忽略文件</span><br><span class="line">├── _config.yml  # 站点配置文件</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>站点搭建完毕，打开浏览器在地址栏输入以下链接可随时访问自己的博客了。<br>github pages：<a href="http://yourname.github.io/">http://yourname.github.io</a><br>coding pages：<a href="http://yourname.coding.me/">http://yourname.coding.me</a></p>
+<h3 id="5-站点配置"><a href="#5-站点配置" class="headerlink" title="5. 站点配置"></a>5. 站点配置</h3><p>区分配置文件：</p>
+<table>
+    <tr> 
+        <td>配置文件</td> 
+        <td>路径</td> 
+    </tr> 
+    <tr> 
+        <td>路径站点配置文件</td> 
+        <td>X:/blog/_config.yml</td> 
+    </tr> 
+    <tr> 
+        <td>主题配置文件</td> 
+        <td>X:/blog/themes/你的主题/_config.yml</td> 
+    </tr> 
+</table>
+
+<p>打开站点配置文件<code>blog/_config.yml</code>，自行发挥，配置完毕，重新部署 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>；</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line"># 注意：yaml语言使用缩进表示层级关系。</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br><span class="line"></span><br><span class="line"># 网站</span><br><span class="line">title: #网站标题</span><br><span class="line">subtitle: #网站副标题</span><br><span class="line">description: #网站描述</span><br><span class="line">keywords: #关键字</span><br><span class="line">author: #你的名字,文档作者</span><br><span class="line">language: #网站的语言</span><br><span class="line">timezone: #时区，中国：Asia/Shanghai</span><br><span class="line"></span><br><span class="line"># 网址</span><br><span class="line">url: https://yoursite.com  #你的网址url</span><br><span class="line">root: /</span><br><span class="line">permalink: :year/:month/:day/:title.html #文章永久链接</span><br><span class="line">permalink_defaults:</span><br><span class="line"># 主题</span><br><span class="line">theme: landscape  # 主题文件的名称</span><br><span class="line"># 部署</span><br><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: </span><br><span class="line">    github: git@github.com:yourname/yourname.github.io.git  </span><br><span class="line">    coding: git@git.coding.net:yourname/yourname.coding.me.git </span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
+</blockquote>
+<hr>
+<h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="配置文件的区分"><a href="#配置文件的区分" class="headerlink" title="配置文件的区分"></a>配置文件的区分</h3><h3 id="文档的Front-matter"><a href="#文档的Front-matter" class="headerlink" title="文档的Front-matter"></a>文档的Front-matter</h3><p>Front-matter 是文档最上方以<code>---</code>分隔的区域，用于指定文档一些的参数。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
+<table>
+    <tr> 
+        <td>参数</td> 
+        <td>值</td> 
+        <td>描述</td> 
+    </tr> 
+    <tr> 
+        <td>layout</td> 
+        <td>post page draft false</td> 
+        <td>文章【默认值】页面 草稿 不处理</td> 
+    </tr> 
+    <tr> 
+        <td>title</td> 
+        <td>文本</td> 
+        <td>标题</td> 
+    </tr> 
+</table>
+
+<h3 id="给Next主题添加背景图片"><a href="#给Next主题添加背景图片" class="headerlink" title="给Next主题添加背景图片"></a>给Next主题添加背景图片</h3><p>打开<code>themes\next\source\css\main.styl</code>文件，插入如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@media screen and (min-width:1200px) &#123;</span><br><span class="line">    body &#123;</span><br><span class="line">    background-image:url(/images/background.jpg);</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed;</span><br><span class="line">    background-position:50% 50%; </span><br><span class="line">    &#125;</span><br><span class="line">    #footer a &#123;</span><br><span class="line">        color:#eee;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;!--图片放置到前一级目录的images文件夹下--&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="给Next主题添加Gitter聊天功能"><a href="#给Next主题添加Gitter聊天功能" class="headerlink" title="给Next主题添加Gitter聊天功能"></a>给Next主题添加Gitter聊天功能</h3><p><strong>Gitter 的介绍和功能特色</strong></p>
+<ul>
+<li>免费无限制：用户可以自由免费地创建、搜素、加入社区、聊天室。支持单独私人聊天、markdown 编辑、媒体文件发送等功能。</li>
+<li>简单便捷：支持 Github 项目库关联创建社区，一键即可加入聊天讨论，仅在一个浏览器页面中即可查看和订阅多个聊天室。</li>
+<li>对外开放：所有社区支持对外分享并可被搜索到，一个链接即可访问参与聊天讨论，用户头像显示其 GitHub 账号的相关信息。<br>Gitter 注册:[<a href="https://gitter.im]">https://gitter.im]</a></li>
+</ul>
+<p>1.在<code>themes\next\layout\_third-party\quicklink.njk</code>文件里添加如下的集成代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--使用 Gitter 实现一个 IM 即时通讯聊天室功能--&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  ((window.gitter = &#123;&#125;).chat = &#123;&#125;).options = &#123;</span><br><span class="line">    room: &#x27;enjoytoshare/community&#x27;</span><br><span class="line">  &#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;script src=&quot;https://sidecar.gitter.im/dist/sidecar.v1.js&quot; async defer&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+
+<hr>
+<h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
+<li>无法插入图片。<code>20220405解决</code><blockquote>
+<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，即可顺利加载图片。</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><p><code>20220405</code>：</p>
+<ol>
+<li><a href="http://xring.info/2018/hexo-pic-size.html">实现修改图片大小</a></li>
+<li><a href="https://blog.csdn.net/dpdpdppp/article/details/102387532">实现hexo(Next主题)修改文字大小</a></li>
+<li><a href="https://blog.csdn.net/qq_39720594/article/details/105401774">播放音乐(细节有待优化)</a></li>
+<li>增加打赏、搜索、友链和评论功能。</li>
+</ol>
+<ul>
+<li>博客初步维护完毕(20220405 23:35)。</li>
+</ul>
+<p><code>20220414</code></p>
+<ol>
+<li>增加“夜间模式”。</li>
+<li>增加“语言切换功能”。</li>
+<li>删除“播放音乐”功能。</li>
+<li>更换主题样式与站点图标。</li>
+<li>更换子栏目内容。</li>
+</ol>
+<p><code>20220423</code><br>1.增加博客背景<br>2.增加Gitter在线交流功能</p>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>Hexo学习</tag>
       </tags>
   </entry>
   <entry>
@@ -305,336 +649,25 @@
       </tags>
   </entry>
   <entry>
-    <title>一个思考</title>
-    <url>/%E7%94%9F%E6%B4%BB/20220414/</url>
-    <content><![CDATA[<p>人究竟什么时候才可以获得彻底的解放。世俗的枷锁与人性的欲望不断捆绑着人类，人类什么时候才能一身轻松、真正自由地思考与生活？</p>
-<p>一直在被告诫努力学习、抓住机遇。我有狠下心牺牲与割舍的勇气，但我更害怕的是不确定的回报与未来。</p>
-<p>这种无意义的思考现在正在内耗着我。</p>
+    <title>一篇转载</title>
+    <url>/%E7%94%9F%E6%B4%BB/%E4%B8%80%E7%AF%87%E8%BD%AC%E8%BD%BD/</url>
+    <content><![CDATA[<blockquote>
+<p>原文来自知乎用户<a href="https://www.zhihu.com/people/qian-xie-ying-73">千叶</a>在<a href="https://www.zhihu.com/question/527848197/answer/2443528774">“如何看待“美国就是全球最大的人权赤字国”？以“反恐”之名夺去近百万条生命，谁才是世界和平的阻碍 ​？”</a>问题下的回答。非商业转载已经标明出处。</p>
+</blockquote>
+<hr>
+<p>每隔一段时间，我们都能看到官方谴责美国“又挥舞人权大棒、打人权牌”，给中国施压，那么人权这个概念应该怎么理解？如果对比中国和美国关于人权的报告，可以看出，两个国家在什么是人权这个问题上的分歧是很大的。</p>
+<p>举个例子，在2018年中国向联合国提交的<a href="http://humanrights.cn/html/2018/8_1019/39920.html">《国家人权报告》</a>里，很大的篇幅都用来陈述中国的经济增长，比如列举了中国的国内生产总值，人均支配收入，脱贫人数，还列举了就业率、儿童入学率、犯罪率等等。在讲到言论以及新闻自由时，该报告列举了中国互联网普及率，有多少种报纸和期刊，广播电视覆盖率有多么高，等等。</p>
 <span id="more"></span>
-
-<p>成长是人必经的溃烂。虽然我不适应，但我还是得把成人世界一些游戏规则熟记于心；我不能人云亦云，但是我不得不妥协。或许本来就没有对错，会不会是我太过于偏执。</p>
-<p>原生家庭不至于贫困也谈不上大富大贵，而外省人的身份更让我始终有一丝距离与隔阂感，本地人所拥有的资源我只能有时暗自羡慕。幼时身材羸弱，能力一般，却养成了一个敏感的心性。很小的时候就能敏锐地捕捉到自己与他人的差距，能力上、家庭上…从而带来的自卑感成为我现在最想要克服的事物。强健的身体、渊博的学识、丰富的精神世界、可观的收入，是我现在最想要获得的四件东西。</p>
-<p>父母已经尽他们的能力为我创造很好的条件，即使他们从未严苛地要求我达到一些什么目标，但我清楚自己自愿背负着所谓完成阶层进一步向上跨越的使命与责任。在这个使命完成之前，任何无关的作为都会让我感到羞愧与自责。</p>
-<p>也许有时候人真的不如一只猫吧。</p>
+<p>这些数据或许是对的，但和人权这个概念没有直接的关系，不如说回避了人权的本质。人权的概念主要针对的是公民在言论、迁徙、出版、集会等方面不受政府的侵犯，更多地是针对公权力扩张而言的，不是说任何社会问题都叫人权问题，也不是说经济发达，生活条件更好，人权状况就必定更好，例如恩格斯就曾说过：“奴隶能够比无产者生活得好些，但无产者属于更高的社会发展阶段。”就是说在恩格斯那个年代，奴隶的生存条件是有可能比一个自由人更好的。有人考证，当年美国的奴隶主也不都是对奴隶为所欲为的，有些奴隶也是有奖金和休假的，然而奴隶并不被承认为一个人，一个市民，而只是主人的一份财产，奴隶之所以为奴隶，并不在于，或首先不在于他生活条件的恶劣，而在于他不被看作是具有独立意志，可以为自己说话的人。这里有一个文化上的巨大区别，西方人认为人权有根本性的价值，人权本身就是目的，是与生存权一样不可放弃的，甚至是高于生存的。中国人通常认为人权只有工具性的价值，像freedom of speech等等只有在有利于国家和经济发展的情况下才是值得追求的，比如中国古代的大臣经常劝皇帝要“广开言路”，这样才能江山永固，这就是一种工具性的价值，它本身不是目的，如果在生存和人权中选一个，那大部分人多半会毫不犹豫地选择前者。有人会说，如果我从主人那里独立出来，没有主人管的话自己饿死了怎么办？那只能说这是有可能的，相比被庇护，独立并不必然带来显而易见的好处，甚至带来更多的麻烦和不方便，但这也是你自己选择的。因此，尊重人权的国家并不一定在所有方面都更好，比如某些国家的快递员动不动就嫌工资低，工作环境差，不想干了，这时候雇主就会和代表谈判，最后妥协出一个双方都满意的标准，但这就会导致物流效率比较低，<strong>而另一些国家的劳动者被人为剥夺了提要求的权利，你不干有的是人干，这就会显得效率很高。</strong></p>
+<p>因此，拿某项经济指标很高来证明有人权，或是拿某项经济指标低来证明没人权，都是没搞明白本质。人权理论认为，一个社会尽管存在问题需要解决，但一旦诉诸公权力扩张那就应该慎之又慎，必须论证这是必要的，且必须选择侵犯最小的。人权理论中的比例原则就强调，为了保障人权，国家所采取的措施必须有助于达成目的，且所采取的措施必须是损害最小的（最小侵害原则），否则就可能是违宪的。<strong>什么意思呢？就是说你不能用高射炮打蚊子，不能为了提高钢产量，直接把铁锅铁器都拿去熔化了，不能为了治某个病，让别的病都没法治。</strong></p>
+<p>鉴于人权是一个西方词汇，在这方面和人比拼有天然的劣势，我认为以后中国可以用和谐、盛世、小康这些标准来给各个国家打分，这就有主场优势了，因为这些词都是中国特色的词汇，对这个词的解释权在自己手里，别人批评你人权，你还可以批评别人不够和谐，不符合我们对盛世的标准，让其他国家都争着证明自己是盛世，这才叫文化自信。</p>
 ]]></content>
       <categories>
         <category>生活</category>
       </categories>
       <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>今天9号,9张照片📸</title>
-    <url>/%E7%94%9F%E6%B4%BB/20220409/</url>
-    <content><![CDATA[<h1 id="背影"><a href="#背影" class="headerlink" title="背影"></a><p style="text-align:center;">背影</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0027.jpg" class="" title="背影"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:22，燕尾州公园，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="远观万佛塔"><a href="#远观万佛塔" class="headerlink" title="远观万佛塔"></a><p style="text-align:center;">远观万佛塔</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0030.jpg" class="" title="远观万佛塔"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:32，彩虹桥，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="孤寂的红绿灯"><a href="#孤寂的红绿灯" class="headerlink" title="孤寂的红绿灯"></a><p style="text-align:center;">孤寂的红绿灯</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0054.jpg" class="" title="孤寂的红绿灯"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月6日18:13，艾青公园，华人民共和国浙江省</div>
-<br>
-<span id="more"></span>
-
-<h1 id="光影"><a href="#光影" class="headerlink" title="光影"></a><p style="text-align:center;">光影</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0135.jpg" class="" title="光影"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月10日20:14，彩虹桥，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="我的高中母校"><a href="#我的高中母校" class="headerlink" title="我的高中母校"></a><p style="text-align:center;">我的高中母校</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0181.jpg" class="" title="我的高中母校"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月21日22:16，浙江金华第一中学，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="颐和园"><a href="#颐和园" class="headerlink" title="颐和园"></a><p style="text-align:center;">颐和园</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_0285.jpg" class="" title="颐和园"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年9月21日10:13，颐和园，中华人民共和国北京市</div>
-<br>
-
-<h1 id="故宫"><a href="#故宫" class="headerlink" title="故宫"></a><p style="text-align:center;">故宫</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_1631.jpg" class="" title="故宫"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年1月14日11:35，故宫，中华人民共和国北京市</div>
-<br>
-
-<h1 id="寻探幽静"><a href="#寻探幽静" class="headerlink" title="寻探幽静"></a><p style="text-align:center;">寻探幽静</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_1830.jpg" class="" title="寻探幽静"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年3月12日12:18，花田小镇，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="我想变成天上的云"><a href="#我想变成天上的云" class="headerlink" title="我想变成天上的云"></a><p style="text-align:center;">我想变成天上的云</p></h1><div style="width:80%;margin:auto;"><img src="/%E7%94%9F%E6%B4%BB/20220409/IMG_1842.jpg" class="" title="我想变成天上的云"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年4月5日17:27，家中，中华人民共和国浙江省</div>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C_Primer_Plus课后练习题集合</title>
-    <url>/%E5%AD%A6%E4%B9%A0/C-Primer-Plus/</url>
-    <content><![CDATA[<p>C Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
-<span id="more"></span>
-<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="chapter2"><a href="#chapter2" class="headerlink" title="chapter2"></a>chapter2</h1><ol>
-<li>2.12.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Jimmy Chen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy\nChen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy&quot;);</span><br><span class="line">    printf(&quot; Chen\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_1();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Jimmy Chen</span><br><span class="line">Jimmy</span><br><span class="line">Chen</span><br><span class="line">Jimmy Chen</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="2">
-<li>2.12.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Name:nono\n&quot;);</span><br><span class="line">    printf(&quot;Addr:Zhejiang province, China\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_2();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Name:nono</span><br><span class="line">Addr:Zhejiang province, China</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="3">
-<li>2.12.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int years_old = 0;</span><br><span class="line">    int live_days = 0;</span><br><span class="line">    printf(&quot;请输入您的年龄:&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;years_old);</span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line">    live_days = years_old * 356;</span><br><span class="line"></span><br><span class="line">    printf(&quot;转换为天数是:%d\n&quot;, live_days);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_3();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请输入您的年龄：20</span><br><span class="line">转换为天数是:7120</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="4">
-<li>2.12.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void jolly(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void deny(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Which nobody can deny!\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    jolly();</span><br><span class="line">    deny();</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_4();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">Which nobody can deny!</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="5">
-<li>2.12.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="6">
-<li>2.12.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    int toes = 10;</span><br><span class="line">    int double_toes = toes * 2;</span><br><span class="line">    int square_toes = toes * toes;</span><br><span class="line"></span><br><span class="line">    printf(&quot;the value of toes is : %d\n&quot;, toes);</span><br><span class="line">    printf(&quot;the value of double toes is : %d\n&quot;, double_toes);</span><br><span class="line">    printf(&quot;the value of square toes is : %d\n&quot;, square_toes);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_6();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of toes is : 10</span><br><span class="line">the value of double toes is : 20</span><br><span class="line">the value of square toes is : 100</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="7">
-<li>2.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void smile(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Smile!&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    smile(); smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_7();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Smile!Smile!Smile!</span><br><span class="line">Smile!Smile!</span><br><span class="line">Smile!</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="8">
-<li>2.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void two(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;two\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;starting now:\n&quot;);</span><br><span class="line">    printf(&quot;one\n&quot;);</span><br><span class="line">    two();</span><br><span class="line">    printf(&quot;three\n&quot;);</span><br><span class="line">    printf(&quot;done!\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_8();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">starting now:</span><br><span class="line">one</span><br><span class="line">two</span><br><span class="line">three</span><br><span class="line">done!</span><br></pre></td></tr></table></figure>
-<h1 id="chapter3"><a href="#chapter3" class="headerlink" title="chapter3"></a>chapter3</h1></li>
-<li>3.11.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p2_(void)</span><br><span class="line">&#123;</span><br><span class="line">    int ch = 0;</span><br><span class="line">    printf(&quot;please input the value of ascii:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;ch);</span><br><span class="line"> </span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of ascii : %d\n&quot;, ch);</span><br><span class="line">    printf(&quot;the character : %c\n&quot;, (char)ch);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p2_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="2">
-<li>3.11.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p3_(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;\a&quot;);</span><br><span class="line">    printf(&quot;Startled by the sudden sound, sally shouted,\n\&quot;By the Great Pumpkin, what was that!\&quot;&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p3_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>C语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>04 假期日记</title>
-    <url>/%E7%94%9F%E6%B4%BB/20220405/</url>
-    <content><![CDATA[<div style="width:80%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/gallery1.jpg" class="" title="一个小村庄"></div>
-
-<blockquote>
-<p>昨日踏青出游的小村庄</p>
-</blockquote>
-<hr>
-<div style="width:30%;margin:auto"><img src="/%E7%94%9F%E6%B4%BB/20220405/album.jpg" class="" title="天气之子原声带专辑封面"></div>
-
-<p>最近重听了&lt;<a href="https://movie.douban.com/subject/30402296/">てんきのこ</a>&gt;的OST，记得这部电影当初上映时一直被人拿来跟《天气之子》比较。人言可畏，各种歪瓜裂枣的解读不堪入目。</p>
-<p>私以为这部电影的主题讨论度绝对化地超越了诚哥以往任何一部作品。从17年《你的名字》入坑，在补习了《言叶之庭》、《秒速五厘米》等他以前经典的纯爱动漫电影，你才会发现《天气之子》截然不同的珍贵之处，从社会议题角度来看甚至可以称得上是新海诚目前最佳作品。</p>
-<span id="more"></span>
-<p>“想尝试前往，那道光芒之中”高中一年级的夏天，<strong>受到父亲的家庭暴力</strong>因而离岛离家出走，来到东京的帆高，在东京饱受社会的毒打，遇见了少女阳菜。当两个年少的灵魂相遇时，一段属于青春年华的美好与真挚感情迸发了。在结局处，我完全理解帆高扳动手中的手枪，朝着天空的方向鸣响的用意——以全身心的力气<strong>对抗成人世界的种种所谓的非程序正义与</strong>；当救下阳菜牺牲了整个东京城市后，那些批判他们没有舍小家顾大家的集体注意观念的人，<strong>请问你凭什么要求两个饱受社会欺压与冷眼的少年少女放弃彼此来拯救大众？</strong>而那些把水淹东京的事故归因到男主女主的声音则更是荒谬可笑，影片的设定：东京自古就是汪洋一片，当自然灾害来临时不谴责政府疏散不利(此处应该@<a href="https://www.shanghai.gov.cn/">中华人民共和国上海市政府</a>)反而怪罪晴女？最重要的是，我从这部影片看到了超现实与现实的存在。我完全有理由相信新海诚接触过《苏菲的世界》，在《苏菲的世界》中，哲学家希望苏菲勇敢跳出舒适区、积极地质疑与思考，多想想“what, why, how”。影片中男女主就是超现实的阵营，他们有着初生牛犊不怕虎的想象力；报社大叔、警察等人则是现实阵营的代表，现实的骨感早就把他们的想象力与求知欲磨灭得粉碎，他们的眼里或许只有物质与享乐。当报社大叔看到男主奋不顾身也要与警察(公权力)对抗时，也许他也曾经也是个意气奋发的少年。当他帮助帆高撞开警察时，我的眼眶不禁湿润了。</p>
-<blockquote>
-<p>曾经我渴望控制生活中的一切，所以任何改变都会令我焦躁不安，任何惊喜对我而言都不过是麻烦，任何该做、计划要做却没做的事都令我自责。我希望生活像预演过无数遍的戏剧一样流畅的进行，我希望自己像木偶似的一个口令一个动作。</p>
-<p>可后来我明白了我拼死维持、自鸣得意的生活，不过是一根在激流里漂浮的稻草，明明无法控制一切，还以为是自己在掌握着方向。下坠的石头以为自由落体运动是遵循自己的意志，奋力向上爬的人们以为自己是命运的主宰。</p>
-</blockquote>
-<p>如何对抗世俗进行中对人的异化？生活需要找到明确的意义。警惕消费主义、物质主义与传统道德的枷锁，不陷于生活的鸡皮蒜毛芝麻般大的无聊的琐碎。自由地思考与获取知识，永远敢于发声与质疑。</p>
-<hr>
-<p>动物有的痛苦，人都存在。生老病死。</p>
-<p>但是与此同时，因为人类智力高，情感丰富，导致人比动物多了几种痛苦，爱别离，求不得，怨憎会，<br>以及后悔，焦虑，等等一系列不好的情绪</p>
-<p>而佛学，道家所给出的离苦得乐的解脱之法，也是类似于回归于这种动物的状态，回归自己的本心，把一些不必要的欲望，通通剔除。因为正是这些复杂的欲望造成了人比动物多的哪几种痛苦。</p>
-<p>生物都具备对抗自然的能力，都具备操控规律的能力，即能适应规律，亦能搅乱局势。如果自然不够宏伟，我想宇宙早就被毁灭无数次了。一切都只是混乱意识与物质规律的对抗产物罢了。我不知道地球外是否如此，但我在这个世界看到的就是如此。</p>
-<p>根性我认为指的应该是身体链接的紧密程度。正如美的定义我理解成频率的波动。我认为喜怒哀乐都是链接断裂的振幅所产生的。有些人会因为某些事情的发生从而与某些存在产生链接，进而产生得到满足以及喜悦。一个群体内的人内部自身的喜悦因素是不同的。书读的越多，得到的联系越多，因而能够得到的喜悦越少。书读的越多越容易心系天下，因为只有天下的事情才能让其得到联系的感受。联系又有深入与浅显的区别，例如我不懂西哲，我对西哲的理解是浅显的，所以我初识西哲的时候我的联系感最强烈。</p>
-<hr>
-<p><b>王小波。</b></p>
-<p>1978年考入中国人民大学，1980年王小波与李银河结婚，同年发表处女作《地久天长》。1984年赴美匹兹堡大学东亚研究中心求学，2年后获得硕士学位。在美留学期间，游历了美国各地，并利用1986年暑假游历了西欧诸国。1988年回国，先后在北京大学，中国人民大学任教。1992年9月辞去教职，做自由撰稿人。他的唯一一部电影剧本《东宫西宫》获阿根廷国际电影节最佳编剧奖，并且入围1997年戛纳国际电影节。1997年4月11日病逝于北京，年仅45岁。</p>
-<p>“在无趣的世界里，幸好还有王小波这样有趣的灵魂！”</p>
-<p>同时，他也是中国最早的一批程序员。</p>
-<hr>
-<p><strong>阅读《毛选》第一天之《中国社会各阶级分析》</strong><br>革命的首要问题是区分敌友，团结真正的朋友，攻击真正的敌人。</p>
-<p>毛主席对中国社会各阶级作了一个大概的刨析。阅读过程中我比较困惑的是关于阶级的定义。</p>
-<p>阶级是以其所占有的生产资料来划分,但学生界并无占有<a href="https://baike.baidu.com/item/%E7%94%9F%E4%BA%A7%E8%B5%84%E6%96%99">生产资料</a>，何来的小资产阶级之说呢？经过查询，我得知：划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
-<blockquote>
-<p>列宁告诉我们，阶级的标准是一个纯而不纯的“经济”标准。所谓阶级，就是这样一些大的集团，这些集团在历史上一定社会生产体系中所处的地位不同；对生产资料的关系（这种关系大部分是在法律上明文规定了的）不同；划分阶级的最重要标准是生产资料占有关系，其次是在生产过程中的作用和地位，再次是分配方式。</p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>03 日记</title>
-    <url>/%E7%94%9F%E6%B4%BB/20220403/</url>
-    <content><![CDATA[<p>just a test.</p>
-<ul>
-<li><em>最后</em>：just a test.</li>
-</ul>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>02 假期前的碎碎念</title>
-    <url>/%E7%94%9F%E6%B4%BB/2022040202/</url>
-    <content><![CDATA[<ol>
-<li>测试了三次的<a href="https://www.jungus.cn/">mbti人格类型测试</a>，依然是infj类。<blockquote>
-<p>不太过于相信所谓的mbti，否则会给自己添加一个枷锁/束缚。</p>
-</blockquote>
-</li>
-<li>持续摸索与建设博客.</li>
-<li>每日一问，何时回校?</li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo学习记录篇</title>
-    <url>/%E5%AD%A6%E4%B9%A0/hexo_study/</url>
-    <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
-<blockquote>
-<p>老婆镇楼</p>
-</blockquote>
-<h1 id="Hexo-amp-amp-Next的基本操作"><a href="#Hexo-amp-amp-Next的基本操作" class="headerlink" title="Hexo&amp;&amp;Next的基本操作"></a>Hexo&amp;&amp;Next的基本操作</h1><span id="more"></span>
-<h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="http://theme-next.iissnan.com/">NexT主题中文官网</a></p>
-<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><blockquote>
-<p>可参考的视频教程<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a></p>
-</blockquote>
-<h3 id="（一）使用Hexo-Pages搭建个人博客"><a href="#（一）使用Hexo-Pages搭建个人博客" class="headerlink" title="（一）使用Hexo+Pages搭建个人博客"></a>（一）使用Hexo+Pages搭建个人博客</h3><p>本篇主要介绍使用Hexo+Pages搭建个人博客的流程。使用 Hexo 博客框架搭建，解析markdown文章，生成静态页面，将页面托管到 github / coding 服务器上。github / coding 都有pages 服务，提供免费的静态网页托管和演示服务。</p>
-<p>搭建步骤：</p>
-<ol>
-<li>安装git，nodejs</li>
-<li>安装hexo</li>
-<li>本地搭建站点（线下访问）</li>
-<li>部署到github/coding（线上访问）</li>
-<li>站点配置</li>
-</ol>
-<h4 id="1-安装hexo"><a href="#1-安装hexo" class="headerlink" title="1. 安装hexo"></a>1. 安装hexo</h4><p>1.安装Git。安装完毕后，在任意文件夹下鼠标右击即可打开<code>Git Bash</code>，输入命令，进行Git操作。<br><code>$ git version  # 查看Git版本，验证是否安装成功</code><br>2.安装Node.js。Hexo是基于nodejs的博客框架，而且nodejs还集成了npm包管理工具。<br><code>$ node -v    # 查看nodejs版本，验证是否安装成功</code><br>3.安装hexo：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo --save   # 安装hexo</span><br><span class="line">$ npm install hexo-cli -g   # 安装hexo命令行模式</span><br><span class="line">$ hexo -v  # 查看hexo版本，验证是否安装成功</span><br></pre></td></tr></table></figure>
-<p>4.</p>
-<hr>
-<h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="配置文件的区分"><a href="#配置文件的区分" class="headerlink" title="配置文件的区分"></a>配置文件的区分</h3><table>
-    <tr> 
-        <td>配置文件</td> 
-        <td>路径</td> 
-    </tr> 
-    <tr> 
-        <td>路径站点配置文件</td> 
-        <td>X:/blog/_config.yml</td> 
-    </tr> 
-    <tr> 
-        <td>主题配置文件</td> 
-        <td>X:/blog/themes/你的主题/_config.yml</td> 
-    </tr> 
-</table>
-
-<h3 id="文档的Front-matter"><a href="#文档的Front-matter" class="headerlink" title="文档的Front-matter"></a>文档的Front-matter</h3><p>Front-matter 是文档最上方以<code>---</code>分隔的区域，用于指定文档一些的参数。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
-<table>
-    <tr> 
-        <td>参数</td> 
-        <td>值</td> 
-        <td>描述</td> 
-    </tr> 
-    <tr> 
-        <td>layout</td> 
-        <td>post page draft false</td> 
-        <td>文章【默认值】页面 草稿 不处理</td> 
-    </tr> 
-    <tr> 
-        <td>title</td> 
-        <td>文本</td> 
-        <td>标题</td> 
-    </tr> 
-</table>
-
-<h3 id="给Next主题添加背景图片"><a href="#给Next主题添加背景图片" class="headerlink" title="给Next主题添加背景图片"></a>给Next主题添加背景图片</h3><p>打开<code>themes\next\source\css\main.styl</code>文件，插入如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@media screen and (min-width:1200px) &#123;</span><br><span class="line">    body &#123;</span><br><span class="line">    background-image:url(/images/background.jpg);</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed;</span><br><span class="line">    background-position:50% 50%; </span><br><span class="line">    &#125;</span><br><span class="line">    #footer a &#123;</span><br><span class="line">        color:#eee;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;!--图片放置到前一级目录的images文件夹下--&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="给Next主题添加Gitter聊天功能"><a href="#给Next主题添加Gitter聊天功能" class="headerlink" title="给Next主题添加Gitter聊天功能"></a>给Next主题添加Gitter聊天功能</h3><p><strong>Gitter 的介绍和功能特色</strong></p>
-<ul>
-<li>免费无限制：用户可以自由免费地创建、搜素、加入社区、聊天室。支持单独私人聊天、markdown 编辑、媒体文件发送等功能。</li>
-<li>简单便捷：支持 Github 项目库关联创建社区，一键即可加入聊天讨论，仅在一个浏览器页面中即可查看和订阅多个聊天室。</li>
-<li>对外开放：所有社区支持对外分享并可被搜索到，一个链接即可访问参与聊天讨论，用户头像显示其 GitHub 账号的相关信息。<br>Gitter 注册:[<a href="https://gitter.im]">https://gitter.im]</a></li>
-</ul>
-<p>1.在<code>themes\next\layout\_third-party\quicklink.njk</code>文件里添加如下的集成代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--使用 Gitter 实现一个 IM 即时通讯聊天室功能--&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  ((window.gitter = &#123;&#125;).chat = &#123;&#125;).options = &#123;</span><br><span class="line">    room: &#x27;enjoytoshare/community&#x27;</span><br><span class="line">  &#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;script src=&quot;https://sidecar.gitter.im/dist/sidecar.v1.js&quot; async defer&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-
-<hr>
-<h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
-<li>无法插入图片。<code>20220405解决</code><blockquote>
-<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，即可顺利加载图片。</p>
-</blockquote>
-</li>
-</ol>
-<hr>
-<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><p><code>20220405</code>：</p>
-<ol>
-<li><a href="http://xring.info/2018/hexo-pic-size.html">实现修改图片大小</a></li>
-<li><a href="https://blog.csdn.net/dpdpdppp/article/details/102387532">实现hexo(Next主题)修改文字大小</a></li>
-<li><a href="https://blog.csdn.net/qq_39720594/article/details/105401774">播放音乐(细节有待优化)</a></li>
-<li>增加打赏、搜索、友链和评论功能。</li>
-</ol>
-<ul>
-<li>博客初步维护完毕(20220405 23:35)。</li>
-</ul>
-<p><code>20220414</code></p>
-<ol>
-<li>增加“夜间模式”。</li>
-<li>增加“语言切换功能”。</li>
-<li>删除“播放音乐”功能。</li>
-<li>更换主题样式与站点图标。</li>
-<li>更换子栏目内容。</li>
-</ol>
-<p><code>20220423</code><br>1.增加博客背景<br>2.增加Gitter在线交流功能</p>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>Hexo学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>01 我的第一篇博客</title>
-    <url>/%E7%94%9F%E6%B4%BB/01myfirstblog/</url>
-    <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
-<p>感谢以下公开的网络资源：<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a></p>
-</blockquote>
-<span id="more"></span>
-<h1 id="这是我第一篇博文！"><a href="#这是我第一篇博文！" class="headerlink" title="这是我第一篇博文！"></a>这是我第一篇博文！</h1><h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>
-
-<h1 id="再见。"><a href="#再见。" class="headerlink" title="再见。"></a>再见。</h1>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
+        <tag>新冠病毒</tag>
+        <tag>疫情防控</tag>
       </tags>
   </entry>
 </search>
