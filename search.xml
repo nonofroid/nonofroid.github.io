@@ -3,7 +3,11 @@
   <entry>
     <title>一段视频</title>
     <url>/undefined/%E7%94%9F%E6%B4%BB/%E4%B8%80%E6%AE%B5%E8%A7%86%E9%A2%91/</url>
-    <content><![CDATA[<p><video src='../20220423/video.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'></video></p>
+    <content><![CDATA[<p><video src='../20220423/soundofapril.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'></video></p>
+<blockquote>
+<p>==四月之声==</p>
+</blockquote>
+<p>致2022年4月的春天。</p>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -583,7 +587,7 @@
 <p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
 </blockquote>
 <p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
-<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#109;">&#x67;&#x69;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#x75;&#98;&#x2e;&#x63;&#111;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#46;&#x63;&#111;&#100;&#105;&#110;&#x67;&#x2e;&#110;&#x65;&#116;">&#x67;&#x69;&#x74;&#64;&#x67;&#105;&#116;&#46;&#x63;&#111;&#100;&#105;&#110;&#x67;&#x2e;&#110;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
+<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#104;&#x75;&#98;&#x2e;&#x63;&#111;&#109;">&#103;&#x69;&#116;&#64;&#103;&#105;&#x74;&#104;&#x75;&#98;&#x2e;&#x63;&#111;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#x69;&#x74;&#64;&#x67;&#x69;&#x74;&#x2e;&#x63;&#111;&#x64;&#x69;&#x6e;&#103;&#46;&#x6e;&#x65;&#116;">&#x67;&#x69;&#x74;&#64;&#x67;&#x69;&#x74;&#x2e;&#x63;&#111;&#x64;&#x69;&#x6e;&#103;&#46;&#x6e;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
 <blockquote>
 <p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
 </blockquote>
