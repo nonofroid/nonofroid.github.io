@@ -409,7 +409,7 @@
 <p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
 </blockquote>
 <p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
-<p><strong>网址</strong><br>url: <a target="_blank" rel="noopener" href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#109;">&#x67;&#x69;&#116;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#99;&#111;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#103;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#46;&#x63;&#111;&#x64;&#105;&#x6e;&#103;&#x2e;&#110;&#x65;&#116;">&#103;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#46;&#x63;&#111;&#x64;&#105;&#x6e;&#103;&#x2e;&#110;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
+<p><strong>网址</strong><br>url: <a target="_blank" rel="noopener" href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#111;&#x6d;">&#x67;&#105;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#111;&#x6d;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#46;&#x63;&#111;&#x64;&#x69;&#x6e;&#x67;&#x2e;&#110;&#x65;&#116;">&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#46;&#x63;&#111;&#x64;&#x69;&#x6e;&#x67;&#x2e;&#110;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
 <blockquote>
 <p>详细配置请参考<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
 </blockquote>
@@ -639,15 +639,15 @@
 
       <div class="tabs tabs-comment">
         <ul class="nav-tabs">
-            <li class="tab"><a href="#comment-livere">livere</a></li>
             <li class="tab"><a href="#comment-gitalk">gitalk</a></li>
+            <li class="tab"><a href="#comment-livere">livere</a></li>
         </ul>
         <div class="tab-content">
-            <div class="tab-pane livere" id="comment-livere">
-              <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NTk2OC8zMjQzMQ=="></div>
-            </div>
             <div class="tab-pane gitalk" id="comment-gitalk">
               <div class="comments gitalk-container"></div>
+            </div>
+            <div class="tab-pane livere" id="comment-livere">
+              <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NTk2OC8zMjQzMQ=="></div>
             </div>
         </div>
       </div>
@@ -671,13 +671,13 @@
     <span class="post-meta-item-icon">
       <i class="fa fa-chart-line"></i>
     </span>
-    <span title="站点总字数">27k</span>
+    <span title="站点总字数">30k</span>
   </span>
   <span class="post-meta-item">
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">25 分钟</span>
+    <span title="站点阅读时长">27 分钟</span>
   </span>
 </div>
 <div class="busuanzi-count">
@@ -753,11 +753,11 @@ const darkmode = new Darkmode(options);
 window.darkmode = darkmode;
 darkmode.showWidget();
 </script>
-<script src="/js/third-party/comments/livere.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
 
 <script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":null,"repo":null,"client_id":null,"client_secret":null,"admin_user":null,"distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"1e0841a9223ca46211487ec52ae40cf2"}</script>
 <script src="/js/third-party/comments/gitalk.js"></script>
+<script src="/js/third-party/comments/livere.js"></script>
 
 </body>
 </html>
