@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>一段视频</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/%E4%B8%80%E6%AE%B5%E8%A7%86%E9%A2%91/</url>
-    <content><![CDATA[<p><video src='../20220423/soundofapril.mp4' type='video/mp4' controls='controls'  width='100%' height='100%'></video></p>
-<blockquote>
-<p>==四月之声==</p>
+    <title>防疫为什么总是一刀切？？(转载)</title>
+    <url>/undefined/%E7%94%9F%E6%B4%BB/%E9%98%B2%E7%96%AB%E4%B8%BA%E4%BB%80%E4%B9%88%E6%80%BB%E6%98%AF%E4%B8%80%E5%88%80%E5%88%87%EF%BC%9F%EF%BC%9F-%E8%BD%AC%E8%BD%BD/</url>
+    <content><![CDATA[<blockquote>
+<p>本文转载自微信公众号“唐一水”。</p>
 </blockquote>
-<p>致2022年4月的春天。</p>
+<p>没人能逃脱防疫一刀切。你可能是四十多天没洗澡的封控大学生，也可能是四十多个星期没营业的困难小商户，还可能是要求上交钥匙被反锁在家中「硬隔离」的普通市民——就因为一例阳性，你的所在市开始「全域静态管理」。</p>
+<p>封控堵路、封校常态化、一例即封城、线下娱乐场所全体歇业、罔顾消防安全暴力隔离……</p>
+<p>疫情三年，「拒绝一刀切」的口号在官媒嘴中从未停下，但各地方该拒的拒，该切的切。</p>
+<p>不用捡起脑袋去规划防疫力度，不用撑起眼皮去看黄码绿码，一个切字诀，既保了抗疫的荣华和功劳，又免了抗疫的风险和辛苦。</p>
+<p>切了有没有用不重要，重要的是切这个动作，我都贯彻到底了，出事总不算我的责任了吧？我都层层加码了，真有问题那我也没办法啊。</p>
+<p>何况当下还有上海做榜样，连一刀切最后一点舆论阻力都不复存在。各地一刀一刀切的越发爽快，切慢了反而要被骂被喷，被质疑「是不是想搞成上海那样」。</p>
+<span id="more"></span>
+<p>毕竟大部分人只能理解具象性死亡，理解不了抽象性死亡。某人因某病死亡很好理解，而《宏观经济学》说失业率每上升 1%，就会死掉 4 万人，这个死亡逻辑则显得抽象难懂。那些因经济下滑死于疾病或自杀的人，狡猾的媒体只会报道他们的疾病和自杀。</p>
+<p>可笑的是，因为疫情一刀切收入抽象性减少的人，可能还会在网上叫好某些地方的铁腕隔离。他们愚蠢到理解不了这些，但他们的社会声量，却偏偏能够组成当下的吊诡。</p>
+<p>一刀切的本质就是责任转嫁，把自己的抗疫风险，转嫁为普通居民的生活成本和工作负累，扯一面疫情为大的旗帜，便能完成对自己的正义性论证，和对居民的立场性堵嘴。</p>
+<p>媒体的谴责永远不痛不痒，需要担负的责任依旧没有改变，利益点在哪儿，行为的出发点就在哪儿，从来是这个道理。</p>
+<p>从「恶意返乡」到「恶意求生」，只要没有实质的责任捆绑或绩效减损，面对宽泛的政策解读范围，和某些强硬的基层执行人员，普通居民似乎只有被一刀切的份儿。</p>
+<p>因为这片草地是公共的，于是所有牧民都只顾自己尽情放牧，反正荒漠了是大家一块辛苦，公地悲剧就这样一次次，在各地方的一刀切中重演。</p>
+<p>基层的亲和力，官方的公信力，全国的经济大局，大学生被一刀切走的青春，消费餐饮电影人员被一刀切走的收入，「硬隔离」居民被一刀切走的权利——</p>
+<p>一切本不应该的付出和消耗，都以公地悲剧的方式被各地方推卸给了全社会。</p>
+<p>就像索维尔所说：「当错误的代价由别人承担时，犯错是容易的，坚持错误也是容易的。」</p>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -632,7 +646,7 @@
 <p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
 </blockquote>
 <p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
-<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#105;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#111;&#x6d;">&#x67;&#105;&#116;&#x40;&#103;&#x69;&#x74;&#x68;&#117;&#98;&#x2e;&#99;&#111;&#x6d;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#46;&#x63;&#111;&#x64;&#x69;&#x6e;&#x67;&#x2e;&#110;&#x65;&#116;">&#103;&#105;&#x74;&#64;&#103;&#x69;&#x74;&#46;&#x63;&#111;&#x64;&#x69;&#x6e;&#x67;&#x2e;&#110;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
+<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#105;&#x74;&#64;&#x67;&#105;&#116;&#104;&#x75;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#x2e;&#99;&#111;&#100;&#x69;&#110;&#103;&#46;&#x6e;&#101;&#116;">&#x67;&#105;&#x74;&#64;&#x67;&#x69;&#116;&#x2e;&#99;&#111;&#100;&#x69;&#110;&#103;&#46;&#x6e;&#101;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
 <blockquote>
 <p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
 </blockquote>
