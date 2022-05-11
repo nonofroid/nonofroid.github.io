@@ -53,7 +53,7 @@
     <title>一篇转载</title>
     <url>/undefined/%E7%94%9F%E6%B4%BB/%E4%B8%80%E7%AF%87%E8%BD%AC%E8%BD%BD/</url>
     <content><![CDATA[<blockquote>
-<p>原文来自知乎用户<a href="https://www.zhihu.com/people/qian-xie-ying-73">千叶</a>在<a href="https://www.zhihu.com/question/527848197/answer/2443528774">“如何看待“美国就是全球最大的人权赤字国”？以“反恐”之名夺去近百万条生命，谁才是世界和平的阻碍 ​？”</a>问题下的回答。非商业转载已经标明出处。</p>
+<p>原文来自知乎用户<a href="https://www.zhihu.com/people/qian-xie-ying-73">千叶</a>在<a href="https://www.zhihu.com/question/527848197/answer/2443528774">“如何看待“美国就是全球最大的人权赤字国”？以“反恐”之名夺去近百万条生命，谁才是世界和平的阻碍 ​？”</a>问题下的回答。非商业转载已经标明出处。<br>不代表本人立场</p>
 </blockquote>
 <hr>
 <p>每隔一段时间，我们都能看到官方谴责美国“又挥舞人权大棒、打人权牌”，给中国施压，那么人权这个概念应该怎么理解？如果对比中国和美国关于人权的报告，可以看出，两个国家在什么是人权这个问题上的分歧是很大的。</p>
@@ -67,8 +67,7 @@
         <category>生活</category>
       </categories>
       <tags>
-        <tag>新冠病毒</tag>
-        <tag>疫情防控</tag>
+        <tag>政治学</tag>
       </tags>
   </entry>
   <entry>
@@ -93,8 +92,8 @@
       </tags>
   </entry>
   <entry>
-    <title>Markdown语法学习入门</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/</url>
+    <title>Markdown语法学习</title>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</url>
     <content><![CDATA[<h1 id="Markdown-Typora教程"><a href="#Markdown-Typora教程" class="headerlink" title="Markdown/Typora教程"></a>Markdown/Typora教程</h1><blockquote>
 <p>文章参考：菜鸟驿站、少数派；文章整理与编辑：nono</p>
 </blockquote>
@@ -132,14 +131,14 @@
 <hr>
 <h2 id="测试实例"><a href="#测试实例" class="headerlink" title="测试实例"></a>测试实例</h2><p>Mardown 编写 Hello World! 语法：<code># Hello World!</code></p>
 <p>将该代码格式粘贴到 Typora 效果如下：</p>
-<div style="width:80%;margin:auto"><img src="/undefined/%E5%AD%A6%E4%B9%A0/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/md1.gif" class="" title="测试实例"></div>
+<div style="width:80%;margin:auto"><img src="/undefined/%E5%AD%A6%E4%B9%A0/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/md1.gif" class="" title="测试实例"></div>
 
 <h1 id="Markdown-标题"><a href="#Markdown-标题" class="headerlink" title="Markdown 标题"></a>Markdown 标题</h1><p>Markdown 标题有两种格式。</p>
 <h2 id="1、使用-和-标记一级和二级标题"><a href="#1、使用-和-标记一级和二级标题" class="headerlink" title="1、使用 = 和 - 标记一级和二级标题"></a>1、使用 = 和 - 标记一级和二级标题</h2><p>= 和 - 标记语法格式如下：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section">我展示的是一级标题</span></span><br><span class="line"><span class="section">=================</span></span><br><span class="line"></span><br><span class="line"><span class="section">我展示的是二级标题</span></span><br><span class="line"><span class="section">-----------------</span></span><br></pre></td></tr></table></figure>
 
 <p>显示效果如下图：</p>
-<div style="width:80%;margin:auto"><img src="/undefined/%E5%AD%A6%E4%B9%A0/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0%E5%85%A5%E9%97%A8/Untitled.png" class="" title="标题实例"></div>
+<div style="width:80%;margin:auto"><img src="/undefined/%E5%AD%A6%E4%B9%A0/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/Untitled.png" class="" title="标题实例"></div>
 
 <h2 id="使用-号标记"><a href="#使用-号标记" class="headerlink" title="使用 # 号标记"></a><strong>使用 # 号标记</strong></h2><p>使用 <strong><code>#</code></strong> 号可表示 1-6 级标题，一级标题对应一个 <strong><code>#</code></strong> 号，二级标题对应两个 <strong><code>#</code></strong> 号，以此类推。</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
@@ -327,62 +326,42 @@
       </tags>
   </entry>
   <entry>
-    <title>一个思考</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/%E4%B8%80%E4%B8%AA%E6%80%9D%E8%80%83/</url>
-    <content><![CDATA[<p>人究竟什么时候才可以获得彻底的解放。世俗的枷锁与人性的欲望不断捆绑着人类，人类什么时候才能一身轻松、真正自由地思考与生活？</p>
-<p>一直在被告诫努力学习、抓住机遇。我有狠下心牺牲与割舍的勇气，但我更害怕的是不确定的回报与未来。</p>
-<p>这种无意义的思考现在正在内耗着我。</p>
-<span id="more"></span>
-
-<p>成长是人必经的溃烂。虽然我不适应，但我还是得把成人世界一些游戏规则熟记于心；我不能人云亦云，但是我不得不妥协。或许本来就没有对错，会不会是我太过于偏执。</p>
-<p>原生家庭不至于贫困也谈不上大富大贵，而外省人的身份更让我始终有一丝距离与隔阂感，本地人所拥有的资源我只能有时暗自羡慕。幼时身材羸弱，能力一般，却养成了一个敏感的心性。很小的时候就能敏锐地捕捉到自己与他人的差距，能力上、家庭上…从而带来的自卑感成为我现在最想要克服的事物。强健的身体、渊博的学识、丰富的精神世界、可观的收入，是我现在最想要获得的四件东西。</p>
-<p>父母已经尽他们的能力为我创造很好的条件，即使他们从未严苛地要求我达到一些什么目标，但我清楚自己自愿背负着所谓完成阶层进一步向上跨越的使命与责任。在这个使命完成之前，任何无关的作为都会让我感到羞愧与自责。</p>
-<p>也许有时候人真的不如一只猫吧。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>今天9号,9张照片📸</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/</url>
-    <content><![CDATA[<h1 id="背影"><a href="#背影" class="headerlink" title="背影"></a><p style="text-align:center;">背影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_0027.jpg" class="" title="背影"></div>
+    <title>9号9张照片</title>
+    <url>/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/</url>
+    <content><![CDATA[<h1 id="背影"><a href="#背影" class="headerlink" title="背影"></a><p style="text-align:center;">背影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0027.jpg" class="" title="背影"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:22，燕尾州公园，中华人民共和国浙江省</div>
 <br>
 
-<h1 id="远观万佛塔"><a href="#远观万佛塔" class="headerlink" title="远观万佛塔"></a><p style="text-align:center;">远观万佛塔</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_0030.jpg" class="" title="远观万佛塔"></div>
+<h1 id="远观万佛塔"><a href="#远观万佛塔" class="headerlink" title="远观万佛塔"></a><p style="text-align:center;">远观万佛塔</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0030.jpg" class="" title="远观万佛塔"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:32，彩虹桥，中华人民共和国浙江省</div>
 <br>
 
-<h1 id="孤寂的红绿灯"><a href="#孤寂的红绿灯" class="headerlink" title="孤寂的红绿灯"></a><p style="text-align:center;">孤寂的红绿灯</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_0054.jpg" class="" title="孤寂的红绿灯"></div>
+<h1 id="孤寂的红绿灯"><a href="#孤寂的红绿灯" class="headerlink" title="孤寂的红绿灯"></a><p style="text-align:center;">孤寂的红绿灯</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0054.jpg" class="" title="孤寂的红绿灯"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月6日18:13，艾青公园，华人民共和国浙江省</div>
 <br>
 <span id="more"></span>
 
-<h1 id="光影"><a href="#光影" class="headerlink" title="光影"></a><p style="text-align:center;">光影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_0135.jpg" class="" title="光影"></div>
+<h1 id="光影"><a href="#光影" class="headerlink" title="光影"></a><p style="text-align:center;">光影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0135.jpg" class="" title="光影"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月10日20:14，彩虹桥，中华人民共和国浙江省</div>
 <br>
 
-<h1 id="我的高中母校"><a href="#我的高中母校" class="headerlink" title="我的高中母校"></a><p style="text-align:center;">我的高中母校</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_0181.jpg" class="" title="我的高中母校"></div>
+<h1 id="我的高中母校"><a href="#我的高中母校" class="headerlink" title="我的高中母校"></a><p style="text-align:center;">我的高中母校</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0181.jpg" class="" title="我的高中母校"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月21日22:16，浙江金华第一中学，中华人民共和国浙江省</div>
 <br>
 
-<h1 id="颐和园"><a href="#颐和园" class="headerlink" title="颐和园"></a><p style="text-align:center;">颐和园</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_0285.jpg" class="" title="颐和园"></div>
+<h1 id="颐和园"><a href="#颐和园" class="headerlink" title="颐和园"></a><p style="text-align:center;">颐和园</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0285.jpg" class="" title="颐和园"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年9月21日10:13，颐和园，中华人民共和国北京市</div>
 <br>
 
-<h1 id="故宫"><a href="#故宫" class="headerlink" title="故宫"></a><p style="text-align:center;">故宫</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_1631.jpg" class="" title="故宫"></div>
+<h1 id="故宫"><a href="#故宫" class="headerlink" title="故宫"></a><p style="text-align:center;">故宫</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1631.jpg" class="" title="故宫"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年1月14日11:35，故宫，中华人民共和国北京市</div>
 <br>
 
-<h1 id="寻探幽静"><a href="#寻探幽静" class="headerlink" title="寻探幽静"></a><p style="text-align:center;">寻探幽静</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_1830.jpg" class="" title="寻探幽静"></div>
+<h1 id="寻探幽静"><a href="#寻探幽静" class="headerlink" title="寻探幽静"></a><p style="text-align:center;">寻探幽静</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1830.jpg" class="" title="寻探幽静"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年3月12日12:18，花田小镇，中华人民共和国浙江省</div>
 <br>
 
-<h1 id="我想变成天上的云"><a href="#我想变成天上的云" class="headerlink" title="我想变成天上的云"></a><p style="text-align:center;">我想变成天上的云</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E4%BB%8A%E5%A4%A99%E5%8F%B7-9%E5%BC%A0%E7%85%A7%E7%89%87%F0%9F%93%B8/IMG_1842.jpg" class="" title="我想变成天上的云"></div>
+<h1 id="我想变成天上的云"><a href="#我想变成天上的云" class="headerlink" title="我想变成天上的云"></a><p style="text-align:center;">我想变成天上的云</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%8F%B79%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1842.jpg" class="" title="我想变成天上的云"></div>
 <div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年4月5日17:27，家中，中华人民共和国浙江省</div>]]></content>
       <categories>
         <category>生活</category>
@@ -484,12 +463,51 @@
 </ol>
 <hr>
 <ol start="7">
-<li>2.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
 </ol>
 <hr>
 <ol start="8">
-<li>2.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="chapter-5"><a href="#chapter-5" class="headerlink" title="chapter 5"></a>chapter 5</h1><ol>
+<li>5.11.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define SECONDS_PER_MINUTE (60)</span><br><span class="line">void p5_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    float hours = 0;</span><br><span class="line">    int minutes = 0;</span><br><span class="line">    int seconds = 0;</span><br><span class="line">    printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line"> </span><br><span class="line">    while (minutes &gt; 0)</span><br><span class="line">    &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        hours = (float)minutes / SECONDS_PER_MINUTE;</span><br><span class="line">        seconds = minutes * SECONDS_PER_MINUTE;</span><br><span class="line">        printf(&quot;%d minute = %f hours or %d seconds\n&quot;, minutes, hours, seconds);</span><br><span class="line">        printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">        scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_1();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the number of minutes(&lt;= 0 to quit):60</span><br><span class="line">60 minute = 1.000000 hours or 3600 seconds</span><br><span class="line">please input the number of minutes(&lt;= 0 to quit):</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>5.11.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">void p5_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    int input_num = 0;</span><br><span class="line">    printf(&quot;please enter an integer:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;input_num);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the ten integers after %d are:&quot;, input_num);</span><br><span class="line">    for (int i = 0; i &lt;= 10; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        printf(&quot;%d &quot;, (input_num + i));</span><br><span class="line">    &#125;</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_2();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please enter an integer:5</span><br><span class="line">the ten integers after 5 are:5 6 7 8 9 10 11 12 13 14 15</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>5.11.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const int DAY_PER_WEEK = 7;</span><br><span class="line">void p5_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int days = 0;</span><br><span class="line">    int weeks = 0;</span><br><span class="line">    int remain_day = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;please input the number of day:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;days);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    weeks = days / DAY_PER_WEEK;</span><br><span class="line">    remain_day = days % DAY_PER_WEEK;</span><br><span class="line">    printf(&quot;%d days are %d weeks, %d days\n&quot;, days, weeks, remain_day);</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_3();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the number of day:30</span><br><span class="line">30 days are 4 weeks, 2 days</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>5.11.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const float CM_PER_INCH = 2.54f;</span><br><span class="line">const float CM_PER_FEET = 30.38f;</span><br><span class="line">void p5_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_cm = 0;</span><br><span class="line">    int height_feet = 0;</span><br><span class="line">    float height_inch = 0.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Enter a height in centimeters: &quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line"> </span><br><span class="line">    while (height_cm &gt; 0) &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        height_feet = (int)(height_cm / CM_PER_FEET);</span><br><span class="line">        height_inch = (height_cm - CM_PER_FEET * height_feet) / CM_PER_INCH;</span><br><span class="line">        printf(&quot;%.1f cm = %d feet, %.1f inches\n&quot;, height_cm, height_feet, height_inch);</span><br><span class="line"> </span><br><span class="line">        printf(&quot;Enter a height in centimeters(&lt;=0 to quit): &quot;);</span><br><span class="line">        scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a height in centimeters: 30</span><br><span class="line">30.0 cm = 0 feet, 11.8 inches</span><br><span class="line">Enter a height in centimeters(&lt;=0 to quit):</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>4.8.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>4.8.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">void p4_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40] = &#123; 0 &#125;;</span><br><span class="line">    char last_name[40] = &#123; 0 &#125;;</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_length = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_length = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%*d %*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%-*d %-*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_6();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:ken</span><br><span class="line">What&#x27;s your last name:froid</span><br><span class="line">ken froid</span><br><span class="line">  3     5</span><br><span class="line">ken froid</span><br><span class="line">3   5</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
 </ol>
 ]]></content>
@@ -501,15 +519,15 @@
       </tags>
   </entry>
   <entry>
-    <title>04 假期日记</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/04-%E5%81%87%E6%9C%9F%E6%97%A5%E8%AE%B0/</url>
-    <content><![CDATA[<div style="width:80%;margin:auto"><img src="/undefined/%E7%94%9F%E6%B4%BB/04-%E5%81%87%E6%9C%9F%E6%97%A5%E8%AE%B0/gallery1.jpg" class="" title="一个小村庄"></div>
+    <title>假期随便乱写</title>
+    <url>/undefined/%E7%94%9F%E6%B4%BB/%E5%81%87%E6%9C%9F%E9%9A%8F%E4%BE%BF%E4%B9%B1%E5%86%99/</url>
+    <content><![CDATA[<div style="width:80%;margin:auto"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E5%81%87%E6%9C%9F%E9%9A%8F%E4%BE%BF%E4%B9%B1%E5%86%99/gallery1.jpg" class="" title="一个小村庄"></div>
 
 <blockquote>
 <p>昨日踏青出游的小村庄</p>
 </blockquote>
 <hr>
-<div style="width:30%;margin:auto"><img src="/undefined/%E7%94%9F%E6%B4%BB/04-%E5%81%87%E6%9C%9F%E6%97%A5%E8%AE%B0/album.jpg" class="" title="天气之子原声带专辑封面"></div>
+<div style="width:30%;margin:auto"><img src="/undefined/%E7%94%9F%E6%B4%BB/%E5%81%87%E6%9C%9F%E9%9A%8F%E4%BE%BF%E4%B9%B1%E5%86%99/album.jpg" class="" title="天气之子原声带专辑封面"></div>
 
 <p>最近重听了&lt;<a href="https://movie.douban.com/subject/30402296/">てんきのこ</a>&gt;的OST，记得这部电影当初上映时一直被人拿来跟《天气之子》比较。人言可畏，各种歪瓜裂枣的解读不堪入目。</p>
 <p>私以为这部电影的主题讨论度绝对化地超越了诚哥以往任何一部作品。从17年《你的名字》入坑，在补习了《言叶之庭》、《秒速五厘米》等他以前经典的纯爱动漫电影，你才会发现《天气之子》截然不同的珍贵之处，从社会议题角度来看甚至可以称得上是新海诚目前最佳作品。</p>
@@ -548,11 +566,11 @@
       </tags>
   </entry>
   <entry>
-    <title>03 日记</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/03-%E6%97%A5%E8%AE%B0/</url>
+    <title>测试一下</title>
+    <url>/undefined/%E7%94%9F%E6%B4%BB/%E6%B5%8B%E8%AF%95%E4%B8%80%E4%B8%8B/</url>
     <content><![CDATA[<p>just a test.</p>
 <ul>
-<li><em>最后</em>：just a test.</li>
+<li><em>示例</em>：just a test.</li>
 </ul>
 ]]></content>
       <categories>
@@ -563,27 +581,8 @@
       </tags>
   </entry>
   <entry>
-    <title>02 假期前的碎碎念</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/02-%E5%81%87%E6%9C%9F%E5%89%8D%E7%9A%84%E7%A2%8E%E7%A2%8E%E5%BF%B5/</url>
-    <content><![CDATA[<ol>
-<li>测试了三次的<a href="https://www.jungus.cn/">mbti人格类型测试</a>，依然是infj类。<blockquote>
-<p>不太过于相信所谓的mbti，否则会给自己添加一个枷锁/束缚。</p>
-</blockquote>
-</li>
-<li>持续摸索与建设博客.</li>
-<li>每日一问，何时回校?</li>
-</ol>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>短讯</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo学习记录篇</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/hexo%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95%E7%AF%87/</url>
+    <title>Hexo学习记录</title>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/hexo%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
     <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
 <blockquote>
 <p>老婆镇楼</p>
@@ -653,7 +652,7 @@
 <p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
 </blockquote>
 <p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
-<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;">&#x67;&#105;&#x74;&#x40;&#103;&#105;&#x74;&#104;&#117;&#x62;&#x2e;&#x63;&#111;&#x6d;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#116;&#x2e;&#x63;&#x6f;&#100;&#105;&#x6e;&#103;&#46;&#x6e;&#101;&#116;">&#x67;&#105;&#x74;&#x40;&#x67;&#x69;&#116;&#x2e;&#x63;&#x6f;&#100;&#105;&#x6e;&#103;&#46;&#x6e;&#101;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
+<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#109;">&#x67;&#x69;&#x74;&#64;&#103;&#x69;&#x74;&#x68;&#x75;&#x62;&#x2e;&#x63;&#111;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#105;&#x74;&#x40;&#103;&#105;&#116;&#46;&#x63;&#111;&#x64;&#105;&#x6e;&#x67;&#x2e;&#x6e;&#x65;&#x74;">&#x67;&#105;&#x74;&#x40;&#103;&#105;&#116;&#46;&#x63;&#111;&#x64;&#105;&#x6e;&#x67;&#x2e;&#x6e;&#x65;&#x74;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
 <blockquote>
 <p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
 </blockquote>
@@ -808,16 +807,19 @@
       </tags>
   </entry>
   <entry>
-    <title>01 我的第一篇博客</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/01-%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <title>建站成功！</title>
+    <url>/undefined/%E7%94%9F%E6%B4%BB/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/</url>
     <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
-<p>感谢以下公开的网络资源：<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a></p>
+<p>以下公开的网络资源助力本人搭建博客。<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a></p>
 </blockquote>
 <span id="more"></span>
 <h1 id="这是我第一篇博文！"><a href="#这是我第一篇博文！" class="headerlink" title="这是我第一篇博文！"></a>这是我第一篇博文！</h1><h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>
 
-<h1 id="just-a-test"><a href="#just-a-test" class="headerlink" title="just a test"></a>just a test</h1>]]></content>
+
+
+
+]]></content>
       <categories>
         <category>生活</category>
       </categories>
