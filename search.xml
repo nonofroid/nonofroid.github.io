@@ -143,9 +143,9 @@
 <h2 id="使用-号标记"><a href="#使用-号标记" class="headerlink" title="使用 # 号标记"></a><strong>使用 # 号标记</strong></h2><p>使用 <strong><code>#</code></strong> 号可表示 1-6 级标题，一级标题对应一个 <strong><code>#</code></strong> 号，二级标题对应两个 <strong><code>#</code></strong> 号，以此类推。</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="section"># 一级标题</span></span><br><span class="line"><span class="section">## 二级标题</span></span><br><span class="line"><span class="section">### 三级标题</span></span><br><span class="line"><span class="section">#### 四级标题</span></span><br><span class="line"><span class="section">##### 五级标题</span></span><br><span class="line"><span class="section">###### 六级标题</span></span><br></pre></td></tr></table></figure>
 
-<p>显示效果如下图：<br><img src="..\markdown-study\Untitled 1.png" width="80%" alt="标题展示"></p>
+<p>显示效果如下图：<br><img  src="..\markdown-study\Untitled 1.png" width="80%"  ><span class="image-caption">标题展示</span></p>
 <h1 id="Markdown-段落格式"><a href="#Markdown-段落格式" class="headerlink" title="Markdown 段落格式"></a>Markdown 段落格式</h1><h2 id="Markdown-段落"><a href="#Markdown-段落" class="headerlink" title="Markdown 段落"></a>Markdown 段落</h2><p>Markdown 段落没有特殊的格式，直接编写文字就好，<strong>段落的换行是使用两个以上空格加上回车</strong>。</p>
-<p>显示效果如下图：<br><img src="..\markdown-study\Untitled 2.png" width="80%" alt="段落展示"></p>
+<p>显示效果如下图：<br><img  src="..\markdown-study\Untitled 2.png" width="80%"  ><span class="image-caption">段落展示</span></p>
 <hr>
 <h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p>Markdown 可以使用以下几种字体：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">*斜体文本*</span><br><span class="line">_斜体文本_</span><br><span class="line">**粗体文本**</span><br><span class="line">__粗体文本__</span><br><span class="line">***粗斜体文本***</span><br><span class="line">___粗斜体文本___</span><br></pre></td></tr></table></figure>
@@ -167,7 +167,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;u&gt;带下划线文本&lt;/u&gt;</span><br></pre></td></tr></table></figure>
 
 <p>显示效果如下所示：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg" alt="https://www.runoob.com/wp-content/uploads/2019/03/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg"></p>
+<p><img  src="https://www.runoob.com/wp-content/uploads/2019/03/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg"  ><span class="image-caption">https://www.runoob.com/wp-content/uploads/2019/03/05A27273-B66D-43DE-A3DB-0D32FF024093.jpg</span></p>
 <hr>
 <h2 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h2><p>脚注是对文本的补充说明。</p>
 <p>Markdown 脚注的格式如下:</p>
@@ -184,7 +184,7 @@
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">*</span> 第一项</span><br><span class="line"><span class="bullet">*</span> 第二项</span><br><span class="line"><span class="bullet">*</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">+</span> 第一项</span><br><span class="line"><span class="bullet">+</span> 第二项</span><br><span class="line"><span class="bullet">+</span> 第三项</span><br><span class="line"></span><br><span class="line"><span class="bullet">-</span> 第一项</span><br><span class="line"><span class="bullet">-</span> 第二项</span><br><span class="line"><span class="bullet">-</span> 第三项</span><br></pre></td></tr></table></figure>
 
 <p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/89446A8E-6D83-4666-AACC-980145D5F070.jpg" alt="https://www.runoob.com/wp-content/uploads/2019/03/89446A8E-6D83-4666-AACC-980145D5F070.jpg"></p>
+<p><img  src="https://www.runoob.com/wp-content/uploads/2019/03/89446A8E-6D83-4666-AACC-980145D5F070.jpg"  ><span class="image-caption">https://www.runoob.com/wp-content/uploads/2019/03/89446A8E-6D83-4666-AACC-980145D5F070.jpg</span></p>
 <p>有序列表使用数字并加上**<code>.</code>**号来表示(记得添加空格)，如：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="bullet">1.</span> 第一项</span><br><span class="line"><span class="bullet">2.</span> 第二项</span><br><span class="line"><span class="bullet">3.</span> 第三项</span><br></pre></td></tr></table></figure>
 
@@ -216,7 +216,7 @@
 <h1 id="Markdown代码"><a href="#Markdown代码" class="headerlink" title="Markdown代码"></a>Markdown代码</h1><p>如果是段落上的一个函数或片段的代码可以用<strong>反引号</strong>把它包起来（```），例如：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">`printf()` 函数</span><br></pre></td></tr></table></figure>
 
-<p>显示结果如下：<br><img src="https://www.runoob.com/wp-content/uploads/2019/03/C928FDA3-E0A7-4AFF-AB2A-B3AF44F93DF9.jpg" alt="https://www.runoob.com/wp-content/uploads/2019/03/C928FDA3-E0A7-4AFF-AB2A-B3AF44F93DF9.jpg"></p>
+<p>显示结果如下：<br><img  src="https://www.runoob.com/wp-content/uploads/2019/03/C928FDA3-E0A7-4AFF-AB2A-B3AF44F93DF9.jpg"  ><span class="image-caption">https://www.runoob.com/wp-content/uploads/2019/03/C928FDA3-E0A7-4AFF-AB2A-B3AF44F93DF9.jpg</span></p>
 <h2 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h2><p>代码区块使用 <strong>4个空格</strong>或者一个<strong>制表符（Tab 键）</strong>。</p>
 <p>实例如下：<br><img src="..\markdown-study\Untitled 13.png" width="80%"></p>
 <p>你也可以用 <strong>`````</strong> 包裹一段代码，并指定一种语言（也可以不指定）：</p>
@@ -252,12 +252,12 @@
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png</span>)</span><br><span class="line"></span><br><span class="line">![<span class="string">RUNOOB 图标</span>](<span class="link">http://static.runoob.com/images/runoob-logo.png &quot;RUNOOB&quot;</span>)</span><br></pre></td></tr></table></figure>
 
 <p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg" alt="https://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg"></p>
+<p><img  src="https://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg"  ><span class="image-caption">https://www.runoob.com/wp-content/uploads/2019/03/A042DF30-C232-46F3-8436-7D6C35351BBD.jpg</span></p>
 <p>当然，你也可以像网址那样对图片网址使用变量:</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">这个链接用 1 作为网址变量 [RUNOOB][1].</span><br><span class="line">然后在文档的结尾为变量赋值（网址）</span><br><span class="line"></span><br><span class="line">[1]: http://static.runoob.com/images/runoob-logo.png</span><br></pre></td></tr></table></figure>
 
 <p>显示结果如下：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/75AA6EBF-CC57-44A6-A585-5EE3DD94E42A.jpg" alt="https://www.runoob.com/wp-content/uploads/2019/03/75AA6EBF-CC57-44A6-A585-5EE3DD94E42A.jpg"></p>
+<p><img  src="https://www.runoob.com/wp-content/uploads/2019/03/75AA6EBF-CC57-44A6-A585-5EE3DD94E42A.jpg"  ><span class="image-caption">https://www.runoob.com/wp-content/uploads/2019/03/75AA6EBF-CC57-44A6-A585-5EE3DD94E42A.jpg</span></p>
 <p>Markdown 还没有办法指定图片的高度与宽度，如果你需要的话，你可以使用普通的 <img> 标签。</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line"><span class="language-xml"><span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;[http://static.runoob.com/images/runoob-logo.png](http://static.runoob.com/images/runoob-logo.png)&quot;</span> <span class="attr">width</span>=<span class="string">&quot;50%&quot;</span>&gt;</span></span></span><br></pre></td></tr></table></figure>
 
@@ -276,7 +276,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">**文本加粗**</span><br><span class="line">\*\* 正常显示星号 \*\*</span><br></pre></td></tr></table></figure>
 
 <p>输出结果为：</p>
-<p><img src="https://www.runoob.com/wp-content/uploads/2019/03/CA0E0162-0C48-41CD-B57A-CB32A4287C02.jpg" alt="https://www.runoob.com/wp-content/uploads/2019/03/CA0E0162-0C48-41CD-B57A-CB32A4287C02.jpg"></p>
+<p><img  src="https://www.runoob.com/wp-content/uploads/2019/03/CA0E0162-0C48-41CD-B57A-CB32A4287C02.jpg"  ><span class="image-caption">https://www.runoob.com/wp-content/uploads/2019/03/CA0E0162-0C48-41CD-B57A-CB32A4287C02.jpg</span></p>
 <p>Markdown 支持以下这些符号前面加上反斜杠来帮助插入普通的符号：</p>
 <figure class="highlight markdown"><table><tr><td class="code"><pre><span class="line">\   反斜线</span><br><span class="line">`   反引号</span><br><span class="line"><span class="bullet">*</span>   星号</span><br><span class="line"><span class="emphasis">_   下划线</span></span><br><span class="line"><span class="emphasis">&#123;&#125;  花括号</span></span><br><span class="line"><span class="emphasis">[]  方括号</span></span><br><span class="line"><span class="emphasis">()  小括号</span></span><br><span class="line"><span class="emphasis">#   井字号</span></span><br><span class="line"><span class="emphasis">+   加号</span></span><br><span class="line"><span class="emphasis">-   减号</span></span><br><span class="line"><span class="emphasis">.   英文句点</span></span><br><span class="line"><span class="emphasis">!   感叹号</span></span><br></pre></td></tr></table></figure>
 
@@ -583,12 +583,12 @@
   <entry>
     <title>Hexo学习记录</title>
     <url>/undefined/%E5%AD%A6%E4%B9%A0/hexo%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
+    <content><![CDATA[<p><img  src="/../img/TaylorSwift01.jpg"  ><span class="image-caption">Title</span></p>
 <blockquote>
 <p>老婆镇楼</p>
 </blockquote>
 <h1 id="Hexo-amp-amp-Next的基本操作"><a href="#Hexo-amp-amp-Next的基本操作" class="headerlink" title="Hexo&amp;&amp;Next的基本操作"></a>Hexo&amp;&amp;Next的基本操作</h1><span id="more"></span>
-<h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="http://theme-next.iissnan.com/">NexT主题中文官网</a></p>
+<h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85">主题配置详情</a></p>
 <h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><blockquote>
 <p>可参考的视频教程<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a></p>
 </blockquote>
@@ -603,7 +603,7 @@
 </ol>
 <h4 id="1-安装hexo"><a href="#1-安装hexo" class="headerlink" title="1. 安装hexo"></a>1. 安装hexo</h4><p>1.安装Git。安装完毕后，在任意文件夹下鼠标右击即可打开<code>Git Bash</code>，输入命令，进行Git操作。<br><code>$ git version  # 查看Git版本，验证是否安装成功</code><br>2.安装Node.js。Hexo是基于nodejs的博客框架，而且nodejs还集成了npm包管理工具。<br><code>$ node -v    # 查看nodejs版本，验证是否安装成功</code><br>3.安装hexo：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo --save   # 安装hexo</span><br><span class="line">$ npm install hexo-cli -g   # 安装hexo命令行模式</span><br><span class="line">$ hexo -v  # 查看hexo版本，验证是否安装成功</span><br></pre></td></tr></table></figure>
-<h4 id="2-hexo建站"><a href="#2-hexo建站" class="headerlink" title="2. hexo建站"></a>2. hexo建站</h4><p>1.新建一个blog文件夹，打开blog文件夹，<code>Git Bash</code>。<br>2.hexo初始化：<code>hexo init</code><br>3.安装依赖包：<code>npm install</code><br>4.初始化完成，在blog下就会生成以下文件目录：</p>
+<h4 id="2-建站"><a href="#2-建站" class="headerlink" title="2. 建站"></a>2. 建站</h4><p>1.新建一个blog文件夹，打开blog文件夹，<code>Git Bash</code>。<br>2.hexo初始化：<code>hexo init</code><br>3.安装依赖包：<code>npm install</code><br>4.初始化完成，在blog下就会生成以下文件目录：</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy      # 执行hexo deploy命令部署到GitHub上的内容目录</span><br><span class="line">├── public       # 执行hexo generate命令，输出的静态网页内容目录</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 创建的文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git忽略文件信息</span><br><span class="line">├── _config.yml  # 站点配置文件，大多数的设置都在这里</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br></pre></td></tr></table></figure>
 <p>next主题的目录</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">├── .github            #git信息</span><br><span class="line">├── languages          #多语言</span><br><span class="line">|   ├── default.yml    #默认语言</span><br><span class="line">|   └── zh-Hans.yml      #简体中文</span><br><span class="line">|   └── zh-tw.yml      #繁体中文</span><br><span class="line">├── layout             #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制</span><br><span class="line">|   ├── _custom        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── _header.swig    #头部样式</span><br><span class="line">|   |   ├── _sidebar.swig   #侧边栏样式</span><br><span class="line">|   ├── _macro        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── post.swig    #文章模板</span><br><span class="line">|   |   ├── reward.swig    #打赏模板</span><br><span class="line">|   |   ├── sidebar.swig   #侧边栏模板</span><br><span class="line">|   ├── _partial       #局部的布局</span><br><span class="line">|   |   ├── head       #头部模板</span><br><span class="line">|   |   ├── search     #搜索模板</span><br><span class="line">|   |   ├── share      #分享模板</span><br><span class="line">|   ├── _script        #局部的布局</span><br><span class="line">|   ├── _third-party   #第三方模板</span><br><span class="line">|   ├── _layout.swig   #主页面模板</span><br><span class="line">|   ├── index.swig     #主页面模板</span><br><span class="line">|   ├── page           #页面模板</span><br><span class="line">|   └── tag.swig       #tag模板</span><br><span class="line">├── scripts            #script源码</span><br><span class="line">|   ├── tags           #tags的script源码</span><br><span class="line">|   ├── marge.js       #页面模板</span><br><span class="line">├── source             #源码</span><br><span class="line">|   ├── css            #css源码</span><br><span class="line">|   |   ├── _common    #*.styl基础css</span><br><span class="line">|   |   ├── _custom    #*.styl局部css</span><br><span class="line">|   |   └── _mixins    #mixins的css</span><br><span class="line">|   ├── fonts          #字体</span><br><span class="line">|   ├── images         #图片</span><br><span class="line">|   ├── uploads        #添加的文件</span><br><span class="line">|   └── js             #javascript源代码</span><br><span class="line">├── _config.yml        #主题配置文件</span><br><span class="line">└── README.md          #用GitHub的都知道</span><br></pre></td></tr></table></figure>
@@ -652,13 +652,13 @@
 <p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
 </blockquote>
 <p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
-<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#99;&#111;&#x6d;">&#103;&#x69;&#x74;&#64;&#x67;&#x69;&#x74;&#104;&#117;&#98;&#x2e;&#99;&#111;&#x6d;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#116;&#x2e;&#x63;&#x6f;&#100;&#x69;&#110;&#103;&#46;&#110;&#x65;&#116;">&#x67;&#105;&#116;&#x40;&#x67;&#x69;&#116;&#x2e;&#x63;&#x6f;&#100;&#x69;&#110;&#103;&#46;&#110;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
+<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#111;&#x6d;">&#103;&#x69;&#116;&#x40;&#x67;&#x69;&#x74;&#104;&#x75;&#98;&#46;&#x63;&#111;&#x6d;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#46;&#x63;&#x6f;&#100;&#x69;&#110;&#x67;&#x2e;&#x6e;&#x65;&#x74;">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#x74;&#46;&#x63;&#x6f;&#100;&#x69;&#110;&#x67;&#x2e;&#x6e;&#x65;&#x74;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
 <blockquote>
 <p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
 </blockquote>
 <h4 id="6-主题变更"><a href="#6-主题变更" class="headerlink" title="6. 主题变更"></a>6. 主题变更</h4><p>1.hexo默认主题为landscape，可以到Themes|Hexo选择自己喜欢的主题，复制主题在github仓库的url。<br>2.在themes文件夹下，打开GitBash，克隆主题至themes文件夹中。<br><code>$ git clone https://github.com/theme-next/hexo-theme-next.git</code><br>克隆之后，记住删除<code>themes\</code>你的主题名中的<code>.git</code>，<code>.github</code>，<code>.gitignore</code>等Git仓库文件。<br>3.更改站点配置文件<code>_config.yml</code>：<br><code>theme: 主题文件名</code><br>4.编辑结束，重新部署：<br><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code><br>部署完毕之后，进入以下链接刷新就可以看到你的新主题了。</p>
 <h4 id="7-写作"><a href="#7-写作" class="headerlink" title="7. 写作"></a>7. 写作</h4><p>1.新建：在blog文件夹下，打开Git Bash或者cmd，新建文章：<br><code>$ hexo new post &quot;title&quot;</code><br>2.编辑：在<code>source/_post</code>下可以编辑你新建的文章。<br>3.编辑完毕，重新部署：<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
-<h4 id="8-文档的Front-matter"><a href="#8-文档的Front-matter" class="headerlink" title="8. 文档的Front-matter"></a>8. 文档的Front-matter</h4><p>Front-matter 是文档最上方以 <code>---</code> 分隔的区域，用于指定文档一些的参数。</p>
+<h4 id="8-Front-matter"><a href="#8-Front-matter" class="headerlink" title="8. Front-matter"></a>8. Front-matter</h4><p>Front-matter 是文档最上方以 <code>---</code> 分隔的区域，用于指定文档一些的参数。</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
 <table>
     <tr> 
@@ -797,7 +797,15 @@
 <li>更换主题样式与站点图标。</li>
 <li>更换子栏目内容。</li>
 </ol>
-<p><code>20220423</code><br>1.增加博客背景<br>2.增加Gitter在线交流功能</p>
+<p><code>20220423</code></p>
+<ol>
+<li>增加博客背景</li>
+<li>增加Gitter在线交流功能</li>
+</ol>
+<p><code>20220511</code></p>
+<ol>
+<li>更换博客主题[Next-&gt;zhaoo]<br>参考网站：<a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E5%85%A8%E5%B1%80%E5%AD%97%E4%BD%93">https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E5%85%A8%E5%B1%80%E5%AD%97%E4%BD%93</a></li>
+</ol>
 ]]></content>
       <categories>
         <category>学习</category>
