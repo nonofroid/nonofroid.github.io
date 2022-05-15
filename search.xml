@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>建站成功！</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/</url>
-    <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
-<p>以下公开的网络资源助力本人搭建博客。<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a><br>⑧<a href="https://tding.top/tags/NexT/">一些大佬的博客</a></p>
-</blockquote>
-<span id="more"></span>
-<h1 id="这是我第一篇博文！"><a href="#这是我第一篇博文！" class="headerlink" title="这是我第一篇博文！"></a>这是我第一篇博文！</h1><h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>
-
-
-
-
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>致我二十岁的自卑与迷茫</title>
     <url>/undefined/%E6%80%9D%E8%80%83/%E8%87%B4%E6%88%91%E4%BA%8C%E5%8D%81%E5%B2%81%E7%9A%84%E8%87%AA%E5%8D%91%E4%B8%8E%E8%BF%B7%E8%8C%AB/</url>
     <content><![CDATA[<p>今天看了一个在澳洲墨尔本留学的UP主的<a href="https://www.bilibili.com/video/BV1uT4y1671X?spm_id_from=333.999.0.0">视频</a>。</p>
@@ -50,199 +29,6 @@
       <tags>
         <tag>个人</tag>
         <tag>社会</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>9张照片</title>
-    <url>/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/</url>
-    <content><![CDATA[<h1 id="背影"><a href="#背影" class="headerlink" title="背影"></a><p style="text-align:center;">背影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0027.jpg" class="" title="背影"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:22，燕尾州公园，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="远观万佛塔"><a href="#远观万佛塔" class="headerlink" title="远观万佛塔"></a><p style="text-align:center;">远观万佛塔</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0030.jpg" class="" title="远观万佛塔"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:32，彩虹桥，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="孤寂的红绿灯"><a href="#孤寂的红绿灯" class="headerlink" title="孤寂的红绿灯"></a><p style="text-align:center;">孤寂的红绿灯</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0054.jpg" class="" title="孤寂的红绿灯"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月6日18:13，艾青公园，华人民共和国浙江省</div>
-<br>
-<span id="more"></span>
-
-<h1 id="光影"><a href="#光影" class="headerlink" title="光影"></a><p style="text-align:center;">光影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0135.jpg" class="" title="光影"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月10日20:14，彩虹桥，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="我的高中母校"><a href="#我的高中母校" class="headerlink" title="我的高中母校"></a><p style="text-align:center;">我的高中母校</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0181.jpg" class="" title="我的高中母校"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月21日22:16，浙江金华第一中学，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="颐和园"><a href="#颐和园" class="headerlink" title="颐和园"></a><p style="text-align:center;">颐和园</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0285.jpg" class="" title="颐和园"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年9月21日10:13，颐和园，中华人民共和国北京市</div>
-<br>
-
-<h1 id="故宫"><a href="#故宫" class="headerlink" title="故宫"></a><p style="text-align:center;">故宫</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1631.jpg" class="" title="故宫"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年1月14日11:35，故宫，中华人民共和国北京市</div>
-<br>
-
-<h1 id="寻探幽静"><a href="#寻探幽静" class="headerlink" title="寻探幽静"></a><p style="text-align:center;">寻探幽静</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1830.jpg" class="" title="寻探幽静"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年3月12日12:18，花田小镇，中华人民共和国浙江省</div>
-<br>
-
-<h1 id="我想变成天上的云"><a href="#我想变成天上的云" class="headerlink" title="我想变成天上的云"></a><p style="text-align:center;">我想变成天上的云</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1842.jpg" class="" title="我想变成天上的云"></div>
-<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年4月5日17:27，家中，中华人民共和国浙江省</div>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>摄影</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>C_Primer_Plus课后练习题集合</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/</url>
-    <content><![CDATA[<p>C Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
-<span id="more"></span>
-<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h1 id="chapter2"><a href="#chapter2" class="headerlink" title="chapter2"></a>chapter2</h1><ol>
-<li>2.12.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Jimmy Chen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy\nChen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy&quot;);</span><br><span class="line">    printf(&quot; Chen\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_1();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Jimmy Chen</span><br><span class="line">Jimmy</span><br><span class="line">Chen</span><br><span class="line">Jimmy Chen</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="2">
-<li>2.12.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Name:nono\n&quot;);</span><br><span class="line">    printf(&quot;Addr:Zhejiang province, China\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_2();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Name:nono</span><br><span class="line">Addr:Zhejiang province, China</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="3">
-<li>2.12.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int years_old = 0;</span><br><span class="line">    int live_days = 0;</span><br><span class="line">    printf(&quot;请输入您的年龄:&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;years_old);</span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line">    live_days = years_old * 356;</span><br><span class="line"></span><br><span class="line">    printf(&quot;转换为天数是:%d\n&quot;, live_days);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_3();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请输入您的年龄：20</span><br><span class="line">转换为天数是:7120</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="4">
-<li>2.12.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void jolly(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void deny(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Which nobody can deny!\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    jolly();</span><br><span class="line">    deny();</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_4();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">Which nobody can deny!</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="5">
-<li>2.12.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="6">
-<li>2.12.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    int toes = 10;</span><br><span class="line">    int double_toes = toes * 2;</span><br><span class="line">    int square_toes = toes * toes;</span><br><span class="line"></span><br><span class="line">    printf(&quot;the value of toes is : %d\n&quot;, toes);</span><br><span class="line">    printf(&quot;the value of double toes is : %d\n&quot;, double_toes);</span><br><span class="line">    printf(&quot;the value of square toes is : %d\n&quot;, square_toes);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_6();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of toes is : 10</span><br><span class="line">the value of double toes is : 20</span><br><span class="line">the value of square toes is : 100</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="7">
-<li>2.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void smile(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Smile!&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    smile(); smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_7();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Smile!Smile!Smile!</span><br><span class="line">Smile!Smile!</span><br><span class="line">Smile!</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="8">
-<li>2.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void two(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;two\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;starting now:\n&quot;);</span><br><span class="line">    printf(&quot;one\n&quot;);</span><br><span class="line">    two();</span><br><span class="line">    printf(&quot;three\n&quot;);</span><br><span class="line">    printf(&quot;done!\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_8();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">starting now:</span><br><span class="line">one</span><br><span class="line">two</span><br><span class="line">three</span><br><span class="line">done!</span><br></pre></td></tr></table></figure>
-<h1 id="chapter3"><a href="#chapter3" class="headerlink" title="chapter3"></a>chapter3</h1></li>
-<li>3.11.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p2_(void)</span><br><span class="line">&#123;</span><br><span class="line">    int ch = 0;</span><br><span class="line">    printf(&quot;please input the value of ascii:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;ch);</span><br><span class="line"> </span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of ascii : %d\n&quot;, ch);</span><br><span class="line">    printf(&quot;the character : %c\n&quot;, (char)ch);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p2_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="2">
-<li>3.11.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p3_(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;\a&quot;);</span><br><span class="line">    printf(&quot;Startled by the sudden sound, sally shouted,\n\&quot;By the Great Pumpkin, what was that!\&quot;&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p3_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
-<li>3.11.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p2_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float input = 0.0;</span><br><span class="line">    printf(&quot;Enter a floating-point value:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;input);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;fixed-point notation:%f\n&quot;, input);</span><br><span class="line">    printf(&quot;exponential notation:%e\n&quot;, input);</span><br><span class="line">    printf(&quot;p notation:%a\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a floating-point value:62.5</span><br><span class="line">fixed-point notation:62.500000</span><br><span class="line">exponential notation:6.250000e+001</span><br><span class="line">p notation:0x1.f40000p+5</span><br></pre></td></tr></table></figure></li>
-<li>3.11.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p2_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float input = 0.0;</span><br><span class="line">    printf(&quot;Enter a floating-point value:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;input);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;fixed-point notation:%f\n&quot;, input);</span><br><span class="line">    printf(&quot;exponential notation:%e\n&quot;, input);</span><br><span class="line">    printf(&quot;p notation:%a\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a floating-point value:62.5</span><br><span class="line">fixed-point notation:62.500000</span><br><span class="line">exponential notation:6.250000e+001</span><br><span class="line">p notation:0x1.f40000p+5</span><br></pre></td></tr></table></figure></li>
-<li>3.11.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define QUALITY_OF_WATER_MOLECULE (3.0e-23)</span><br><span class="line">#define NUM_OF_WATER_MOLECULE_PER_QUART (950/QUALITY_OF_WATER_MOLECULE)</span><br><span class="line"> </span><br><span class="line">void p2_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    double num_of_quart = 0;</span><br><span class="line">    printf(&quot;How much quart of water:&quot;);</span><br><span class="line">    scanf(&quot;%lf&quot;, &amp;num_of_quart);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    double num_of_water_molecule = num_of_quart * NUM_OF_WATER_MOLECULE_PER_QUART;</span><br><span class="line">    printf(&quot;there are %0.2f quart water and %le water molecule&quot;, num_of_quart, num_of_water_molecule);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_6();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much quart of water:5</span><br><span class="line">there are 5.00 quart water and 1.583333e+026 water molecule</span><br></pre></td></tr></table></figure></li>
-<li>3.11.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define CM_PER_INCH (2.54)</span><br><span class="line"> </span><br><span class="line">void p2_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_in_inch = 0;</span><br><span class="line">    float height_in_cm = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your height in inch:&quot;);</span><br><span class="line">    scanf_s(&quot;%f&quot;, &amp;height_in_inch);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    height_in_cm = height_in_inch * CM_PER_INCH;</span><br><span class="line">    printf(&quot;Your height is %f in cm\n&quot;, height_in_cm);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_7();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your height in inch:70</span><br><span class="line">Your height is 177.800003 in cm</span><br></pre></td></tr></table></figure></li>
-<li>3.11.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define CUPS_PER_PINT (2)</span><br><span class="line">#define OUNCES_PER_CUP (8)</span><br><span class="line">#define BIG_SPOONS_PER_OUNCE (2)</span><br><span class="line">#define TEA_SPIINS_PER_BIG_SPOON (3)</span><br><span class="line"> </span><br><span class="line">void p2_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float cups = 0;</span><br><span class="line">    float pints = 0;</span><br><span class="line">    float ounces = 0;</span><br><span class="line">    float big_spoons = 0;</span><br><span class="line">    float tea_spoons = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How many cups of tea do you want:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;cups);</span><br><span class="line">    getchar();</span><br><span class="line">    pints = cups / CUPS_PER_PINT;</span><br><span class="line">    ounces = cups * OUNCES_PER_CUP;</span><br><span class="line">    big_spoons = ounces * BIG_SPOONS_PER_OUNCE;</span><br><span class="line">    tea_spoons = big_spoons * TEA_SPIINS_PER_BIG_SPOON;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;pints:%f, cups:%f, ounces:%f, big_spoons:%f, tea_spoons:%f\n&quot;, pints, cups, ounces, big_spoons, tea_spoons);</span><br><span class="line">    return;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_8();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How many cups of tea do you want:1</span><br><span class="line">pints:0.500000, cups:1.000000, ounces:8.000000, big_spoons:16.000000, tea_spoons:48.000000</span><br></pre></td></tr></table></figure>
-<h1 id="chapter-4"><a href="#chapter-4" class="headerlink" title="chapter 4"></a>chapter 4</h1></li>
-<li>4.8.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;float.h&gt;</span><br><span class="line"> </span><br><span class="line">/************************************************************************/</span><br><span class="line">/* practice 1                                                                     */</span><br><span class="line">/************************************************************************/</span><br><span class="line">void p4_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40];</span><br><span class="line">    char last_name[40];</span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%*s,%*s\n&quot;, 10, first_name, 10, last_name);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_1();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:nono</span><br><span class="line">What&#x27;s your last name:aristo</span><br><span class="line">      nono,    aristo</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="2">
-<li>4.8.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;float.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line">void p4_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40];</span><br><span class="line">    char last_name[40];</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_lenght = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_lenght = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;a.\&quot;%s,%s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;b.\&quot;%20s,%20s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;c.\&quot;%-20s,%-20s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;d.%*s,%*s\n&quot;, first_name_length+3, first_name, last_name_lenght+3, last_name);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_2();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:nono</span><br><span class="line">What&#x27;s your last name:ken</span><br><span class="line">a.&quot;nono,ken&quot;</span><br><span class="line">b.&quot;                nono,                 ken&quot;</span><br><span class="line">c.&quot;nono                ,ken                 &quot;</span><br><span class="line">d.   nono,   ken</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="3">
-<li>4.8.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">void p4_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    double input = 0.0;</span><br><span class="line">    printf(&quot;please input the float number:&quot;);</span><br><span class="line">    scanf(&quot;%lf&quot;, &amp;input);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%lf\n&quot;, input);</span><br><span class="line">    printf(&quot;%e\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_3();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the float number:10.5</span><br><span class="line">10.500000</span><br><span class="line">1.050000e+001</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="4">
-<li>4.8.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define CM_PER_INCH (2.54)</span><br><span class="line">void p4_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_inch = 0;</span><br><span class="line">    float height_cm = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your height:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;height_inch);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Dabney, you are %f feet tall\n&quot;, height_inch);</span><br><span class="line">    height_cm = height_inch * CM_PER_INCH;</span><br><span class="line">    printf(&quot;Dabney, you are %f cm tall\n&quot;, height_cm);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_4();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your height:70</span><br><span class="line">Dabney, you are 70.000000 feet tall</span><br><span class="line">Dabney, you are 177.800003 cm tall</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="5">
-<li>4.8.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="6">
-<li>4.8.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">void p4_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40] = &#123; 0 &#125;;</span><br><span class="line">    char last_name[40] = &#123; 0 &#125;;</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_length = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_length = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%*d %*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%-*d %-*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_6();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:ken</span><br><span class="line">What&#x27;s your last name:froid</span><br><span class="line">ken froid</span><br><span class="line">  3     5</span><br><span class="line">ken froid</span><br><span class="line">3   5</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="7">
-<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="8">
-<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
-</ol>
-<h1 id="chapter-5"><a href="#chapter-5" class="headerlink" title="chapter 5"></a>chapter 5</h1><ol>
-<li>5.11.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define SECONDS_PER_MINUTE (60)</span><br><span class="line">void p5_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    float hours = 0;</span><br><span class="line">    int minutes = 0;</span><br><span class="line">    int seconds = 0;</span><br><span class="line">    printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line"> </span><br><span class="line">    while (minutes &gt; 0)</span><br><span class="line">    &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        hours = (float)minutes / SECONDS_PER_MINUTE;</span><br><span class="line">        seconds = minutes * SECONDS_PER_MINUTE;</span><br><span class="line">        printf(&quot;%d minute = %f hours or %d seconds\n&quot;, minutes, hours, seconds);</span><br><span class="line">        printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">        scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_1();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"> </span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the number of minutes(&lt;= 0 to quit):60</span><br><span class="line">60 minute = 1.000000 hours or 3600 seconds</span><br><span class="line">please input the number of minutes(&lt;= 0 to quit):</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="2">
-<li>5.11.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">void p5_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    int input_num = 0;</span><br><span class="line">    printf(&quot;please enter an integer:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;input_num);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the ten integers after %d are:&quot;, input_num);</span><br><span class="line">    for (int i = 0; i &lt;= 10; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        printf(&quot;%d &quot;, (input_num + i));</span><br><span class="line">    &#125;</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_2();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
-结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please enter an integer:5</span><br><span class="line">the ten integers after 5 are:5 6 7 8 9 10 11 12 13 14 15</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="3">
-<li>5.11.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const int DAY_PER_WEEK = 7;</span><br><span class="line">void p5_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int days = 0;</span><br><span class="line">    int weeks = 0;</span><br><span class="line">    int remain_day = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;please input the number of day:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;days);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    weeks = days / DAY_PER_WEEK;</span><br><span class="line">    remain_day = days % DAY_PER_WEEK;</span><br><span class="line">    printf(&quot;%d days are %d weeks, %d days\n&quot;, days, weeks, remain_day);</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_3();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the number of day:30</span><br><span class="line">30 days are 4 weeks, 2 days</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="4">
-<li>5.11.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const float CM_PER_INCH = 2.54f;</span><br><span class="line">const float CM_PER_FEET = 30.38f;</span><br><span class="line">void p5_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_cm = 0;</span><br><span class="line">    int height_feet = 0;</span><br><span class="line">    float height_inch = 0.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Enter a height in centimeters: &quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line"> </span><br><span class="line">    while (height_cm &gt; 0) &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        height_feet = (int)(height_cm / CM_PER_FEET);</span><br><span class="line">        height_inch = (height_cm - CM_PER_FEET * height_feet) / CM_PER_INCH;</span><br><span class="line">        printf(&quot;%.1f cm = %d feet, %.1f inches\n&quot;, height_cm, height_feet, height_inch);</span><br><span class="line"> </span><br><span class="line">        printf(&quot;Enter a height in centimeters(&lt;=0 to quit): &quot;);</span><br><span class="line">        scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a height in centimeters: 30</span><br><span class="line">30.0 cm = 0 feet, 11.8 inches</span><br><span class="line">Enter a height in centimeters(&lt;=0 to quit):</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="5">
-<li>4.8.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="6">
-<li>4.8.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">void p4_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40] = &#123; 0 &#125;;</span><br><span class="line">    char last_name[40] = &#123; 0 &#125;;</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_length = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_length = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%*d %*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%-*d %-*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_6();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:ken</span><br><span class="line">What&#x27;s your last name:froid</span><br><span class="line">ken froid</span><br><span class="line">  3     5</span><br><span class="line">ken froid</span><br><span class="line">3   5</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="7">
-<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
-</ol>
-<hr>
-<ol start="8">
-<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>C语言</tag>
       </tags>
   </entry>
   <entry>
@@ -292,241 +78,6 @@
       </categories>
       <tags>
         <tag>C++语言</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Hexo学习记录</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/hexo%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
-    <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
-<blockquote>
-<p>老婆镇楼</p>
-</blockquote>
-<h1 id="Hexo-amp-amp-Next的基本操作"><a href="#Hexo-amp-amp-Next的基本操作" class="headerlink" title="Hexo&amp;&amp;Next的基本操作"></a>Hexo&amp;&amp;Next的基本操作</h1><span id="more"></span>
-<h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85">主题配置详情</a></p>
-<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><blockquote>
-<p>可参考的视频教程<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a></p>
-</blockquote>
-<h3 id="（一）使用Hexo-Pages搭建个人博客"><a href="#（一）使用Hexo-Pages搭建个人博客" class="headerlink" title="（一）使用Hexo+Pages搭建个人博客"></a>（一）使用Hexo+Pages搭建个人博客</h3><p>本篇主要介绍使用Hexo+Pages搭建个人博客的流程。使用 Hexo 博客框架搭建，解析markdown文章，生成静态页面，将页面托管到 github / coding 服务器上。github / coding 都有pages 服务，提供免费的静态网页托管和演示服务。</p>
-<p>搭建步骤：</p>
-<ol>
-<li>安装git，nodejs</li>
-<li>安装hexo</li>
-<li>本地搭建站点（线下访问）</li>
-<li>部署到github/coding（线上访问）</li>
-<li>站点配置</li>
-</ol>
-<h4 id="1-安装hexo"><a href="#1-安装hexo" class="headerlink" title="1. 安装hexo"></a>1. 安装hexo</h4><p>1.安装Git。安装完毕后，在任意文件夹下鼠标右击即可打开<code>Git Bash</code>，输入命令，进行Git操作。<br><code>$ git version  # 查看Git版本，验证是否安装成功</code><br>2.安装Node.js。Hexo是基于nodejs的博客框架，而且nodejs还集成了npm包管理工具。<br><code>$ node -v    # 查看nodejs版本，验证是否安装成功</code><br>3.安装hexo：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo --save   # 安装hexo</span><br><span class="line">$ npm install hexo-cli -g   # 安装hexo命令行模式</span><br><span class="line">$ hexo -v  # 查看hexo版本，验证是否安装成功</span><br></pre></td></tr></table></figure>
-<h4 id="2-建站"><a href="#2-建站" class="headerlink" title="2. 建站"></a>2. 建站</h4><p>1.新建一个blog文件夹，打开blog文件夹，<code>Git Bash</code>。<br>2.hexo初始化：<code>hexo init</code><br>3.安装依赖包：<code>npm install</code><br>4.初始化完成，在blog下就会生成以下文件目录：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy      # 执行hexo deploy命令部署到GitHub上的内容目录</span><br><span class="line">├── public       # 执行hexo generate命令，输出的静态网页内容目录</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 创建的文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git忽略文件信息</span><br><span class="line">├── _config.yml  # 站点配置文件，大多数的设置都在这里</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br></pre></td></tr></table></figure>
-<p>NexT主题的目录</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">├── .github            #git信息</span><br><span class="line">├── languages          #多语言</span><br><span class="line">|   ├── default.yml    #默认语言</span><br><span class="line">|   └── zh-Hans.yml      #简体中文</span><br><span class="line">|   └── zh-tw.yml      #繁体中文</span><br><span class="line">├── layout             #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制</span><br><span class="line">|   ├── _custom        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── _header.swig    #头部样式</span><br><span class="line">|   |   ├── _sidebar.swig   #侧边栏样式</span><br><span class="line">|   ├── _macro        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── post.swig    #文章模板</span><br><span class="line">|   |   ├── reward.swig    #打赏模板</span><br><span class="line">|   |   ├── sidebar.swig   #侧边栏模板</span><br><span class="line">|   ├── _partial       #局部的布局</span><br><span class="line">|   |   ├── head       #头部模板</span><br><span class="line">|   |   ├── search     #搜索模板</span><br><span class="line">|   |   ├── share      #分享模板</span><br><span class="line">|   ├── _script        #局部的布局</span><br><span class="line">|   ├── _third-party   #第三方模板</span><br><span class="line">|   ├── _layout.swig   #主页面模板</span><br><span class="line">|   ├── index.swig     #主页面模板</span><br><span class="line">|   ├── page           #页面模板</span><br><span class="line">|   └── tag.swig       #tag模板</span><br><span class="line">├── scripts            #script源码</span><br><span class="line">|   ├── tags           #tags的script源码</span><br><span class="line">|   ├── marge.js       #页面模板</span><br><span class="line">├── source             #源码</span><br><span class="line">|   ├── css            #css源码</span><br><span class="line">|   |   ├── _common    #*.styl基础css</span><br><span class="line">|   |   ├── _custom    #*.styl局部css</span><br><span class="line">|   |   └── _mixins    #mixins的css</span><br><span class="line">|   ├── fonts          #字体</span><br><span class="line">|   ├── images         #图片</span><br><span class="line">|   ├── uploads        #添加的文件</span><br><span class="line">|   └── js             #javascript源代码</span><br><span class="line">├── _config.yml        #主题配置文件</span><br><span class="line">└── README.md          #用GitHub的都知道</span><br></pre></td></tr></table></figure>
-<p>5.hexo本地生成静态页面</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署页面</span><br><span class="line">$ hexo server    # 启用hexo本地服务器；</span><br><span class="line"># 注：Hexo 3.0 把服务器独立成了个别模块，您必须先安装 hexo-server 才能使用。</span><br><span class="line"># hexo-server安装命令：npm install hexo-server --save</span><br></pre></td></tr></table></figure>
-<p>在cmd控制台命令中，跳转到你当前的文件目录下，输入<code>hexo s</code>，cmd会给出你的本地host网站，然后打开浏览器在地址栏输入<a href="http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。">http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。</a></p>
-<h4 id="3-配置github-coding-pages"><a href="#3-配置github-coding-pages" class="headerlink" title="3. 配置github/coding pages"></a>3. 配置github/coding pages</h4><p>github和coding可以双线配置，也可以选择其中一个配置。推荐双线配置，coding用于国内访问速度较快，github用于境外访问。</p>
-<p>1.登录github，New repository：<code>yourname.github.io</code>。其中<code>yourname</code>是你的github用户名，github强制后缀为<code>github.io</code>才能启用github pages服务。</p>
-<p>2.登录coding，新建仓库：<code>yourname.coding.me</code>，打开静态pages服务。其中<code>yourname</code>是你的coding用户名，coding不强制后缀为<code>coding.me</code>。</p>
-<p>3.Git Bash配置git用户信息：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &quot;YourName&quot;</span><br><span class="line">$ git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
-<p>4.配置网络传输协议<br>在管理Git项目时，一般使用ssh或https作为安全传输协议，任选其一即可。<br>(1) SSH协议<br>①SSH秘钥：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;  # 生成rsa秘钥</span><br><span class="line">$ cd ~/.ssh         # 进入虚拟目录ssh文件中</span><br><span class="line">$ cat id_rsa.pub    # 显示id_rsa.pub文件内容</span><br></pre></td></tr></table></figure>
-<p>②复制秘钥至github/coding-&gt;用户setting-&gt;SSH keys，New SSH Key；</p>
-<p>③验证是否添加成功</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh -T git@github.com  # 验证github是否添加成功</span><br><span class="line">$ ssh -T git@coding.net  # 验证coding是否添加成功</span><br></pre></td></tr></table></figure>
-<p>④编辑站点配置文件<code>_config.yml</code>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: </span><br><span class="line">		github: git@github.com:yourname/yourname.github.io.git </span><br><span class="line">		coding: git@git.coding.net:yourname/yourname.coding.me.git </span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
-<p>(2) HTTPS协议</p>
-<p>①直接编辑站点配置文件<code>_config.yml</code>：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: </span><br><span class="line">		github: https://github.com/liziczh/liziczh.github.io.git</span><br><span class="line">    	coding: https://git.coding.net/liziczh/liziczh.coding.me.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
-<p>②验证github/coding用户名和密码。</p>
-<h4 id="4-部署到github-coding"><a href="#4-部署到github-coding" class="headerlink" title="4. 部署到github/coding"></a>4. 部署到github/coding</h4><p>1.安装Git部署插件：<br><code>$ npm install hexo-deployer-git --save</code><br>2.部署：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署到github/coding；</span><br></pre></td></tr></table></figure>
-<p>3.部署完毕，站点文件目录如下：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy_git  # （新增）hexo deploy 生成的git部署文件</span><br><span class="line">├── public       # （新增）hexo generate 生成的静态文件</span><br><span class="line">├── db.json      # （新增）hexo generate 生成的数据</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git时需忽略文件</span><br><span class="line">├── _config.yml  # 站点配置文件</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-<p>站点搭建完毕，打开浏览器在地址栏输入以下链接可随时访问自己的博客了。<br>github pages：<a href="http://yourname.github.io/">http://yourname.github.io</a><br>coding pages：<a href="http://yourname.coding.me/">http://yourname.coding.me</a></p>
-<h4 id="5-站点配置"><a href="#5-站点配置" class="headerlink" title="5. 站点配置"></a>5. 站点配置</h4><p>区分配置文件：</p>
-<table>
-    <tr> 
-        <td>配置文件</td> 
-        <td>路径</td> 
-    </tr> 
-    <tr> 
-        <td>路径站点配置文件</td> 
-        <td>X:/blog/_config.yml</td> 
-    </tr> 
-    <tr> 
-        <td>主题配置文件</td> 
-        <td>X:/blog/themes/你的主题/_config.yml</td> 
-    </tr> 
-</table>
-
-<p>打开站点配置文件<code>blog/_config.yml</code>，自行发挥，配置完毕，重新部署 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>；</p>
-<blockquote>
-<p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
-</blockquote>
-<p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
-<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#103;&#x69;&#x74;&#x40;&#x67;&#105;&#x74;&#x68;&#x75;&#x62;&#46;&#99;&#x6f;&#109;">&#103;&#x69;&#x74;&#x40;&#x67;&#105;&#x74;&#x68;&#x75;&#x62;&#46;&#99;&#x6f;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x2e;&#x63;&#x6f;&#x64;&#105;&#110;&#x67;&#x2e;&#x6e;&#x65;&#116;">&#x67;&#x69;&#116;&#64;&#x67;&#105;&#x74;&#x2e;&#x63;&#x6f;&#x64;&#105;&#110;&#x67;&#x2e;&#x6e;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
-<blockquote>
-<p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
-</blockquote>
-<h4 id="6-主题变更"><a href="#6-主题变更" class="headerlink" title="6. 主题变更"></a>6. 主题变更</h4><p>1.hexo默认主题为landscape，可以到Themes|Hexo选择自己喜欢的主题，复制主题在github仓库的url。<br>2.在themes文件夹下，打开GitBash，克隆主题至themes文件夹中。<br><code>$ git clone https://github.com/theme-next/hexo-theme-next.git</code><br>克隆之后，记住删除<code>themes\</code>你的主题名中的<code>.git</code>，<code>.github</code>，<code>.gitignore</code>等Git仓库文件。<br>3.更改站点配置文件<code>_config.yml</code>：<br><code>theme: 主题文件名</code><br>4.编辑结束，重新部署：<br><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code><br>部署完毕之后，进入以下链接刷新就可以看到你的新主题了。</p>
-<h4 id="7-写作"><a href="#7-写作" class="headerlink" title="7. 写作"></a>7. 写作</h4><p>1.新建：在blog文件夹下，打开Git Bash或者cmd，新建文章：<br><code>$ hexo new post &quot;title&quot;</code><br>2.编辑：在<code>source/_post</code>下可以编辑你新建的文章。<br>3.编辑完毕，重新部署：<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
-<h4 id="8-Front-matter"><a href="#8-Front-matter" class="headerlink" title="8. Front-matter"></a>8. Front-matter</h4><p>Front-matter 是文档最上方以 <code>---</code> 分隔的区域，用于指定文档一些的参数。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
-<table>
-    <tr> 
-        <td>参数</td> 
-        <td>值</td> 
-        <td>描述</td> 
-    </tr>
-    <tr>
-        <td>layout</td> 
-        <td>post、page、draft、false</td> 
-        <td>文章【默认值】、页面、草稿、不处理</td> 
-    </tr>
-         <td>title</td> 
-         <td>文本</td> 
-         <td>标题</td> 
-    <tr>
-        <td>date</td> 
-        <td>yyyy-MM-dd hh:mm:ss</td> 
-        <td>文件建立日期</td> 
-    </tr>
-        <td>update</td> 
-        <td>yyyy-MM-dd hh:mm:ss</td> 
-        <td>文件更新日期</td>  
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-    <tr>
-    </tr>
-
-
-
-       
-        
-        
-<pre><code>    &lt;td&gt;comments&lt;/td&gt; 
-    &lt;td&gt;tags&lt;/td&gt; 
-    &lt;td&gt;categories&lt;/td&gt; 
-    &lt;td&gt;permalink&lt;/td&gt; 
-&lt;/tr&gt; 
-&lt;tr&gt; 
-   
-    
-    
-    
-    &lt;td&gt;true、false&lt;/td&gt; 
-    &lt;td&gt;&lt;/td&gt; 
-    &lt;td&gt;&lt;/td&gt; 
-    &lt;td&gt;url&lt;/td&gt; 
-&lt;/tr&gt; 
-&lt;tr&gt; 
-    &lt;td&gt;X:/blog/themes/你的主题/_config.yml&lt;/td&gt; 
-    
-
-    
-    &lt;td&gt;开启文章评论功能，默认true&lt;/td&gt; 
-    &lt;td&gt;标签（只适用于post）&lt;/td&gt; 
-    &lt;td&gt;分类（只适用于post）&lt;/td&gt; 
-    &lt;td&gt;永久链接&lt;/td&gt;
-&lt;/tr&gt; 
-</code></pre>
-</table>
-
-<blockquote>
-<p>不要处理我的文章：将文章Front-Matter中的layout: false</p>
-</blockquote>
-<hr>
-<h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="配置文件的区分"><a href="#配置文件的区分" class="headerlink" title="配置文件的区分"></a>配置文件的区分</h3><h3 id="文档的Front-matter"><a href="#文档的Front-matter" class="headerlink" title="文档的Front-matter"></a>文档的Front-matter</h3><p>Front-matter 是文档最上方以<code>---</code>分隔的区域，用于指定文档一些的参数。</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
-<table>
-    <tr> 
-        <td>参数</td> 
-        <td>值</td> 
-        <td>描述</td> 
-    </tr> 
-    <tr> 
-        <td>layout</td> 
-        <td>post page draft false</td> 
-        <td>文章【默认值】页面 草稿 不处理</td> 
-    </tr> 
-    <tr> 
-        <td>title</td> 
-        <td>文本</td> 
-        <td>标题</td> 
-    </tr> 
-</table>
-
-<h3 id="给Next主题添加背景图片"><a href="#给Next主题添加背景图片" class="headerlink" title="给Next主题添加背景图片"></a>给Next主题添加背景图片</h3><p>打开<code>themes\next\source\css\main.styl</code>文件，插入如下代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@media screen and (min-width:1200px) &#123;</span><br><span class="line">    body &#123;</span><br><span class="line">    background-image:url(/images/background.jpg);</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed;</span><br><span class="line">    background-position:50% 50%; </span><br><span class="line">    &#125;</span><br><span class="line">    #footer a &#123;</span><br><span class="line">        color:#eee;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;!--图片放置到前一级目录的images文件夹下--&gt;</span><br></pre></td></tr></table></figure>
-
-<h3 id="给Next主题添加Gitter聊天功能"><a href="#给Next主题添加Gitter聊天功能" class="headerlink" title="给Next主题添加Gitter聊天功能"></a>给Next主题添加Gitter聊天功能</h3><p><strong>Gitter 的介绍和功能特色</strong></p>
-<ul>
-<li>免费无限制：用户可以自由免费地创建、搜素、加入社区、聊天室。支持单独私人聊天、markdown 编辑、媒体文件发送等功能。</li>
-<li>简单便捷：支持 Github 项目库关联创建社区，一键即可加入聊天讨论，仅在一个浏览器页面中即可查看和订阅多个聊天室。</li>
-<li>对外开放：所有社区支持对外分享并可被搜索到，一个链接即可访问参与聊天讨论，用户头像显示其 GitHub 账号的相关信息。<br>Gitter 注册:[<a href="https://gitter.im]">https://gitter.im]</a></li>
-</ul>
-<p>1.在<code>themes\next\layout\_third-party\quicklink.njk</code>文件里添加如下的集成代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--使用 Gitter 实现一个 IM 即时通讯聊天室功能--&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  ((window.gitter = &#123;&#125;).chat = &#123;&#125;).options = &#123;</span><br><span class="line">    room: &#x27;enjoytoshare/community&#x27;</span><br><span class="line">  &#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;script src=&quot;https://sidecar.gitter.im/dist/sidecar.v1.js&quot; async defer&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
-
-
-<hr>
-<h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
-<li>无法插入图片。<code>20220405解决</code><blockquote>
-<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，即可顺利加载图片。</p>
-</blockquote>
-</li>
-</ol>
-<hr>
-<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><p><code>20220405</code>：</p>
-<ol>
-<li><a href="http://xring.info/2018/hexo-pic-size.html">实现修改图片大小</a></li>
-<li><a href="https://blog.csdn.net/dpdpdppp/article/details/102387532">实现hexo(Next主题)修改文字大小</a></li>
-<li><a href="https://blog.csdn.net/qq_39720594/article/details/105401774">播放音乐(细节有待优化)</a></li>
-<li>增加打赏、搜索、友链和评论功能。</li>
-</ol>
-<ul>
-<li>博客初步维护完毕(20220405 23:35)。</li>
-</ul>
-<p><code>20220414</code></p>
-<ol>
-<li>增加“夜间模式”。</li>
-<li>增加“语言切换功能”。</li>
-<li>删除“播放音乐”功能。</li>
-<li>更换主题样式与站点图标。</li>
-<li>更换子栏目内容。</li>
-</ol>
-<p><code>20220423</code></p>
-<ol>
-<li>增加博客背景</li>
-<li>增加Gitter在线交流功能</li>
-</ol>
-<p><code>20220511</code></p>
-<ol>
-<li>更换博客主题[Next-&gt;zhaoo]<br>参考网站：<a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E5%85%A8%E5%B1%80%E5%AD%97%E4%BD%93">https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E5%85%A8%E5%B1%80%E5%AD%97%E4%BD%93</a></li>
-</ol>
-]]></content>
-      <categories>
-        <category>学习</category>
-      </categories>
-      <tags>
-        <tag>博客</tag>
-        <tag>写作排版</tag>
       </tags>
   </entry>
   <entry>
@@ -762,6 +313,455 @@
       <tags>
         <tag>博客</tag>
         <tag>写作排版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>9张照片</title>
+    <url>/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/</url>
+    <content><![CDATA[<h1 id="背影"><a href="#背影" class="headerlink" title="背影"></a><p style="text-align:center;">背影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0027.jpg" class="" title="背影"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:22，燕尾州公园，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="远观万佛塔"><a href="#远观万佛塔" class="headerlink" title="远观万佛塔"></a><p style="text-align:center;">远观万佛塔</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0030.jpg" class="" title="远观万佛塔"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月5日17:32，彩虹桥，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="孤寂的红绿灯"><a href="#孤寂的红绿灯" class="headerlink" title="孤寂的红绿灯"></a><p style="text-align:center;">孤寂的红绿灯</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0054.jpg" class="" title="孤寂的红绿灯"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月6日18:13，艾青公园，华人民共和国浙江省</div>
+<br>
+<span id="more"></span>
+
+<h1 id="光影"><a href="#光影" class="headerlink" title="光影"></a><p style="text-align:center;">光影</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0135.jpg" class="" title="光影"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月10日20:14，彩虹桥，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="我的高中母校"><a href="#我的高中母校" class="headerlink" title="我的高中母校"></a><p style="text-align:center;">我的高中母校</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0181.jpg" class="" title="我的高中母校"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年8月21日22:16，浙江金华第一中学，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="颐和园"><a href="#颐和园" class="headerlink" title="颐和园"></a><p style="text-align:center;">颐和园</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_0285.jpg" class="" title="颐和园"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2021年9月21日10:13，颐和园，中华人民共和国北京市</div>
+<br>
+
+<h1 id="故宫"><a href="#故宫" class="headerlink" title="故宫"></a><p style="text-align:center;">故宫</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1631.jpg" class="" title="故宫"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年1月14日11:35，故宫，中华人民共和国北京市</div>
+<br>
+
+<h1 id="寻探幽静"><a href="#寻探幽静" class="headerlink" title="寻探幽静"></a><p style="text-align:center;">寻探幽静</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1830.jpg" class="" title="寻探幽静"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年3月12日12:18，花田小镇，中华人民共和国浙江省</div>
+<br>
+
+<h1 id="我想变成天上的云"><a href="#我想变成天上的云" class="headerlink" title="我想变成天上的云"></a><p style="text-align:center;">我想变成天上的云</p></h1><div style="width:80%;margin:auto;"><img src="/undefined/%E7%94%9F%E6%B4%BB/9%E5%BC%A0%E7%85%A7%E7%89%87/IMG_1842.jpg" class="" title="我想变成天上的云"></div>
+<div style="text-align:center;font-size:10px;color:gray;line-height:1em;">摄于2022年4月5日17:27，家中，中华人民共和国浙江省</div>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>摄影</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>C_Primer_Plus课后练习题集合</title>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/</url>
+    <content><![CDATA[<p>C Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
+<span id="more"></span>
+<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="chapter2"><a href="#chapter2" class="headerlink" title="chapter2"></a>chapter2</h1><ol>
+<li>2.12.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Jimmy Chen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy\nChen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy&quot;);</span><br><span class="line">    printf(&quot; Chen\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_1();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Jimmy Chen</span><br><span class="line">Jimmy</span><br><span class="line">Chen</span><br><span class="line">Jimmy Chen</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>2.12.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Name:nono\n&quot;);</span><br><span class="line">    printf(&quot;Addr:Zhejiang province, China\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_2();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Name:nono</span><br><span class="line">Addr:Zhejiang province, China</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>2.12.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int years_old = 0;</span><br><span class="line">    int live_days = 0;</span><br><span class="line">    printf(&quot;请输入您的年龄:&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;years_old);</span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line">    live_days = years_old * 356;</span><br><span class="line"></span><br><span class="line">    printf(&quot;转换为天数是:%d\n&quot;, live_days);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_3();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">请输入您的年龄：20</span><br><span class="line">转换为天数是:7120</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>2.12.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void jolly(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void deny(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Which nobody can deny!\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    jolly();</span><br><span class="line">    deny();</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_4();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">Which nobody can deny!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>2.12.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>2.12.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    int toes = 10;</span><br><span class="line">    int double_toes = toes * 2;</span><br><span class="line">    int square_toes = toes * toes;</span><br><span class="line"></span><br><span class="line">    printf(&quot;the value of toes is : %d\n&quot;, toes);</span><br><span class="line">    printf(&quot;the value of double toes is : %d\n&quot;, double_toes);</span><br><span class="line">    printf(&quot;the value of square toes is : %d\n&quot;, square_toes);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_6();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of toes is : 10</span><br><span class="line">the value of double toes is : 20</span><br><span class="line">the value of square toes is : 100</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>2.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void smile(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Smile!&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    smile(); smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_7();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Smile!Smile!Smile!</span><br><span class="line">Smile!Smile!</span><br><span class="line">Smile!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>2.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void two(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;two\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;starting now:\n&quot;);</span><br><span class="line">    printf(&quot;one\n&quot;);</span><br><span class="line">    two();</span><br><span class="line">    printf(&quot;three\n&quot;);</span><br><span class="line">    printf(&quot;done!\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_8();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">starting now:</span><br><span class="line">one</span><br><span class="line">two</span><br><span class="line">three</span><br><span class="line">done!</span><br></pre></td></tr></table></figure>
+<h1 id="chapter3"><a href="#chapter3" class="headerlink" title="chapter3"></a>chapter3</h1></li>
+<li>3.11.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p2_(void)</span><br><span class="line">&#123;</span><br><span class="line">    int ch = 0;</span><br><span class="line">    printf(&quot;please input the value of ascii:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;ch);</span><br><span class="line"> </span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of ascii : %d\n&quot;, ch);</span><br><span class="line">    printf(&quot;the character : %c\n&quot;, (char)ch);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p2_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>3.11.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p3_(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;\a&quot;);</span><br><span class="line">    printf(&quot;Startled by the sudden sound, sally shouted,\n\&quot;By the Great Pumpkin, what was that!\&quot;&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p3_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
+<li>3.11.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p2_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float input = 0.0;</span><br><span class="line">    printf(&quot;Enter a floating-point value:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;input);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;fixed-point notation:%f\n&quot;, input);</span><br><span class="line">    printf(&quot;exponential notation:%e\n&quot;, input);</span><br><span class="line">    printf(&quot;p notation:%a\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a floating-point value:62.5</span><br><span class="line">fixed-point notation:62.500000</span><br><span class="line">exponential notation:6.250000e+001</span><br><span class="line">p notation:0x1.f40000p+5</span><br></pre></td></tr></table></figure></li>
+<li>3.11.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p2_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float input = 0.0;</span><br><span class="line">    printf(&quot;Enter a floating-point value:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;input);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;fixed-point notation:%f\n&quot;, input);</span><br><span class="line">    printf(&quot;exponential notation:%e\n&quot;, input);</span><br><span class="line">    printf(&quot;p notation:%a\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a floating-point value:62.5</span><br><span class="line">fixed-point notation:62.500000</span><br><span class="line">exponential notation:6.250000e+001</span><br><span class="line">p notation:0x1.f40000p+5</span><br></pre></td></tr></table></figure></li>
+<li>3.11.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define QUALITY_OF_WATER_MOLECULE (3.0e-23)</span><br><span class="line">#define NUM_OF_WATER_MOLECULE_PER_QUART (950/QUALITY_OF_WATER_MOLECULE)</span><br><span class="line"> </span><br><span class="line">void p2_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    double num_of_quart = 0;</span><br><span class="line">    printf(&quot;How much quart of water:&quot;);</span><br><span class="line">    scanf(&quot;%lf&quot;, &amp;num_of_quart);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    double num_of_water_molecule = num_of_quart * NUM_OF_WATER_MOLECULE_PER_QUART;</span><br><span class="line">    printf(&quot;there are %0.2f quart water and %le water molecule&quot;, num_of_quart, num_of_water_molecule);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_6();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much quart of water:5</span><br><span class="line">there are 5.00 quart water and 1.583333e+026 water molecule</span><br></pre></td></tr></table></figure></li>
+<li>3.11.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define CM_PER_INCH (2.54)</span><br><span class="line"> </span><br><span class="line">void p2_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_in_inch = 0;</span><br><span class="line">    float height_in_cm = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your height in inch:&quot;);</span><br><span class="line">    scanf_s(&quot;%f&quot;, &amp;height_in_inch);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    height_in_cm = height_in_inch * CM_PER_INCH;</span><br><span class="line">    printf(&quot;Your height is %f in cm\n&quot;, height_in_cm);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_7();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your height in inch:70</span><br><span class="line">Your height is 177.800003 in cm</span><br></pre></td></tr></table></figure></li>
+<li>3.11.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define CUPS_PER_PINT (2)</span><br><span class="line">#define OUNCES_PER_CUP (8)</span><br><span class="line">#define BIG_SPOONS_PER_OUNCE (2)</span><br><span class="line">#define TEA_SPIINS_PER_BIG_SPOON (3)</span><br><span class="line"> </span><br><span class="line">void p2_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float cups = 0;</span><br><span class="line">    float pints = 0;</span><br><span class="line">    float ounces = 0;</span><br><span class="line">    float big_spoons = 0;</span><br><span class="line">    float tea_spoons = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How many cups of tea do you want:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;cups);</span><br><span class="line">    getchar();</span><br><span class="line">    pints = cups / CUPS_PER_PINT;</span><br><span class="line">    ounces = cups * OUNCES_PER_CUP;</span><br><span class="line">    big_spoons = ounces * BIG_SPOONS_PER_OUNCE;</span><br><span class="line">    tea_spoons = big_spoons * TEA_SPIINS_PER_BIG_SPOON;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;pints:%f, cups:%f, ounces:%f, big_spoons:%f, tea_spoons:%f\n&quot;, pints, cups, ounces, big_spoons, tea_spoons);</span><br><span class="line">    return;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_8();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How many cups of tea do you want:1</span><br><span class="line">pints:0.500000, cups:1.000000, ounces:8.000000, big_spoons:16.000000, tea_spoons:48.000000</span><br></pre></td></tr></table></figure>
+<h1 id="chapter-4"><a href="#chapter-4" class="headerlink" title="chapter 4"></a>chapter 4</h1></li>
+<li>4.8.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;float.h&gt;</span><br><span class="line"> </span><br><span class="line">/************************************************************************/</span><br><span class="line">/* practice 1                                                                     */</span><br><span class="line">/************************************************************************/</span><br><span class="line">void p4_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40];</span><br><span class="line">    char last_name[40];</span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%*s,%*s\n&quot;, 10, first_name, 10, last_name);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_1();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:nono</span><br><span class="line">What&#x27;s your last name:aristo</span><br><span class="line">      nono,    aristo</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>4.8.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;float.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line">void p4_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40];</span><br><span class="line">    char last_name[40];</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_lenght = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_lenght = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;a.\&quot;%s,%s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;b.\&quot;%20s,%20s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;c.\&quot;%-20s,%-20s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;d.%*s,%*s\n&quot;, first_name_length+3, first_name, last_name_lenght+3, last_name);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_2();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:nono</span><br><span class="line">What&#x27;s your last name:ken</span><br><span class="line">a.&quot;nono,ken&quot;</span><br><span class="line">b.&quot;                nono,                 ken&quot;</span><br><span class="line">c.&quot;nono                ,ken                 &quot;</span><br><span class="line">d.   nono,   ken</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>4.8.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">void p4_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    double input = 0.0;</span><br><span class="line">    printf(&quot;please input the float number:&quot;);</span><br><span class="line">    scanf(&quot;%lf&quot;, &amp;input);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%lf\n&quot;, input);</span><br><span class="line">    printf(&quot;%e\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_3();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the float number:10.5</span><br><span class="line">10.500000</span><br><span class="line">1.050000e+001</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>4.8.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define CM_PER_INCH (2.54)</span><br><span class="line">void p4_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_inch = 0;</span><br><span class="line">    float height_cm = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your height:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;height_inch);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Dabney, you are %f feet tall\n&quot;, height_inch);</span><br><span class="line">    height_cm = height_inch * CM_PER_INCH;</span><br><span class="line">    printf(&quot;Dabney, you are %f cm tall\n&quot;, height_cm);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_4();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your height:70</span><br><span class="line">Dabney, you are 70.000000 feet tall</span><br><span class="line">Dabney, you are 177.800003 cm tall</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>4.8.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>4.8.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">void p4_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40] = &#123; 0 &#125;;</span><br><span class="line">    char last_name[40] = &#123; 0 &#125;;</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_length = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_length = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%*d %*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%-*d %-*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_6();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:ken</span><br><span class="line">What&#x27;s your last name:froid</span><br><span class="line">ken froid</span><br><span class="line">  3     5</span><br><span class="line">ken froid</span><br><span class="line">3   5</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="chapter-5"><a href="#chapter-5" class="headerlink" title="chapter 5"></a>chapter 5</h1><ol>
+<li>5.11.1<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define SECONDS_PER_MINUTE (60)</span><br><span class="line">void p5_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    float hours = 0;</span><br><span class="line">    int minutes = 0;</span><br><span class="line">    int seconds = 0;</span><br><span class="line">    printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line"> </span><br><span class="line">    while (minutes &gt; 0)</span><br><span class="line">    &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        hours = (float)minutes / SECONDS_PER_MINUTE;</span><br><span class="line">        seconds = minutes * SECONDS_PER_MINUTE;</span><br><span class="line">        printf(&quot;%d minute = %f hours or %d seconds\n&quot;, minutes, hours, seconds);</span><br><span class="line">        printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">        scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_1();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the number of minutes(&lt;= 0 to quit):60</span><br><span class="line">60 minute = 1.000000 hours or 3600 seconds</span><br><span class="line">please input the number of minutes(&lt;= 0 to quit):</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>5.11.2<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">void p5_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    int input_num = 0;</span><br><span class="line">    printf(&quot;please enter an integer:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;input_num);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the ten integers after %d are:&quot;, input_num);</span><br><span class="line">    for (int i = 0; i &lt;= 10; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        printf(&quot;%d &quot;, (input_num + i));</span><br><span class="line">    &#125;</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_2();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please enter an integer:5</span><br><span class="line">the ten integers after 5 are:5 6 7 8 9 10 11 12 13 14 15</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>5.11.3<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const int DAY_PER_WEEK = 7;</span><br><span class="line">void p5_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int days = 0;</span><br><span class="line">    int weeks = 0;</span><br><span class="line">    int remain_day = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;please input the number of day:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;days);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    weeks = days / DAY_PER_WEEK;</span><br><span class="line">    remain_day = days % DAY_PER_WEEK;</span><br><span class="line">    printf(&quot;%d days are %d weeks, %d days\n&quot;, days, weeks, remain_day);</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_3();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">please input the number of day:30</span><br><span class="line">30 days are 4 weeks, 2 days</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>5.11.4<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const float CM_PER_INCH = 2.54f;</span><br><span class="line">const float CM_PER_FEET = 30.38f;</span><br><span class="line">void p5_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_cm = 0;</span><br><span class="line">    int height_feet = 0;</span><br><span class="line">    float height_inch = 0.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Enter a height in centimeters: &quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line"> </span><br><span class="line">    while (height_cm &gt; 0) &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        height_feet = (int)(height_cm / CM_PER_FEET);</span><br><span class="line">        height_inch = (height_cm - CM_PER_FEET * height_feet) / CM_PER_INCH;</span><br><span class="line">        printf(&quot;%.1f cm = %d feet, %.1f inches\n&quot;, height_cm, height_feet, height_inch);</span><br><span class="line"> </span><br><span class="line">        printf(&quot;Enter a height in centimeters(&lt;=0 to quit): &quot;);</span><br><span class="line">        scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Enter a height in centimeters: 30</span><br><span class="line">30.0 cm = 0 feet, 11.8 inches</span><br><span class="line">Enter a height in centimeters(&lt;=0 to quit):</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>4.8.5<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>4.8.6<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">void p4_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40] = &#123; 0 &#125;;</span><br><span class="line">    char last_name[40] = &#123; 0 &#125;;</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_length = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_length = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%*d %*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%-*d %-*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_6();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">What&#x27;s your first name:ken</span><br><span class="line">What&#x27;s your last name:froid</span><br><span class="line">ken froid</span><br><span class="line">  3     5</span><br><span class="line">ken froid</span><br><span class="line">3   5</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>C语言</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hexo学习记录</title>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/hexo%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/</url>
+    <content><![CDATA[<p><img src="/../img/TaylorSwift01.jpg" alt="Title"></p>
+<blockquote>
+<p>老婆镇楼</p>
+</blockquote>
+<h1 id="Hexo-amp-amp-Next的基本操作"><a href="#Hexo-amp-amp-Next的基本操作" class="headerlink" title="Hexo&amp;&amp;Next的基本操作"></a>Hexo&amp;&amp;Next的基本操作</h1><span id="more"></span>
+<h2 id="几个资源网站"><a href="#几个资源网站" class="headerlink" title="几个资源网站"></a>几个资源网站</h2><p>在学习一个全新的东西之前，最好的学习方式其实是看<b>官方文档<b>。并且最好要熟悉源代码。以下是会用到的一些官方学习文档：<br>1.<a href="https://hexo.io/zh-cn/">hexo官网</a><br>2.<a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E4%B8%BB%E9%A2%98%E5%AE%89%E8%A3%85">主题配置详情</a></p>
+<h2 id="hexo"><a href="#hexo" class="headerlink" title="hexo"></a>hexo</h2><blockquote>
+<p>可参考的视频教程<br><a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a></p>
+</blockquote>
+<h3 id="（一）使用Hexo-Pages搭建个人博客"><a href="#（一）使用Hexo-Pages搭建个人博客" class="headerlink" title="（一）使用Hexo+Pages搭建个人博客"></a>（一）使用Hexo+Pages搭建个人博客</h3><p>本篇主要介绍使用Hexo+Pages搭建个人博客的流程。使用 Hexo 博客框架搭建，解析markdown文章，生成静态页面，将页面托管到 github / coding 服务器上。github / coding 都有pages 服务，提供免费的静态网页托管和演示服务。</p>
+<p>搭建步骤：</p>
+<ol>
+<li>安装git，nodejs</li>
+<li>安装hexo</li>
+<li>本地搭建站点（线下访问）</li>
+<li>部署到github/coding（线上访问）</li>
+<li>站点配置</li>
+</ol>
+<h4 id="1-安装hexo"><a href="#1-安装hexo" class="headerlink" title="1. 安装hexo"></a>1. 安装hexo</h4><p>1.安装Git。安装完毕后，在任意文件夹下鼠标右击即可打开<code>Git Bash</code>，输入命令，进行Git操作。<br><code>$ git version  # 查看Git版本，验证是否安装成功</code><br>2.安装Node.js。Hexo是基于nodejs的博客框架，而且nodejs还集成了npm包管理工具。<br><code>$ node -v    # 查看nodejs版本，验证是否安装成功</code><br>3.安装hexo：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ npm install hexo --save   # 安装hexo</span><br><span class="line">$ npm install hexo-cli -g   # 安装hexo命令行模式</span><br><span class="line">$ hexo -v  # 查看hexo版本，验证是否安装成功</span><br></pre></td></tr></table></figure>
+<h4 id="2-建站"><a href="#2-建站" class="headerlink" title="2. 建站"></a>2. 建站</h4><p>1.新建一个blog文件夹，打开blog文件夹，<code>Git Bash</code>。<br>2.hexo初始化：<code>hexo init</code><br>3.安装依赖包：<code>npm install</code><br>4.初始化完成，在blog下就会生成以下文件目录：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy      # 执行hexo deploy命令部署到GitHub上的内容目录</span><br><span class="line">├── public       # 执行hexo generate命令，输出的静态网页内容目录</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 创建的文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git忽略文件信息</span><br><span class="line">├── _config.yml  # 站点配置文件，大多数的设置都在这里</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br></pre></td></tr></table></figure>
+<p>NexT主题的目录</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">├── .github            #git信息</span><br><span class="line">├── languages          #多语言</span><br><span class="line">|   ├── default.yml    #默认语言</span><br><span class="line">|   └── zh-Hans.yml      #简体中文</span><br><span class="line">|   └── zh-tw.yml      #繁体中文</span><br><span class="line">├── layout             #布局，根目录下的*.ejs文件是对主页，分页，存档等的控制</span><br><span class="line">|   ├── _custom        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── _header.swig    #头部样式</span><br><span class="line">|   |   ├── _sidebar.swig   #侧边栏样式</span><br><span class="line">|   ├── _macro        #可以自己修改的模板，覆盖原有模板</span><br><span class="line">|   |   ├── post.swig    #文章模板</span><br><span class="line">|   |   ├── reward.swig    #打赏模板</span><br><span class="line">|   |   ├── sidebar.swig   #侧边栏模板</span><br><span class="line">|   ├── _partial       #局部的布局</span><br><span class="line">|   |   ├── head       #头部模板</span><br><span class="line">|   |   ├── search     #搜索模板</span><br><span class="line">|   |   ├── share      #分享模板</span><br><span class="line">|   ├── _script        #局部的布局</span><br><span class="line">|   ├── _third-party   #第三方模板</span><br><span class="line">|   ├── _layout.swig   #主页面模板</span><br><span class="line">|   ├── index.swig     #主页面模板</span><br><span class="line">|   ├── page           #页面模板</span><br><span class="line">|   └── tag.swig       #tag模板</span><br><span class="line">├── scripts            #script源码</span><br><span class="line">|   ├── tags           #tags的script源码</span><br><span class="line">|   ├── marge.js       #页面模板</span><br><span class="line">├── source             #源码</span><br><span class="line">|   ├── css            #css源码</span><br><span class="line">|   |   ├── _common    #*.styl基础css</span><br><span class="line">|   |   ├── _custom    #*.styl局部css</span><br><span class="line">|   |   └── _mixins    #mixins的css</span><br><span class="line">|   ├── fonts          #字体</span><br><span class="line">|   ├── images         #图片</span><br><span class="line">|   ├── uploads        #添加的文件</span><br><span class="line">|   └── js             #javascript源代码</span><br><span class="line">├── _config.yml        #主题配置文件</span><br><span class="line">└── README.md          #用GitHub的都知道</span><br></pre></td></tr></table></figure>
+<p>5.hexo本地生成静态页面</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署页面</span><br><span class="line">$ hexo server    # 启用hexo本地服务器；</span><br><span class="line"># 注：Hexo 3.0 把服务器独立成了个别模块，您必须先安装 hexo-server 才能使用。</span><br><span class="line"># hexo-server安装命令：npm install hexo-server --save</span><br></pre></td></tr></table></figure>
+<p>在cmd控制台命令中，跳转到你当前的文件目录下，输入<code>hexo s</code>，cmd会给出你的本地host网站，然后打开浏览器在地址栏输入<a href="http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。">http://localhost:****(你设置的端口，默认为4000)即可本地访问静态博客页面。</a></p>
+<h4 id="3-配置github-coding-pages"><a href="#3-配置github-coding-pages" class="headerlink" title="3. 配置github/coding pages"></a>3. 配置github/coding pages</h4><p>github和coding可以双线配置，也可以选择其中一个配置。推荐双线配置，coding用于国内访问速度较快，github用于境外访问。</p>
+<p>1.登录github，New repository：<code>yourname.github.io</code>。其中<code>yourname</code>是你的github用户名，github强制后缀为<code>github.io</code>才能启用github pages服务。</p>
+<p>2.登录coding，新建仓库：<code>yourname.coding.me</code>，打开静态pages服务。其中<code>yourname</code>是你的coding用户名，coding不强制后缀为<code>coding.me</code>。</p>
+<p>3.Git Bash配置git用户信息：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ git config --global user.name &quot;YourName&quot;</span><br><span class="line">$ git config --global user.email &quot;YourEmail&quot;</span><br></pre></td></tr></table></figure>
+<p>4.配置网络传输协议<br>在管理Git项目时，一般使用ssh或https作为安全传输协议，任选其一即可。<br>(1) SSH协议<br>①SSH秘钥：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;youremail@example.com&quot;  # 生成rsa秘钥</span><br><span class="line">$ cd ~/.ssh         # 进入虚拟目录ssh文件中</span><br><span class="line">$ cat id_rsa.pub    # 显示id_rsa.pub文件内容</span><br></pre></td></tr></table></figure>
+<p>②复制秘钥至github/coding-&gt;用户setting-&gt;SSH keys，New SSH Key；</p>
+<p>③验证是否添加成功</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ ssh -T git@github.com  # 验证github是否添加成功</span><br><span class="line">$ ssh -T git@coding.net  # 验证coding是否添加成功</span><br></pre></td></tr></table></figure>
+<p>④编辑站点配置文件<code>_config.yml</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: </span><br><span class="line">		github: git@github.com:yourname/yourname.github.io.git </span><br><span class="line">		coding: git@git.coding.net:yourname/yourname.coding.me.git </span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
+<p>(2) HTTPS协议</p>
+<p>①直接编辑站点配置文件<code>_config.yml</code>：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">	type: git</span><br><span class="line">	repo: </span><br><span class="line">		github: https://github.com/liziczh/liziczh.github.io.git</span><br><span class="line">    	coding: https://git.coding.net/liziczh/liziczh.coding.me.git</span><br><span class="line">	branch: master</span><br></pre></td></tr></table></figure>
+<p>②验证github/coding用户名和密码。</p>
+<h4 id="4-部署到github-coding"><a href="#4-部署到github-coding" class="headerlink" title="4. 部署到github/coding"></a>4. 部署到github/coding</h4><p>1.安装Git部署插件：<br><code>$ npm install hexo-deployer-git --save</code><br>2.部署：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">$ hexo clean     # 清理本地静态文件；</span><br><span class="line">$ hexo generate  # 生成静态页面，即public文件夹；</span><br><span class="line">$ hexo deploy    # 部署到github/coding；</span><br></pre></td></tr></table></figure>
+<p>3.部署完毕，站点文件目录如下：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">.</span><br><span class="line">├── .deploy_git  # （新增）hexo deploy 生成的git部署文件</span><br><span class="line">├── public       # （新增）hexo generate 生成的静态文件</span><br><span class="line">├── db.json      # （新增）hexo generate 生成的数据</span><br><span class="line">├── node_modules # 依赖模块</span><br><span class="line">├── scaffolds    # layout模板文件目录，其中的md文件可以添加编辑</span><br><span class="line">├── source       # 用户源文件：页面，文章markdown文件。文章源码目录，该目录下的markdown和html文件均会被hexo处理。该页面对应repo的根目录，404文件、favicon.ico文件，CNAME文件等都应该放这里，该目录下可新建页面目录。</span><br><span class="line">|   └── _posts   # 文章</span><br><span class="line">└── themes       # 主题</span><br><span class="line">├── .gitignore   # git时需忽略文件</span><br><span class="line">├── _config.yml  # 站点配置文件</span><br><span class="line">├── package.json # 已安装插件映射表，下次只需npm install即直接安装表插件，指明hexo的版本等信息，类似于一般软件中的关于按钮</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>站点搭建完毕，打开浏览器在地址栏输入以下链接可随时访问自己的博客了。<br>github pages：<a href="http://yourname.github.io/">http://yourname.github.io</a><br>coding pages：<a href="http://yourname.coding.me/">http://yourname.coding.me</a></p>
+<h4 id="5-站点配置"><a href="#5-站点配置" class="headerlink" title="5. 站点配置"></a>5. 站点配置</h4><p>区分配置文件：</p>
+<table>
+    <tr> 
+        <td>配置文件</td> 
+        <td>路径</td> 
+    </tr> 
+    <tr> 
+        <td>路径站点配置文件</td> 
+        <td>X:/blog/_config.yml</td> 
+    </tr> 
+    <tr> 
+        <td>主题配置文件</td> 
+        <td>X:/blog/themes/你的主题/_config.yml</td> 
+    </tr> 
+</table>
+
+<p>打开站点配置文件<code>blog/_config.yml</code>，自行发挥，配置完毕，重新部署 <code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>；</p>
+<blockquote>
+<p>注意：yaml语言使用缩进表示层级关系。<br>注意：键值对中的冒号（:）后面有一个半角空格。</p>
+</blockquote>
+<p><strong>网站</strong><br><code>title</code>: #网站标题<br><code>subtitle</code>: #网站副标题<br><code>description</code>: #网站描述<br><code>keywords</code>: #关键字<br><code>author</code>: #你的名字,文档作者<br><code>language</code>: #网站的语言<br><code>timezone</code>: #时区，中国：Asia/Shanghai<br>其中，description主要用于SEO，告诉搜索引擎一个关于您站点的简单描述，通常建议在其中包含您网站的关键词。author参数用于主题显示文章的作者。</p>
+<p><strong>网址</strong><br>url: <a href="https://yoursite.com/">https://yoursite.com</a>  #你的网址url<br>root: /   #网站根目录<br>permalink: :year/:month/:day/:title.html #<a href="https://hexo.io/zh-cn/docs/permalinks">文章永久链接</a><br>permalink_defaults:<br><strong>主题</strong><br>theme: landscape  # 主题文件的名称<br><strong>部署</strong><br>deploy:<br>  type: git<br>  repo:<br>    github: <a href="mailto:&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#x63;&#x6f;&#109;">&#x67;&#x69;&#x74;&#x40;&#103;&#105;&#116;&#x68;&#x75;&#98;&#x2e;&#x63;&#x6f;&#109;</a>:yourname/yourname.github.io.git<br>    coding: <a href="mailto:&#x67;&#x69;&#x74;&#64;&#103;&#x69;&#116;&#46;&#99;&#111;&#100;&#105;&#x6e;&#103;&#46;&#110;&#x65;&#116;">&#x67;&#x69;&#x74;&#64;&#103;&#x69;&#116;&#46;&#99;&#111;&#100;&#105;&#x6e;&#103;&#46;&#110;&#x65;&#116;</a>:yourname/yourname.coding.me.git<br>  branch: master</p>
+<blockquote>
+<p>详细配置请参考<a href="https://hexo.io/zh-cn/docs/configuration.html">hexo配置</a>，此处不再赘述。</p>
+</blockquote>
+<h4 id="6-主题变更"><a href="#6-主题变更" class="headerlink" title="6. 主题变更"></a>6. 主题变更</h4><p>1.hexo默认主题为landscape，可以到Themes|Hexo选择自己喜欢的主题，复制主题在github仓库的url。<br>2.在themes文件夹下，打开GitBash，克隆主题至themes文件夹中。<br><code>$ git clone https://github.com/theme-next/hexo-theme-next.git</code><br>克隆之后，记住删除<code>themes\</code>你的主题名中的<code>.git</code>，<code>.github</code>，<code>.gitignore</code>等Git仓库文件。<br>3.更改站点配置文件<code>_config.yml</code>：<br><code>theme: 主题文件名</code><br>4.编辑结束，重新部署：<br><code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code><br>部署完毕之后，进入以下链接刷新就可以看到你的新主题了。</p>
+<h4 id="7-写作"><a href="#7-写作" class="headerlink" title="7. 写作"></a>7. 写作</h4><p>1.新建：在blog文件夹下，打开Git Bash或者cmd，新建文章：<br><code>$ hexo new post &quot;title&quot;</code><br>2.编辑：在<code>source/_post</code>下可以编辑你新建的文章。<br>3.编辑完毕，重新部署：<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code></p>
+<h4 id="8-Front-matter"><a href="#8-Front-matter" class="headerlink" title="8. Front-matter"></a>8. Front-matter</h4><p>Front-matter 是文档最上方以 <code>---</code> 分隔的区域，用于指定文档一些的参数。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
+<table>
+    <tr> 
+        <td>参数</td> 
+        <td>值</td> 
+        <td>描述</td> 
+    </tr>
+    <tr>
+        <td>layout</td> 
+        <td>post、page、draft、false</td> 
+        <td>文章【默认值】、页面、草稿、不处理</td> 
+    </tr>
+         <td>title</td> 
+         <td>文本</td> 
+         <td>标题</td> 
+    <tr>
+        <td>date</td> 
+        <td>yyyy-MM-dd hh:mm:ss</td> 
+        <td>文件建立日期</td> 
+    </tr>
+        <td>update</td> 
+        <td>yyyy-MM-dd hh:mm:ss</td> 
+        <td>文件更新日期</td>  
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+    <tr>
+    </tr>
+
+
+
+       
+        
+        
+<pre><code>    &lt;td&gt;comments&lt;/td&gt; 
+    &lt;td&gt;tags&lt;/td&gt; 
+    &lt;td&gt;categories&lt;/td&gt; 
+    &lt;td&gt;permalink&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+   
+    
+    
+    
+    &lt;td&gt;true、false&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt; 
+    &lt;td&gt;&lt;/td&gt; 
+    &lt;td&gt;url&lt;/td&gt; 
+&lt;/tr&gt; 
+&lt;tr&gt; 
+    &lt;td&gt;X:/blog/themes/你的主题/_config.yml&lt;/td&gt; 
+    
+
+    
+    &lt;td&gt;开启文章评论功能，默认true&lt;/td&gt; 
+    &lt;td&gt;标签（只适用于post）&lt;/td&gt; 
+    &lt;td&gt;分类（只适用于post）&lt;/td&gt; 
+    &lt;td&gt;永久链接&lt;/td&gt;
+&lt;/tr&gt; 
+</code></pre>
+</table>
+
+<blockquote>
+<p>不要处理我的文章：将文章Front-Matter中的layout: false</p>
+</blockquote>
+<hr>
+<h2 id="NexT主题文章管理"><a href="#NexT主题文章管理" class="headerlink" title="NexT主题文章管理"></a>NexT主题文章管理</h2><h3 id="配置文件的区分"><a href="#配置文件的区分" class="headerlink" title="配置文件的区分"></a>配置文件的区分</h3><h3 id="文档的Front-matter"><a href="#文档的Front-matter" class="headerlink" title="文档的Front-matter"></a>文档的Front-matter</h3><p>Front-matter 是文档最上方以<code>---</code>分隔的区域，用于指定文档一些的参数。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: 文章标题</span><br><span class="line">date: yyyy-MM-dd hh:mm:ss</span><br><span class="line">tags: </span><br><span class="line">categories: </span><br><span class="line">comments: true</span><br><span class="line">---</span><br><span class="line"># 注意：键值对中的冒号（:）后面有一个半角空格。</span><br></pre></td></tr></table></figure>
+<table>
+    <tr> 
+        <td>参数</td> 
+        <td>值</td> 
+        <td>描述</td> 
+    </tr> 
+    <tr> 
+        <td>layout</td> 
+        <td>post page draft false</td> 
+        <td>文章【默认值】页面 草稿 不处理</td> 
+    </tr> 
+    <tr> 
+        <td>title</td> 
+        <td>文本</td> 
+        <td>标题</td> 
+    </tr> 
+</table>
+
+<h3 id="给Next主题添加背景图片"><a href="#给Next主题添加背景图片" class="headerlink" title="给Next主题添加背景图片"></a>给Next主题添加背景图片</h3><p>打开<code>themes\next\source\css\main.styl</code>文件，插入如下代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">@media screen and (min-width:1200px) &#123;</span><br><span class="line">    body &#123;</span><br><span class="line">    background-image:url(/images/background.jpg);</span><br><span class="line">    background-repeat: no-repeat;</span><br><span class="line">    background-attachment:fixed;</span><br><span class="line">    background-position:50% 50%; </span><br><span class="line">    &#125;</span><br><span class="line">    #footer a &#123;</span><br><span class="line">        color:#eee;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">&lt;!--图片放置到前一级目录的images文件夹下--&gt;</span><br></pre></td></tr></table></figure>
+
+<h3 id="给Next主题添加Gitter聊天功能"><a href="#给Next主题添加Gitter聊天功能" class="headerlink" title="给Next主题添加Gitter聊天功能"></a>给Next主题添加Gitter聊天功能</h3><p><strong>Gitter 的介绍和功能特色</strong></p>
+<ul>
+<li>免费无限制：用户可以自由免费地创建、搜素、加入社区、聊天室。支持单独私人聊天、markdown 编辑、媒体文件发送等功能。</li>
+<li>简单便捷：支持 Github 项目库关联创建社区，一键即可加入聊天讨论，仅在一个浏览器页面中即可查看和订阅多个聊天室。</li>
+<li>对外开放：所有社区支持对外分享并可被搜索到，一个链接即可访问参与聊天讨论，用户头像显示其 GitHub 账号的相关信息。<br>Gitter 注册:[<a href="https://gitter.im]">https://gitter.im]</a></li>
+</ul>
+<p>1.在<code>themes\next\layout\_third-party\quicklink.njk</code>文件里添加如下的集成代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&lt;!--使用 Gitter 实现一个 IM 即时通讯聊天室功能--&gt;</span><br><span class="line">&lt;script&gt;</span><br><span class="line">  ((window.gitter = &#123;&#125;).chat = &#123;&#125;).options = &#123;</span><br><span class="line">    room: &#x27;enjoytoshare/community&#x27;</span><br><span class="line">  &#125;;</span><br><span class="line">&lt;/script&gt;</span><br><span class="line">&lt;script src=&quot;https://sidecar.gitter.im/dist/sidecar.v1.js&quot; async defer&gt;&lt;/script&gt;</span><br></pre></td></tr></table></figure>
+
+
+<hr>
+<h1 id="那些年遇到的bug"><a href="#那些年遇到的bug" class="headerlink" title="那些年遇到的bug"></a>那些年遇到的bug</h1><ol>
+<li>无法插入图片。<code>20220405解决</code><blockquote>
+<p>试了很多方法，包括外链插入、本地插入，还是没有办法加载图片。后来搜索到了一个教程，是要修改<code>node_nodules</code>里的<code>hexo-asset-image\index.js</code>的参数。很奇特，把大佬的配置复制粘贴到我的<code>index.js</code>里，依然不生效。但是如果把我源文件注释掉，再复制粘贴，即可顺利加载图片。</p>
+</blockquote>
+</li>
+</ol>
+<hr>
+<h1 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h1><p><code>20220405</code>：</p>
+<ol>
+<li><a href="http://xring.info/2018/hexo-pic-size.html">实现修改图片大小</a></li>
+<li><a href="https://blog.csdn.net/dpdpdppp/article/details/102387532">实现hexo(Next主题)修改文字大小</a></li>
+<li><a href="https://blog.csdn.net/qq_39720594/article/details/105401774">播放音乐(细节有待优化)</a></li>
+<li>增加打赏、搜索、友链和评论功能。</li>
+</ol>
+<ul>
+<li>博客初步维护完毕(20220405 23:35)。</li>
+</ul>
+<p><code>20220414</code></p>
+<ol>
+<li>增加“夜间模式”。</li>
+<li>增加“语言切换功能”。</li>
+<li>删除“播放音乐”功能。</li>
+<li>更换主题样式与站点图标。</li>
+<li>更换子栏目内容。</li>
+</ol>
+<p><code>20220423</code></p>
+<ol>
+<li>增加博客背景</li>
+<li>增加Gitter在线交流功能</li>
+</ol>
+<p><code>20220511</code></p>
+<ol>
+<li>更换博客主题[Next-&gt;zhaoo]<br>参考网站：<a href="https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E5%85%A8%E5%B1%80%E5%AD%97%E4%BD%93">https://www.izhaoo.com/2020/05/05/hexo-theme-zhaoo-doc/#%E5%85%A8%E5%B1%80%E5%AD%97%E4%BD%93</a></li>
+</ol>
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+        <tag>写作排版</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>建站成功！</title>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/</url>
+    <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
+<p>以下公开的网络资源助力本人搭建博客。<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a><br>⑧<a href="https://tding.top/tags/NexT/">一些大佬的博客</a></p>
+</blockquote>
+<span id="more"></span>
+<h1 id="这是我第一篇博文！"><a href="#这是我第一篇博文！" class="headerlink" title="这是我第一篇博文！"></a>这是我第一篇博文！</h1><h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>
+
+
+
+
+]]></content>
+      <categories>
+        <category>学习</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
       </tags>
   </entry>
 </search>
