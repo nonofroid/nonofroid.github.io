@@ -173,10 +173,10 @@
   
   <entry>
     <title>建站成功！</title>
-    <link href="https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/"/>
-    <id>https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/</id>
+    <link href="https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/Hexo/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/"/>
+    <id>https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/Hexo/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/</id>
     <published>2022-04-01T15:55:54.000Z</published>
-    <updated>2022-05-14T08:21:16.695Z</updated>
+    <updated>2022-07-01T06:55:16.546Z</updated>
     
     <content type="html"><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote><p>以下公开的网络资源助力本人搭建博客。<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a><br>⑧<a href="https://tding.top/tags/NexT/">一些大佬的博客</a></p></blockquote><span id="more"></span><h1 id="这是我第一篇博文！"><a href="#这是我第一篇博文！" class="headerlink" title="这是我第一篇博文！"></a>这是我第一篇博文！</h1><h2 id="搭建过程中碰到的一些小问题"><a href="#搭建过程中碰到的一些小问题" class="headerlink" title="搭建过程中碰到的一些小问题"></a>搭建过程中碰到的一些小问题</h2><p>第一个问题是git没有初始化、环境变量配置被覆盖，第二个问题是部署出现错误err-Error-Spawn-failed。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">#搭建过程中需要的一些代码</span><br><span class="line">①init git //初始本地git</span><br><span class="line">②git config --global core.autocrlf false //当设置成false时,line endings</span><br><span class="line">将不做转换操作。文本文件保持原来的样子。</span><br><span class="line">tips:hexo s -p 端口号 //预览主题页面</span><br><span class="line">③hexo clean &amp;&amp; hexo g &amp;&amp; hexo d //这行代码是首次部署博客时假设存在了err-Error-Spawn-failed的解决方式。能够打开页面后每次更新页面请看④</span><br></pre></td></tr></table></figure>]]></content>
     
@@ -188,6 +188,10 @@
     
     
     <category term="学习" scheme="https://nonofroid.github.io/categories/%E5%AD%A6%E4%B9%A0/"/>
+    
+    <category term="计算机工具" scheme="https://nonofroid.github.io/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/"/>
+    
+    <category term="Hexo" scheme="https://nonofroid.github.io/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/Hexo/"/>
     
     
     <category term="博客" scheme="https://nonofroid.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>

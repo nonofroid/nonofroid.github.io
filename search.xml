@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>建站成功！</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/</url>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/Hexo/%E5%BB%BA%E7%AB%99%E6%88%90%E5%8A%9F%EF%BC%81/</url>
     <content><![CDATA[<h1 id="WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻"><a href="#WELCOME-TO-MY-BLOG-欢迎来到我的个人博客💐🌃💻" class="headerlink" title="WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻"></a>WELCOME TO MY BLOG | 欢迎来到我的个人博客💐🌃💻</h1><blockquote>
 <p>以下公开的网络资源助力本人搭建博客。<br>①<a href="https://www.bilibili.com/video/BV1cW411A7Jx?p=9">手把手教你搭建属于自己的hexo+github博客</a><br>②<a href="https://blog.csdn.net/qq_48759664/article/details/119480266">Hexo部署出现错误err-Error-Spawn-failed解决方式</a><br>③<a href="https://git-scm.com/">git官方</a><br>④<a href="https://github.com/">github社区</a><br>⑤<a href="https://hexo.io/">hexo框架</a><br>⑥<a href="https://www.cnblogs.com/liziczh/default.html?page=2">关于next主题的配置</a><br>⑦<a href="http://theme-next.iissnan.com/tag-plugins.html">next官方中文文档</a><br>⑧<a href="https://tding.top/tags/NexT/">一些大佬的博客</a></p>
 </blockquote>
@@ -16,6 +16,8 @@
 ]]></content>
       <categories>
         <category>学习</category>
+        <category>计算机工具</category>
+        <category>Hexo</category>
       </categories>
       <tags>
         <tag>博客</tag>
