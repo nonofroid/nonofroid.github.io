@@ -9,7 +9,7 @@
         <category>思考</category>
       </categories>
       <tags>
-        <tag>个人</tag>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
@@ -53,7 +53,7 @@
   </entry>
   <entry>
     <title>C++_Primer_Plus课后练习题集合</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/</url>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/C-%E8%AF%AD%E8%A8%80/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/</url>
     <content><![CDATA[<p>C++ Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
 <span id="more"></span>
 <h1 id="chapter-2"><a href="#chapter-2" class="headerlink" title="chapter 2"></a>chapter 2</h1><ol>
@@ -95,9 +95,11 @@
 <h1 id="chapter-3"><a href="#chapter-3" class="headerlink" title="chapter 3"></a>chapter 3</h1>]]></content>
       <categories>
         <category>学习</category>
+        <category>计算机语言</category>
+        <category>C++语言</category>
       </categories>
       <tags>
-        <tag>C++语言</tag>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -377,12 +379,12 @@
         <category>生活</category>
       </categories>
       <tags>
-        <tag>摄影</tag>
+        <tag>生活</tag>
       </tags>
   </entry>
   <entry>
     <title>C_Primer_Plus课后练习题集合</title>
-    <url>/undefined/%E5%AD%A6%E4%B9%A0/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/</url>
+    <url>/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/</url>
     <content><![CDATA[<p>C Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
 <span id="more"></span>
 <h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -523,9 +525,11 @@
 ]]></content>
       <categories>
         <category>学习</category>
+        <category>计算机语言</category>
+        <category>C语言</category>
       </categories>
       <tags>
-        <tag>C语言</tag>
+        <tag>学习</tag>
       </tags>
   </entry>
   <entry>
@@ -784,6 +788,7 @@
       </categories>
       <tags>
         <tag>博客</tag>
+        <tag>写作排版</tag>
       </tags>
   </entry>
 </search>
