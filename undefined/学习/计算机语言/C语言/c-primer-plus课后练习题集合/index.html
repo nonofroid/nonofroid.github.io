@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#222" media="(prefers-color-scheme: dark)"><meta name="generator" content="Hexo 5.4.1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <meta name="baidu-site-verification" content="c8b01d587c498d89eacc77987a5fe722">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css" integrity="sha256-DfWjNxDkM94fVBWx1H5BMMp0Zq7luBlV8QRcSES7s+0=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/themes/blue/pace-theme-bounce.css">
+  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.2.4/pace.min.js" integrity="sha256-gqd7YTjg/BtfqWSwsJOvndl0Bxc8gFImLEkXQT8+qj0=" crossorigin="anonymous"></script>
+
+<script class="next-config" data-name="main" type="application/json">{"hostname":"nonofroid.github.io","root":"/","images":"/images","scheme":"Pisces","darkmode":true,"version":"8.11.0","exturl":false,"sidebar":{"position":"left","width":300,"display":"always","padding":18,"offset":12},"copycode":true,"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}}</script><script src="/js/config.js"></script>
+
+    <meta name="description" content="C Primer Plus的复盘学习。以下是书本课后编程练习的源代码。编译链接环境：Visual Studio 2019 &#x2F; Visual Studio Code &#x2F; Dev C++">
+<meta property="og:type" content="article">
+<meta property="og:title" content="C_Primer_Plus课后练习题集合">
+<meta property="og:url" content="https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/index.html">
+<meta property="og:site_name" content="月神夜的树洞">
+<meta property="og:description" content="C Primer Plus的复盘学习。以下是书本课后编程练习的源代码。编译链接环境：Visual Studio 2019 &#x2F; Visual Studio Code &#x2F; Dev C++">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-04-06T03:49:16.000Z">
+<meta property="article:modified_time" content="2022-07-04T08:53:03.380Z">
+<meta property="article:author" content="nono">
+<meta property="article:tag" content="学习">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/">
+
+
+
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/","path":"undefined/学习/计算机语言/C语言/c-primer-plus课后练习题集合/","title":"C_Primer_Plus课后练习题集合"}</script>
+
+<script class="next-config" data-name="calendar" type="application/json">""</script>
+<title>C_Primer_Plus课后练习题集合 | 月神夜的树洞</title>
+  
+
+
+
+
+
+  <noscript>
+    <link rel="stylesheet" href="/css/noscript.css">
+  </noscript>
+<link rel="alternate" href="/atom.xml" title="月神夜的树洞" type="application/atom+xml">
+<style>.darkmode--activated{--body-bg-color:#282828;--content-bg-color:#333;--card-bg-color:#555;--text-color:#ccc;--blockquote-color:#bbb;--link-color:#ccc;--link-hover-color:#eee;--brand-color:#ddd;--brand-hover-color:#ddd;--table-row-odd-bg-color:#282828;--table-row-hover-bg-color:#363636;--menu-item-bg-color:#555;--btn-default-bg:#222;--btn-default-color:#ccc;--btn-default-border-color:#555;--btn-default-hover-bg:#666;--btn-default-hover-color:#ccc;--btn-default-hover-border-color:#666;--highlight-background:#282b2e;--highlight-foreground:#a9b7c6;--highlight-gutter-background:#34393d;--highlight-gutter-foreground:#9ca9b6}.darkmode--activated img{opacity:.75}.darkmode--activated img:hover{opacity:.9}.darkmode--activated code{color:#69dbdc;background:0 0}button.darkmode-toggle{z-index:9999}.darkmode-ignore,img{display:flex!important}</style></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏" role="button">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <p class="site-title">月神夜的树洞</p>
+      <i class="logo-line"></i>
+    </a>
+      <p class="site-subtitle" itemprop="description">希望能把我的人生写成一本书。</p>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu"><li class="menu-item menu-item-主页"><a href="/" rel="section"><i class="fa fa-home fa-fw"></i>主页</a></li><li class="menu-item menu-item-所有文章"><a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>所有文章</a></li><li class="menu-item menu-item-博客标签"><a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>博客标签</a></li><li class="menu-item menu-item-博客分类"><a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>博客分类</a></li><li class="menu-item menu-item-友情链接"><a href="/404/" rel="section"><i class="fa fa-heartbeat fa-fw"></i>友情链接</a></li><li class="menu-item menu-item-关于我"><a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于我</a></li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup"><div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close" role="button">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle" role="button">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+   
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter1"><span class="nav-number">1.</span> <span class="nav-text">chapter1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter2"><span class="nav-number">2.</span> <span class="nav-text">chapter2</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter3"><span class="nav-number">3.</span> <span class="nav-text">chapter3</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-4"><span class="nav-number">4.</span> <span class="nav-text">chapter 4</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#chapter-5"><span class="nav-number">5.</span> <span class="nav-text">chapter 5</span></a></li></ol></div>
+        </div>
+        <!--/noindex-->
+
+        <div class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="nono"
+      src="/images/photofile.jpg">
+  <p class="site-author-name" itemprop="name">nono</p>
+  <div class="site-description" itemprop="description">每一秒都在思考</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+        <a href="/archives/">
+          <span class="site-state-item-count">11</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+          <a href="/categories/">
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+          <a href="/tags/">
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/nonofroid" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;nonofroid" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i>GitHub</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:Mr.gez666@gmail.com" title="E-Mail → mailto:Mr.gez666@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/yourname" title="Weibo → https:&#x2F;&#x2F;weibo.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i>Weibo</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://plus.google.com/yourname" title="Google → https:&#x2F;&#x2F;plus.google.com&#x2F;yourname" rel="noopener" target="_blank"><i class="fab fa-google fa-fw"></i>Google</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://twitter.com/" title="Twitter → https:&#x2F;&#x2F;twitter.com" rel="noopener" target="_blank"><i class="fab fa-twitter fa-fw"></i>Twitter</a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://instagram.com/" title="Instagram → https:&#x2F;&#x2F;instagram.com" rel="noopener" target="_blank"><i class="fab fa-instagram fa-fw"></i>Instagram</a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      Links
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://www.zhihu.com/" title="https:&#x2F;&#x2F;www.zhihu.com" rel="noopener" target="_blank">知乎</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.zhihu.com/" title="https:&#x2F;&#x2F;www.zhihu.com" rel="noopener" target="_blank">微博</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://www.leetcode.com/" title="https:&#x2F;&#x2F;www.leetcode.com" rel="noopener" target="_blank">Leetcode</a>
+        </li>
+    </ul>
+  </div>
+  <div class="">
+    <a target="_blank" class="social-link" href="/atom.xml" style="color: burlywood;">
+      <span class="icon">
+        <i class="fa fa-rss"></i>
+      </span>
+      <span class="label">RSS</span>
+    </a>
+  </div>
+
+        </div>
+      </div>
+        <div class="back-to-top animated" role="button" aria-label="返回顶部">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+      <!--网易云插件
+      <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=150 
+        src="//music.163.com/outchain/player?type=0&id=7366832916&auto=1&height=430">
+      </iframe>-->
+    </div>
+
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://nonofroid.github.io/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/c-primer-plus%E8%AF%BE%E5%90%8E%E7%BB%83%E4%B9%A0%E9%A2%98%E9%9B%86%E5%90%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/photofile.jpg">
+      <meta itemprop="name" content="nono">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="月神夜的树洞">
+      <meta itemprop="description" content="每一秒都在思考">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="C_Primer_Plus课后练习题集合 | 月神夜的树洞">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          C_Primer_Plus课后练习题集合
+        </h1>
+
+        <div class="post-meta-container">
+          
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2022-04-06 11:49:16" itemprop="dateCreated datePublished" datetime="2022-04-06T11:49:16+08:00">2022-04-06</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">更新于</span>
+      <time title="修改时间：2022-07-04 16:53:03" itemprop="dateModified" datetime="2022-07-04T16:53:03+08:00">2022-07-04</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">计算机语言</span></a>
+        </span>
+          ，
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index"><span itemprop="name">C语言</span></a>
+        </span>
+    </span>
+
+  
+    <span class="post-meta-item" title="热度" id="busuanzi_container_page_pv">
+      <span class="post-meta-item-icon">
+        <i class="far fa-eye"></i>
+      </span>
+      <span class="post-meta-item-text">热度：</span>
+      <span id="busuanzi_value_page_pv"></span>
+    </span>
+    <span class="post-meta-break"></span>
+    <span class="post-meta-item" title="本文字数">
+      <span class="post-meta-item-icon">
+        <i class="far fa-file-word"></i>
+      </span>
+      <span class="post-meta-item-text">本文字数：</span>
+      <span>18k</span>
+    </span>
+    <span class="post-meta-item" title="阅读时长">
+      <span class="post-meta-item-icon">
+        <i class="far fa-clock"></i>
+      </span>
+      <span class="post-meta-item-text">阅读时长 &asymp;</span>
+      <span>16 分钟</span>
+    </span>
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>C Primer Plus的复盘学习。<br>以下是书本课后编程练习的源代码。<br>编译链接环境：Visual Studio 2019 / Visual Studio Code / Dev C++</p>
+<span id="more"></span>
+<h1 id="chapter1"><a href="#chapter1" class="headerlink" title="chapter1"></a>chapter1</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    int a;</span><br><span class="line">    int b;</span><br><span class="line">    scanf(&quot;请输入一个数字，将其转换成英寸:%d&quot;, &amp;a);</span><br><span class="line">    b = 2.54 * a;</span><br><span class="line">    printf(&quot;%d&quot;, b);</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="chapter2"><a href="#chapter2" class="headerlink" title="chapter2"></a>chapter2</h1><ol>
+<li>2.12.1<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Jimmy Chen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy\nChen\n&quot;);</span><br><span class="line">    printf(&quot;Jimmy&quot;);</span><br><span class="line">    printf(&quot; Chen\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_1();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Jimmy Chen</span><br><span class="line">Jimmy</span><br><span class="line">Chen</span><br><span class="line">Jimmy Chen</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>2.12.2<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Name:nono\n&quot;);</span><br><span class="line">    printf(&quot;Addr:Zhejiang province, China\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_2();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">Name:nono</span><br><span class="line">Addr:Zhejiang province, China</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>2.12.3<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int years_old = 0;</span><br><span class="line">    int live_days = 0;</span><br><span class="line">    printf(&quot;请输入您的年龄:&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;years_old);</span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line">    live_days = years_old * 356;</span><br><span class="line"></span><br><span class="line">    printf(&quot;转换为天数是:%d\n&quot;, live_days);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_3();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">请输入您的年龄：20</span><br><span class="line">转换为天数是:7120</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>2.12.4<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void jolly(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    printf(&quot;For he&#x27;s a jolly good fellow!\n&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void deny(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Which nobody can deny!\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    jolly();</span><br><span class="line">    deny();</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_4();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">For he&#x27;s a jolly good fellow!</span><br><span class="line">Which nobody can deny!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>2.12.5<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>2.12.6<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p1_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    int toes = 10;</span><br><span class="line">    int double_toes = toes * 2;</span><br><span class="line">    int square_toes = toes * toes;</span><br><span class="line"></span><br><span class="line">    printf(&quot;the value of toes is : %d\n&quot;, toes);</span><br><span class="line">    printf(&quot;the value of double toes is : %d\n&quot;, double_toes);</span><br><span class="line">    printf(&quot;the value of square toes is : %d\n&quot;, square_toes);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_6();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">the value of toes is : 10</span><br><span class="line">the value of double toes is : 20</span><br><span class="line">the value of square toes is : 100</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>2.12.7<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void smile(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Smile!&quot;);</span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    smile(); smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); smile(); printf(&quot;\n&quot;);</span><br><span class="line">    smile(); printf(&quot;\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_7();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Smile!Smile!Smile!</span><br><span class="line">Smile!Smile!</span><br><span class="line">Smile!</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>2.12.8<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void two(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;two\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;starting now:\n&quot;);</span><br><span class="line">    printf(&quot;one\n&quot;);</span><br><span class="line">    two();</span><br><span class="line">    printf(&quot;three\n&quot;);</span><br><span class="line">    printf(&quot;done!\n&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_8();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">starting now:</span><br><span class="line">one</span><br><span class="line">two</span><br><span class="line">three</span><br><span class="line">done!</span><br></pre></td></tr></table></figure>
+<h1 id="chapter3"><a href="#chapter3" class="headerlink" title="chapter3"></a>chapter3</h1></li>
+<li>3.11.2<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p2_(void)</span><br><span class="line">&#123;</span><br><span class="line">    int ch = 0;</span><br><span class="line">    printf(&quot;please input the value of ascii:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;ch);</span><br><span class="line"> </span><br><span class="line">    getchar(); // 删除输入缓冲区中的回车键</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of ascii : %d\n&quot;, ch);</span><br><span class="line">    printf(&quot;the character : %c\n&quot;, (char)ch);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p2_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>3.11.3<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line"></span><br><span class="line">void p3_(void)</span><br><span class="line">&#123;</span><br><span class="line">	printf(&quot;\a&quot;);</span><br><span class="line">    printf(&quot;Startled by the sudden sound, sally shouted,\n\&quot;By the Great Pumpkin, what was that!\&quot;&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">	p3_();</span><br><span class="line">	return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">please input the value of ascii:66</span><br><span class="line">the value of ascii : 66</span><br><span class="line">the character : B</span><br></pre></td></tr></table></figure></li>
+<li>3.11.4<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p2_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float input = 0.0;</span><br><span class="line">    printf(&quot;Enter a floating-point value:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;input);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;fixed-point notation:%f\n&quot;, input);</span><br><span class="line">    printf(&quot;exponential notation:%e\n&quot;, input);</span><br><span class="line">    printf(&quot;p notation:%a\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Enter a floating-point value:62.5</span><br><span class="line">fixed-point notation:62.500000</span><br><span class="line">exponential notation:6.250000e+001</span><br><span class="line">p notation:0x1.f40000p+5</span><br></pre></td></tr></table></figure></li>
+<li>3.11.5<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void p2_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float input = 0.0;</span><br><span class="line">    printf(&quot;Enter a floating-point value:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;input);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;fixed-point notation:%f\n&quot;, input);</span><br><span class="line">    printf(&quot;exponential notation:%e\n&quot;, input);</span><br><span class="line">    printf(&quot;p notation:%a\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Enter a floating-point value:62.5</span><br><span class="line">fixed-point notation:62.500000</span><br><span class="line">exponential notation:6.250000e+001</span><br><span class="line">p notation:0x1.f40000p+5</span><br></pre></td></tr></table></figure></li>
+<li>3.11.6<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define QUALITY_OF_WATER_MOLECULE (3.0e-23)</span><br><span class="line">#define NUM_OF_WATER_MOLECULE_PER_QUART (950/QUALITY_OF_WATER_MOLECULE)</span><br><span class="line"> </span><br><span class="line">void p2_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    double num_of_quart = 0;</span><br><span class="line">    printf(&quot;How much quart of water:&quot;);</span><br><span class="line">    scanf(&quot;%lf&quot;, &amp;num_of_quart);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    double num_of_water_molecule = num_of_quart * NUM_OF_WATER_MOLECULE_PER_QUART;</span><br><span class="line">    printf(&quot;there are %0.2f quart water and %le water molecule&quot;, num_of_quart, num_of_water_molecule);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_6();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">How much quart of water:5</span><br><span class="line">there are 5.00 quart water and 1.583333e+026 water molecule</span><br></pre></td></tr></table></figure></li>
+<li>3.11.7<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define CM_PER_INCH (2.54)</span><br><span class="line"> </span><br><span class="line">void p2_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_in_inch = 0;</span><br><span class="line">    float height_in_cm = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your height in inch:&quot;);</span><br><span class="line">    scanf_s(&quot;%f&quot;, &amp;height_in_inch);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    height_in_cm = height_in_inch * CM_PER_INCH;</span><br><span class="line">    printf(&quot;Your height is %f in cm\n&quot;, height_in_cm);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_7();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">What&#x27;s your height in inch:70</span><br><span class="line">Your height is 177.800003 in cm</span><br></pre></td></tr></table></figure></li>
+<li>3.11.8<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#define CUPS_PER_PINT (2)</span><br><span class="line">#define OUNCES_PER_CUP (8)</span><br><span class="line">#define BIG_SPOONS_PER_OUNCE (2)</span><br><span class="line">#define TEA_SPIINS_PER_BIG_SPOON (3)</span><br><span class="line"> </span><br><span class="line">void p2_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float cups = 0;</span><br><span class="line">    float pints = 0;</span><br><span class="line">    float ounces = 0;</span><br><span class="line">    float big_spoons = 0;</span><br><span class="line">    float tea_spoons = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How many cups of tea do you want:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;cups);</span><br><span class="line">    getchar();</span><br><span class="line">    pints = cups / CUPS_PER_PINT;</span><br><span class="line">    ounces = cups * OUNCES_PER_CUP;</span><br><span class="line">    big_spoons = ounces * BIG_SPOONS_PER_OUNCE;</span><br><span class="line">    tea_spoons = big_spoons * TEA_SPIINS_PER_BIG_SPOON;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;pints:%f, cups:%f, ounces:%f, big_spoons:%f, tea_spoons:%f\n&quot;, pints, cups, ounces, big_spoons, tea_spoons);</span><br><span class="line">    return;</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p2_8();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">How many cups of tea do you want:1</span><br><span class="line">pints:0.500000, cups:1.000000, ounces:8.000000, big_spoons:16.000000, tea_spoons:48.000000</span><br></pre></td></tr></table></figure>
+<h1 id="chapter-4"><a href="#chapter-4" class="headerlink" title="chapter 4"></a>chapter 4</h1></li>
+<li>4.8.1<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;float.h&gt;</span><br><span class="line"> </span><br><span class="line">/************************************************************************/</span><br><span class="line">/* practice 1                                                                     */</span><br><span class="line">/************************************************************************/</span><br><span class="line">void p4_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40];</span><br><span class="line">    char last_name[40];</span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%*s,%*s\n&quot;, 10, first_name, 10, last_name);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_1();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">What&#x27;s your first name:nono</span><br><span class="line">What&#x27;s your last name:aristo</span><br><span class="line">      nono,    aristo</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>4.8.2<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">#include &lt;float.h&gt;</span><br><span class="line">#include &lt;string.h&gt;</span><br><span class="line">void p4_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40];</span><br><span class="line">    char last_name[40];</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_lenght = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_lenght = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;a.\&quot;%s,%s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;b.\&quot;%20s,%20s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;c.\&quot;%-20s,%-20s\&quot;\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;d.%*s,%*s\n&quot;, first_name_length+3, first_name, last_name_lenght+3, last_name);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_2();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">What&#x27;s your first name:nono</span><br><span class="line">What&#x27;s your last name:ken</span><br><span class="line">a.&quot;nono,ken&quot;</span><br><span class="line">b.&quot;                nono,                 ken&quot;</span><br><span class="line">c.&quot;nono                ,ken                 &quot;</span><br><span class="line">d.   nono,   ken</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>4.8.3<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">void p4_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    double input = 0.0;</span><br><span class="line">    printf(&quot;please input the float number:&quot;);</span><br><span class="line">    scanf(&quot;%lf&quot;, &amp;input);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%lf\n&quot;, input);</span><br><span class="line">    printf(&quot;%e\n&quot;, input);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_3();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">please input the float number:10.5</span><br><span class="line">10.500000</span><br><span class="line">1.050000e+001</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>4.8.4<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define CM_PER_INCH (2.54)</span><br><span class="line">void p4_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_inch = 0;</span><br><span class="line">    float height_cm = 0;</span><br><span class="line">    printf(&quot;What&#x27;s your height:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;height_inch);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Dabney, you are %f feet tall\n&quot;, height_inch);</span><br><span class="line">    height_cm = height_inch * CM_PER_INCH;</span><br><span class="line">    printf(&quot;Dabney, you are %f cm tall\n&quot;, height_cm);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_4();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">What&#x27;s your height:70</span><br><span class="line">Dabney, you are 70.000000 feet tall</span><br><span class="line">Dabney, you are 177.800003 cm tall</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>4.8.5<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>4.8.6<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">void p4_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40] = &#123; 0 &#125;;</span><br><span class="line">    char last_name[40] = &#123; 0 &#125;;</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_length = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_length = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%*d %*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%-*d %-*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_6();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">What&#x27;s your first name:ken</span><br><span class="line">What&#x27;s your last name:froid</span><br><span class="line">ken froid</span><br><span class="line">  3     5</span><br><span class="line">ken froid</span><br><span class="line">3   5</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h1 id="chapter-5"><a href="#chapter-5" class="headerlink" title="chapter 5"></a>chapter 5</h1><ol>
+<li>5.11.1<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define SECONDS_PER_MINUTE (60)</span><br><span class="line">void p5_1(void)</span><br><span class="line">&#123;</span><br><span class="line">    float hours = 0;</span><br><span class="line">    int minutes = 0;</span><br><span class="line">    int seconds = 0;</span><br><span class="line">    printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">    scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line"> </span><br><span class="line">    while (minutes &gt; 0)</span><br><span class="line">    &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        hours = (float)minutes / SECONDS_PER_MINUTE;</span><br><span class="line">        seconds = minutes * SECONDS_PER_MINUTE;</span><br><span class="line">        printf(&quot;%d minute = %f hours or %d seconds\n&quot;, minutes, hours, seconds);</span><br><span class="line">        printf(&quot;please input the number of minutes(&lt;= 0 to quit):&quot;);</span><br><span class="line">        scanf_s(&quot;%d&quot;, &amp;minutes);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_1();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">please input the number of minutes(&lt;= 0 to quit):60</span><br><span class="line">60 minute = 1.000000 hours or 3600 seconds</span><br><span class="line">please input the number of minutes(&lt;= 0 to quit):</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="2">
+<li>5.11.2<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">void p5_2(void)</span><br><span class="line">&#123;</span><br><span class="line">    int input_num = 0;</span><br><span class="line">    printf(&quot;please enter an integer:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;input_num);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the ten integers after %d are:&quot;, input_num);</span><br><span class="line">    for (int i = 0; i &lt;= 10; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        printf(&quot;%d &quot;, (input_num + i));</span><br><span class="line">    &#125;</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line"> </span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_2();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+结果：<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">please enter an integer:5</span><br><span class="line">the ten integers after 5 are:5 6 7 8 9 10 11 12 13 14 15</span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="3">
+<li>5.11.3<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const int DAY_PER_WEEK = 7;</span><br><span class="line">void p5_3(void)</span><br><span class="line">&#123;</span><br><span class="line">    int days = 0;</span><br><span class="line">    int weeks = 0;</span><br><span class="line">    int remain_day = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;please input the number of day:&quot;);</span><br><span class="line">    scanf(&quot;%d&quot;, &amp;days);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    weeks = days / DAY_PER_WEEK;</span><br><span class="line">    remain_day = days % DAY_PER_WEEK;</span><br><span class="line">    printf(&quot;%d days are %d weeks, %d days\n&quot;, days, weeks, remain_day);</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_3();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">please input the number of day:30</span><br><span class="line">30 days are 4 weeks, 2 days</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="4">
+<li>5.11.4<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">const float CM_PER_INCH = 2.54f;</span><br><span class="line">const float CM_PER_FEET = 30.38f;</span><br><span class="line">void p5_4(void)</span><br><span class="line">&#123;</span><br><span class="line">    float height_cm = 0;</span><br><span class="line">    int height_feet = 0;</span><br><span class="line">    float height_inch = 0.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Enter a height in centimeters: &quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line"> </span><br><span class="line">    while (height_cm &gt; 0) &#123;</span><br><span class="line">        getchar();</span><br><span class="line">        height_feet = (int)(height_cm / CM_PER_FEET);</span><br><span class="line">        height_inch = (height_cm - CM_PER_FEET * height_feet) / CM_PER_INCH;</span><br><span class="line">        printf(&quot;%.1f cm = %d feet, %.1f inches\n&quot;, height_cm, height_feet, height_inch);</span><br><span class="line"> </span><br><span class="line">        printf(&quot;Enter a height in centimeters(&lt;=0 to quit): &quot;);</span><br><span class="line">        scanf(&quot;%f&quot;, &amp;height_cm);</span><br><span class="line">    &#125;</span><br><span class="line"> </span><br><span class="line">    return ;</span><br><span class="line">&#125;</span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p5_4();</span><br><span class="line">    getchar();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br><span class="line"> </span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Enter a height in centimeters: 30</span><br><span class="line">30.0 cm = 0 feet, 11.8 inches</span><br><span class="line">Enter a height in centimeters(&lt;=0 to quit):</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="5">
+<li>4.8.5<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include &lt;stdio.h&gt;</span><br><span class="line">void br(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;Brazil, Russia&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void ic(void)</span><br><span class="line">&#123;</span><br><span class="line">    printf(&quot;India, China&quot;);</span><br><span class="line"></span><br><span class="line">    return;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">void p1_5(void)</span><br><span class="line">&#123;</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;, &quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">    ic();</span><br><span class="line">    printf(&quot;,\n&quot;);</span><br><span class="line">    br();</span><br><span class="line">    printf(&quot;\n&quot;);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    p1_5();</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Brazil, Russia, India, China</span><br><span class="line">India, China,</span><br><span class="line">Brazil, Russia</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="6">
+<li>4.8.6<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">void p4_6(void)</span><br><span class="line">&#123;</span><br><span class="line">    char first_name[40] = &#123; 0 &#125;;</span><br><span class="line">    char last_name[40] = &#123; 0 &#125;;</span><br><span class="line">    int first_name_length = 0;</span><br><span class="line">    int last_name_length = 0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your first name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, first_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;What&#x27;s your last name:&quot;);</span><br><span class="line">    scanf(&quot;%s&quot;, last_name);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    first_name_length = strlen(first_name);</span><br><span class="line">    last_name_length = strlen(last_name);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%*d %*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;%s %s\n&quot;, first_name, last_name);</span><br><span class="line">    printf(&quot;%-*d %-*d\n&quot;, first_name_length, first_name_length, last_name_length, last_name_length);</span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_6();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">What&#x27;s your first name:ken</span><br><span class="line">What&#x27;s your last name:froid</span><br><span class="line">ken froid</span><br><span class="line">  3     5</span><br><span class="line">ken froid</span><br><span class="line">3   5</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="7">
+<li>4.12.7<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#include&lt;string&gt;</span><br><span class="line">#define FLT_DIG 1.0/3.0</span><br><span class="line">#define DBL_DIG 1.0/3.0</span><br><span class="line">void p4_7(void)</span><br><span class="line">&#123;</span><br><span class="line">    double d_value = 1.0 / 3.0;</span><br><span class="line">    float f_value = 1.0 / 3.0;</span><br><span class="line"> </span><br><span class="line">    printf(&quot;the value of FLT_DIG:%d, the value of DBL_DIG:%d\n&quot;, FLT_DIG, DBL_DIG);</span><br><span class="line">    printf(&quot;the value of double:%.6lf, the value of float:%.6lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.12lf, the value of float:%.12lf\n&quot;, d_value, f_value);</span><br><span class="line">    printf(&quot;the value of double:%.18lf, the value of float:%.18lf\n&quot;, d_value, f_value);</span><br><span class="line"> </span><br><span class="line">&#125;</span><br><span class="line">int main()</span><br><span class="line">&#123;</span><br><span class="line">    p4_7();</span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">the value of FLT_DIG:1431655765, the value of DBL_DIG:1431655765</span><br><span class="line">the value of double:0.333333, the value of float:0.333333</span><br><span class="line">the value of double:0.333333333333, the value of float:0.333333343267</span><br><span class="line">the value of double:0.333333333333333310, the value of float:0.333333343267440800</span><br></pre></td></tr></table></figure></li>
+</ol>
+<hr>
+<ol start="8">
+<li>4.12.8<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line">#include&lt;stdio.h&gt;</span><br><span class="line">#define KM_PER_MILE (1.609)</span><br><span class="line">#define PINT_PER_GALLON (3.785)</span><br><span class="line">void p4_8(void)</span><br><span class="line">&#123;</span><br><span class="line">    float driven_distance = 0.0;</span><br><span class="line">    float gas_consumption = 0.0;</span><br><span class="line">    float pint_per_hundred_km = 0.0;</span><br><span class="line">    float mile_per_gallon = 0.0;</span><br><span class="line">    printf(&quot;How much distance have you traveled in kilometer:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;driven_distance);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    printf(&quot;How much gas have you used in pint:&quot;);</span><br><span class="line">    scanf(&quot;%f&quot;, &amp;gas_consumption);</span><br><span class="line">    getchar();</span><br><span class="line"> </span><br><span class="line">    pint_per_hundred_km = gas_consumption / driven_distance * 100;</span><br><span class="line">    mile_per_gallon = (driven_distance / KM_PER_MILE) / (gas_consumption / PINT_PER_GALLON);</span><br><span class="line"> </span><br><span class="line">    printf(&quot;Fuel consumptions:%f pint/100km or %f mile/gallon\n&quot;, pint_per_hundred_km, mile_per_gallon);</span><br><span class="line">&#125;</span><br><span class="line"> </span><br><span class="line">int main(int argc, char **argv)</span><br><span class="line">&#123;</span><br><span class="line">    p4_8();</span><br><span class="line"> </span><br><span class="line">    getchar();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">How much distance have you traveled in kilometer:1000</span><br><span class="line">How much gas have you used in pint:10</span><br><span class="line">Fuel consumptions:1.000000 pint/100km or 235.239273 mile/gallon</span><br></pre></td></tr></table></figure></li>
+</ol>
+
+    </div>
+
+    
+    
+    
+
+    
+	      <div style="text-align:center;color: #ccc;font-size:14px;">
+		      ---------感谢您的阅读，祝您生活愉快~---------
+	      </div>
+    
+
+    <footer class="post-footer">
+          <div class="reward-container">
+  <div>Buy me a piece of 辣条</div>
+  <button>
+    赞赏
+  </button>
+  <div class="post-reward">
+      <div>
+        <img src="/images/wechatpay.jpg" alt="nono 微信">
+        <span>微信</span>
+      </div>
+
+  </div>
+</div>
+
+          <div class="followme">
+  <span>欢迎关注我的其它发布渠道</span>
+
+  <div class="social-list">
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="https://mp.weixin.qq.com/s/P8xgWvYc4HT5Mjn28VZQTw">
+          <span class="icon">
+            <i class="fab fa-weixin"></i>
+          </span>
+
+          <span class="label">WeChat</span>
+        </a>
+      </div>
+
+      <div class="social-item">
+        <a target="_blank" class="social-link" href="/atom.xml">
+          <span class="icon">
+            <i class="fa fa-rss"></i>
+          </span>
+
+          <span class="label">RSS</span>
+        </a>
+      </div>
+  </div>
+</div>
+
+          <div class="post-tags">
+              <a href="/tags/%E5%AD%A6%E4%B9%A0/" rel="tag"><i class="fa fa-tag"></i> 学习</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/undefined/%E5%AD%A6%E4%B9%A0/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%B7%A5%E5%85%B7/Hexo/hexo%E5%AD%A6%E4%B9%A0%E8%AE%B0%E5%BD%95/" rel="prev" title="Hexo学习记录">
+                  <i class="fa fa-chevron-left"></i> Hexo学习记录
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/undefined/%E5%AD%A6%E4%B9%A0/%E4%B8%93%E4%B8%9A%E5%9F%BA%E7%A1%80/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E7%AC%94%E8%AE%B0/" rel="next" title="数据结构笔记">
+                  数据结构笔记 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      <div class="tabs tabs-comment">
+        <ul class="nav-tabs">
+            <li class="tab"><a href="#comment-gitalk">gitalk</a></li>
+            <li class="tab"><a href="#comment-livere">livere</a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane gitalk" id="comment-gitalk">
+              <div class="comments gitalk-container"></div>
+            </div>
+            <div class="tab-pane livere" id="comment-livere">
+              <div class="comments" id="lv-container" data-id="city" data-uid="MTAyMC81NTk2OC8zMjQzMQ=="></div>
+            </div>
+        </div>
+      </div>
+</div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+
+
+<div class="copyright">
+  &copy; 
+  <span itemprop="copyrightYear">2022</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">nono</span>
+</div>
+<div class="wordcount">
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-chart-line"></i>
+    </span>
+    <span title="站点总字数">109k</span>
+  </span>
+  <span class="post-meta-item">
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    <span title="站点阅读时长">1:39</span>
+  </span>
+</div>
+<div class="busuanzi-count">
+    <span class="post-meta-item" id="busuanzi_container_site_uv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-user"></i>
+      </span>
+      <span class="site-uv" title="总访客量">
+        <span id="busuanzi_value_site_uv"></span>
+      </span>
+    </span>
+    <span class="post-meta-item" id="busuanzi_container_site_pv">
+      <span class="post-meta-item-icon">
+        <i class="fa fa-eye"></i>
+      </span>
+      <span class="site-pv" title="总访问量">
+        <span id="busuanzi_value_site_pv"></span>
+      </span>
+    </span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/pisces/" rel="noopener" target="_blank">NexT.Pisces</a> 强力驱动
+  </div>
+
+
+
+    </div>
+  </footer>
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js" integrity="sha256-XL2inqUJaslATFnHdJOi9GfQ60on8Wx1C2H8DYiN1xY=" crossorigin="anonymous"></script>
+<script src="/js/comments.js"></script><script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+<script src="https://cdn.jsdelivr.net/npm/hexo-generator-searchdb@1.4.0/dist/search.js" integrity="sha256-vXZMYLEqsROAXkEw93GGIvaB2ab+QW6w3+1ahD9nXXA=" crossorigin="anonymous"></script>
+<script src="/js/third-party/search/local-search.js"></script>
+
+
+
+
+  <script src="/js/third-party/pace.js"></script>
+
+  
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+<!--使用 Gitter 实现一个 IM 即时通讯聊天室功能-->
+<script>
+  ((window.gitter = {}).chat = {}).options = {
+    room: 'enjoytoshare/community'
+  };
+</script>
+<script src="https://sidecar.gitter.im/dist/sidecar.v1.js" async defer></script>
+<script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+<script>
+var options = {
+  bottom: '64px',
+  right: 'unset',
+  left: '32px',
+  time: '0.5s',
+  mixColor: 'transparent',
+  backgroundColor: 'transparent',
+  buttonColorDark: '#100f2c',
+  buttonColorLight: '#fff',
+  saveInCookies: true,
+  label: '🌓',
+  autoMatchOsTheme: true
+}
+const darkmode = new Darkmode(options);
+window.darkmode = darkmode;
+darkmode.showWidget();
+</script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.css" integrity="sha256-AJnUHL7dBv6PGaeyPQJcgQPDjt/Hn/PvYZde1iqfp8U=" crossorigin="anonymous">
+
+<script class="next-config" data-name="gitalk" type="application/json">{"enable":true,"github_id":null,"repo":null,"client_id":null,"client_secret":null,"admin_user":null,"distraction_free_mode":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token","language":null,"js":{"url":"https://cdn.jsdelivr.net/npm/gitalk@1.7.2/dist/gitalk.min.js","integrity":"sha256-Pmj85ojLaPOWwRtlMJwmezB/Qg8BzvJp5eTzvXaYAfA="},"path_md5":"3200ca6c42631854f11b2e6bee421ab3"}</script>
+<script src="/js/third-party/comments/gitalk.js"></script>
+<script src="/js/third-party/comments/livere.js"></script>
+
+</body>
+</html>
